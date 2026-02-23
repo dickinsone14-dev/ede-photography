@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden mt-24">
+    <footer className="relative overflow-hidden mt-16 md:mt-24">
       {/* Background photo */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <Image
@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
 
       <div className="container-wide py-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {/* Brand */}
           <div>
             <Link href="/" className="text-lg font-semibold tracking-tight text-white">

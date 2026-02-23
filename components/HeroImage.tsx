@@ -63,7 +63,7 @@ export default function HeroImage({
         <div className="absolute inset-0 flex items-end">
           <div className="container-wide pb-16 md:pb-24">
             {title && (
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 text-white">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-4 text-white">
                 {title}
               </h1>
             )}

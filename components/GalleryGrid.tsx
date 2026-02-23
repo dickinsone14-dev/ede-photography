@@ -99,7 +99,7 @@ function ImageGrid({
   const { landscape, portrait, landscapeIndices, portraitIndices } = splitByOrientation(images);
 
   const landscapeGrid = landscape.length > 0 && (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
       {landscape.map((image, i) => (
         <BlurImage
           key={landscapeIndices[i]}
@@ -111,7 +111,7 @@ function ImageGrid({
   );
 
   const portraitGrid = portrait.length > 0 && (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4">
       {portrait.map((image, i) => (
         <BlurImage
           key={portraitIndices[i]}

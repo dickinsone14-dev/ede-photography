@@ -47,7 +47,7 @@ export default function Lightbox({
       {/* Close button */}
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 z-10 p-2 text-gray-400 hover:text-white transition-colors"
+        className="absolute top-4 right-4 z-10 p-3 text-gray-400 hover:text-white transition-colors"
         aria-label="Close lightbox"
       >
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -62,7 +62,7 @@ export default function Lightbox({
             e.stopPropagation();
             onNavigate(currentIndex - 1);
           }}
-          className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 text-gray-400 hover:text-white transition-colors"
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 text-gray-400 hover:text-white transition-colors"
           aria-label="Previous image"
         >
           <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@ export default function Lightbox({
             e.stopPropagation();
             onNavigate(currentIndex + 1);
           }}
-          className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-2 text-gray-400 hover:text-white transition-colors"
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 text-gray-400 hover:text-white transition-colors"
           aria-label="Next image"
         >
           <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -107,10 +107,10 @@ export default function Lightbox({
         className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="container-wide flex items-end justify-between">
+        <div className="container-wide flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2">
           <div>
             <p className="text-sm text-gray-300">{image.alt}</p>
-            <div className="flex gap-4 mt-1">
+            <div className="flex flex-wrap gap-x-4 gap-y-1 mt-1">
               {image.location && (
                 <span className="text-xs text-gray-500">{image.location}</span>
               )}
