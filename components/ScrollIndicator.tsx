@@ -37,11 +37,8 @@ export default function ScrollIndicator() {
       // Detect scroll pause — when scrolling stops for 600ms, show briefly
       scrollTimer.current = setTimeout(() => {
         isScrolling.current = false;
-        // Only show if user has scrolled at least a bit (not at very top or bottom)
-        if (scrollY > 50) {
-          setVisible(true);
-          hideTimer.current = setTimeout(() => setVisible(false), 2000);
-        }
+        setVisible(true);
+        hideTimer.current = setTimeout(() => setVisible(false), 2000);
       }, 600);
 
       lastScrollY.current = scrollY;
