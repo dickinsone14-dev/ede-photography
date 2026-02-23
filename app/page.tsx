@@ -52,8 +52,8 @@ export default function Home() {
     <>
       {/* Hero */}
       <HeroImage
-        src="/images/hiking/cadair-idris/DSCF6982-2.jpg"
-        alt="Cadair Idris, Snowdonia at golden hour"
+        src="/images/hiking/llyn-y-fan-fach/DSCF1762-2.jpg"
+        alt="Three hikers descending a snowy mountain at Llyn y Fan Fach, Brecon Beacons"
         title="E.D.E Photography"
         subtitle="UK Landscape & Adventure Photography"
         height="full"
