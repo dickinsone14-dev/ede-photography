@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GalleryCard from "@/components/GalleryCard";
 import ScrollReveal from "@/components/ScrollReveal";
+import ScrollDivider from "@/components/ScrollDivider";
 import { getGalleriesByCategory, getImageCount } from "@/lib/galleries";
 
 export const metadata: Metadata = {
@@ -25,6 +26,8 @@ export default function PortfolioIndex() {
           </p>
         </div>
       </ScrollReveal>
+
+      <ScrollDivider />
 
       <ScrollReveal stagger={150}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

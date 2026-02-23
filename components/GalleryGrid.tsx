@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useCallback } from "react";
 import Lightbox from "./Lightbox";
+import ScrollDivider from "./ScrollDivider";
 
 export interface GalleryImage {
   src: string;
@@ -72,7 +73,7 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
   if (sections) {
     return (
       <>
-        <div className="space-y-16">
+        <div>
           {sections.map((section, sectionIdx) => {
             const sectionStartIndex = runningIndex;
             runningIndex += section.images.length;
@@ -83,26 +84,31 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
               .replace(/(^-|-$)/g, "");
 
             return (
-              <div key={sectionIdx} id={sectionId} className="scroll-mt-24">
-                {/* Section header */}
-                <div className="mb-6">
-                  <h2 className="text-xl md:text-2xl font-semibold tracking-tight text-brand-text">
-                    {section.title}
-                  </h2>
-                  <p className="text-sm text-brand-text-faint mt-1">{section.date}</p>
-                </div>
+              <div key={sectionIdx}>
+                {/* Scroll divider between sections */}
+                {sectionIdx > 0 && <ScrollDivider />}
 
-                {/* Section images */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {section.images.map((image, imgIdx) => (
-                    <BlurImage
-                      key={imgIdx}
-                      image={image}
-                      onClick={() =>
-                        setLightboxIndex(sectionStartIndex + imgIdx)
-                      }
-                    />
-                  ))}
+                <div id={sectionId} className="scroll-mt-24">
+                  {/* Section header */}
+                  <div className="mb-6">
+                    <h2 className="text-xl md:text-2xl font-semibold tracking-tight text-brand-text">
+                      {section.title}
+                    </h2>
+                    <p className="text-sm text-brand-text-faint mt-1">{section.date}</p>
+                  </div>
+
+                  {/* Section images */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {section.images.map((image, imgIdx) => (
+                      <BlurImage
+                        key={imgIdx}
+                        image={image}
+                        onClick={() =>
+                          setLightboxIndex(sectionStartIndex + imgIdx)
+                        }
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             );

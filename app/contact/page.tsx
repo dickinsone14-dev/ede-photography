@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 import ScrollReveal from "@/components/ScrollReveal";
+import ScrollDivider from "@/components/ScrollDivider";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -22,6 +23,8 @@ export default function ContactPage() {
           </p>
         </div>
       </ScrollReveal>
+
+      <ScrollDivider />
 
       <ScrollReveal>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

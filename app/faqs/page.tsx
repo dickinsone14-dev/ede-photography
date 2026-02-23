@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import FaqAccordion from "@/components/FaqAccordion";
 import ScrollReveal from "@/components/ScrollReveal";
+import ScrollDivider from "@/components/ScrollDivider";
 import faqData from "@/content/faqs.json";
 
 export const metadata: Metadata = {
@@ -30,6 +31,8 @@ export default function FaqsPage() {
           </p>
         </div>
       </ScrollReveal>
+
+      <ScrollDivider />
 
       <ScrollReveal>
         <FaqAccordion items={faqData} />

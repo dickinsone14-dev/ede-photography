@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import GalleryGrid from "@/components/GalleryGrid";
 import ScrollReveal from "@/components/ScrollReveal";
+import ScrollDivider from "@/components/ScrollDivider";
 import { getAllGalleries, getGalleryBySlug, getImageCount } from "@/lib/galleries";
 
 interface Props {
@@ -57,6 +58,8 @@ export default function GalleryPage({ params }: Props) {
           </p>
         </div>
       </ScrollReveal>
+
+      <ScrollDivider />
 
       {/* Gallery */}
       <GalleryGrid sections={gallery.sections} images={gallery.images} />
