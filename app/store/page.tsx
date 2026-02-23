@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
-import { getGalleriesByCategory, getAllImages } from "@/lib/galleries";
 import storeData from "@/content/store.json";
 
 export const metadata: Metadata = {
@@ -10,8 +8,29 @@ export const metadata: Metadata = {
     "Buy fine art landscape photography prints and digital downloads. Premium giclée prints fulfilled by Picfair with worldwide shipping.",
 };
 
+interface StoreImage {
+  imageId: string;
+  picfairUrl: string;
+  title: string;
+  thumbnailUrl: string;
+  price: string;
+}
+
+interface Album {
+  name: string;
+  albumUrl: string;
+  images: StoreImage[];
+}
+
 export default function StorePage() {
-  const galleries = getGalleriesByCategory("portfolio");
+  const { top10, hiking, winterAlps, jersey } = storeData.albums as {
+    top10: Album;
+    hiking: Album;
+    winterAlps: Album;
+    jersey: Album;
+  };
+
+  const otherAlbums = [hiking, winterAlps, jersey];
 
   return (
     <div className="container-wide py-16">
@@ -45,7 +64,7 @@ export default function StorePage() {
             </h2>
             <p className="text-gray-400 text-sm">
               A curated selection of the year&apos;s best work — available as
-              prints and digital downloads.
+              prints and digital downloads from {top10.images[0]?.price || "£15.99"}.
             </p>
           </div>
           <a
@@ -73,26 +92,26 @@ export default function StorePage() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-          {storeData.top10.map((photo, i) => (
+          {top10.images.map((img) => (
             <a
-              key={i}
-              href={storeData.top10AlbumUrl}
+              key={img.imageId}
+              href={img.picfairUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-[3/4] overflow-hidden rounded-lg bg-charcoal-800"
             >
               <Image
-                src={photo.src}
-                alt={photo.alt}
+                src={img.thumbnailUrl}
+                alt={img.title}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                <p className="text-xs font-medium">{photo.title}</p>
+                <p className="text-xs font-medium">{img.title}</p>
                 <p className="text-xs text-gray-300 mt-0.5">
-                  {photo.location}
+                  From {img.price}
                 </p>
               </div>
             </a>
@@ -124,70 +143,53 @@ export default function StorePage() {
         </a>
       </section>
 
-      {/* All Available Prints — by gallery */}
-      <section className="mb-20">
-        <div className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">All Available Prints</h2>
-          <p className="text-gray-400 text-sm">
-            Every image in the portfolio is available as a print or digital
-            download.{" "}
+      {/* Albums */}
+      {otherAlbums.map((album) => (
+        <section key={album.name} className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-xl font-semibold">{album.name}</h2>
+              <p className="text-sm text-gray-500 mt-1">
+                {album.images.length} prints available
+              </p>
+            </div>
             <a
-              href={storeData.picfairUrl}
+              href={album.albumUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white underline underline-offset-4 hover:text-gray-300 transition-colors"
+              className="text-sm text-gray-500 hover:text-white transition-colors underline underline-offset-4"
             >
-              Browse the full store on Picfair
+              View on Picfair
             </a>
-          </p>
-        </div>
-
-        {galleries.map((gallery) => {
-          const images = getAllImages(gallery);
-          return (
-            <div key={gallery.slug} className="mb-16 last:mb-0">
-              <div className="flex items-center justify-between mb-6">
-                <div>
-                  <h3 className="text-lg font-medium">{gallery.title}</h3>
-                  <p className="text-sm text-gray-500">
-                    {images.length} prints available
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {album.images.map((img) => (
+              <a
+                key={img.imageId}
+                href={img.picfairUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative aspect-[3/4] overflow-hidden rounded-lg bg-charcoal-800"
+              >
+                <Image
+                  src={img.thumbnailUrl}
+                  alt={img.title}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                  <p className="text-xs font-medium">{img.title}</p>
+                  <p className="text-xs text-gray-300 mt-0.5">
+                    From {img.price}
                   </p>
                 </div>
-                <Link
-                  href={`/portfolio/${gallery.slug}`}
-                  className="text-sm text-gray-500 hover:text-white transition-colors underline underline-offset-4"
-                >
-                  View gallery
-                </Link>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-                {images.map((img, i) => (
-                  <a
-                    key={i}
-                    href={storeData.picfairUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group relative aspect-square overflow-hidden rounded-lg bg-charcoal-800"
-                  >
-                    <Image
-                      src={img.src}
-                      alt={img.alt}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
-                    />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
-                      <span className="text-xs font-medium bg-white text-charcoal-900 px-3 py-1.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        Buy Print
-                      </span>
-                    </div>
-                  </a>
-                ))}
-              </div>
-            </div>
-          );
-        })}
-      </section>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
 
       {/* Full store CTA */}
       <section className="text-center py-12 border-t border-b border-white/5 mb-20">
@@ -229,8 +231,8 @@ export default function StorePage() {
             <h3 className="text-sm font-medium mb-3">Print Quality</h3>
             <p className="text-sm text-gray-400 leading-relaxed">
               Every print uses premium giclée photo paper with a lustre finish.
-              Canvas, framed, and acrylic options are also available. All
-              prints are made to order.
+              Canvas, framed, and acrylic options are also available. All prints
+              are made to order.
             </p>
           </div>
           <div>
