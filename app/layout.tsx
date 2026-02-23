@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "theme-color": "#ffffff",
+  },
 };
 
 export default function RootLayout({
@@ -48,6 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="theme-color" content="#ffffff" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

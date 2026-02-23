@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GalleryCard from "@/components/GalleryCard";
+import ScrollReveal from "@/components/ScrollReveal";
 import { getGalleriesByCategory, getImageCount } from "@/lib/galleries";
 
 export const metadata: Metadata = {
@@ -13,27 +14,32 @@ export default function OtherWorkIndex() {
 
   return (
     <div className="container-wide py-16">
-      <div className="mb-12">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-          Other Work
-        </h1>
-        <p className="text-gray-400 max-w-2xl">
-          Beyond the landscapes — events, street photography, and other projects.
-        </p>
-      </div>
+      <ScrollReveal>
+        <div className="mb-12">
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-brand-text">
+            Other Work
+          </h1>
+          <p className="text-brand-text-light max-w-2xl">
+            Beyond the landscapes — events, street photography, and other projects.
+          </p>
+        </div>
+      </ScrollReveal>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {galleries.map((gallery) => (
-          <GalleryCard
-            key={gallery.slug}
-            title={gallery.title}
-            slug={gallery.slug}
-            coverImage={gallery.coverImage}
-            imageCount={getImageCount(gallery)}
-            category="other-work"
-          />
-        ))}
-      </div>
+      <ScrollReveal stagger={150}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {galleries.map((gallery) => (
+            <div key={gallery.slug} data-stagger-item className="scroll-reveal">
+              <GalleryCard
+                title={gallery.title}
+                slug={gallery.slug}
+                coverImage={gallery.coverImage}
+                imageCount={getImageCount(gallery)}
+                category="other-work"
+              />
+            </div>
+          ))}
+        </div>
+      </ScrollReveal>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const navLinks = [
   { href: "/portfolio", label: "Portfolio" },
@@ -15,13 +15,28 @@ const navLinks = [
 export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const mobileRef = useRef<HTMLDivElement>(null);
+
+  // Animate mobile menu height
+  useEffect(() => {
+    const el = mobileRef.current;
+    if (!el) return;
+
+    if (mobileOpen) {
+      el.style.maxHeight = el.scrollHeight + "px";
+      el.style.opacity = "1";
+    } else {
+      el.style.maxHeight = "0";
+      el.style.opacity = "0";
+    }
+  }, [mobileOpen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-charcoal-900/90 backdrop-blur-md border-b border-white/5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-brand-border">
       <div className="container-wide flex items-center justify-between h-16">
         <Link
           href="/"
-          className="text-xl font-semibold tracking-tight hover:text-white transition-colors"
+          className="text-xl font-semibold tracking-tight text-brand-text hover:text-brand-teal transition-colors"
         >
           E.D.E
         </Link>
@@ -32,10 +47,10 @@ export default function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className={`text-sm tracking-wide transition-colors hover:text-white ${
+                className={`text-sm tracking-wide transition-colors hover:text-brand-teal ${
                   pathname.startsWith(link.href)
-                    ? "text-white"
-                    : "text-gray-400"
+                    ? "text-brand-text font-medium"
+                    : "text-brand-text-light"
                 }`}
               >
                 {link.label}
@@ -47,7 +62,7 @@ export default function Navbar() {
         {/* Mobile menu button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2 text-gray-400 hover:text-white transition-colors"
+          className="md:hidden p-2 text-brand-text-light hover:text-brand-text transition-colors"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
           <svg
@@ -76,27 +91,29 @@ export default function Navbar() {
       </div>
 
       {/* Mobile nav */}
-      {mobileOpen && (
-        <div className="md:hidden border-t border-white/5 bg-charcoal-900/95 backdrop-blur-md">
-          <ul className="flex flex-col py-4">
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className={`block px-6 py-3 text-sm tracking-wide transition-colors hover:text-white ${
-                    pathname.startsWith(link.href)
-                      ? "text-white"
-                      : "text-gray-400"
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div
+        ref={mobileRef}
+        className="md:hidden border-t border-brand-border bg-white/95 backdrop-blur-md overflow-hidden transition-all duration-300 ease-in-out"
+        style={{ maxHeight: 0, opacity: 0 }}
+      >
+        <ul className="flex flex-col py-4">
+          {navLinks.map((link) => (
+            <li key={link.href}>
+              <Link
+                href={link.href}
+                onClick={() => setMobileOpen(false)}
+                className={`block px-6 py-3 text-sm tracking-wide transition-colors hover:text-brand-teal ${
+                  pathname.startsWith(link.href)
+                    ? "text-brand-text font-medium"
+                    : "text-brand-text-light"
+                }`}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }

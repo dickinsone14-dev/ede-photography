@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Lightbox from "./Lightbox";
 
 export interface GalleryImage {
@@ -21,6 +21,42 @@ export interface GallerySection {
 interface GalleryGridProps {
   sections?: GallerySection[];
   images?: GalleryImage[];
+}
+
+function BlurImage({
+  image,
+  onClick,
+}: {
+  image: GalleryImage;
+  onClick: () => void;
+}) {
+  const handleLoad = useCallback(
+    (e: React.SyntheticEvent<HTMLImageElement>) => {
+      e.currentTarget.classList.remove("img-blur-placeholder");
+      e.currentTarget.classList.add("loaded");
+    },
+    []
+  );
+
+  return (
+    <div
+      className="break-inside-avoid group cursor-pointer"
+      onClick={onClick}
+    >
+      <div className="relative overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+        <Image
+          src={image.src}
+          alt={image.alt}
+          width={800}
+          height={600}
+          className="img-blur-placeholder w-full h-auto transition-transform duration-500 group-hover:scale-[1.02]"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          onLoad={handleLoad}
+        />
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+      </div>
+    </div>
+  );
 }
 
 export default function GalleryGrid({ sections, images }: GalleryGridProps) {
@@ -51,34 +87,22 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
               <div key={sectionIdx} id={sectionId} className="scroll-mt-24">
                 {/* Section header */}
                 <div className="mb-6">
-                  <h2 className="text-xl md:text-2xl font-semibold tracking-tight">
+                  <h2 className="text-xl md:text-2xl font-semibold tracking-tight text-brand-text">
                     {section.title}
                   </h2>
-                  <p className="text-sm text-gray-500 mt-1">{section.date}</p>
+                  <p className="text-sm text-brand-text-faint mt-1">{section.date}</p>
                 </div>
 
                 {/* Section images */}
                 <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
                   {section.images.map((image, imgIdx) => (
-                    <div
+                    <BlurImage
                       key={imgIdx}
-                      className="break-inside-avoid group cursor-pointer"
+                      image={image}
                       onClick={() =>
                         setLightboxIndex(sectionStartIndex + imgIdx)
                       }
-                    >
-                      <div className="relative overflow-hidden rounded-lg bg-charcoal-800">
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          width={800}
-                          height={600}
-                          className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.02]"
-                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        />
-                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
-                      </div>
-                    </div>
+                    />
                   ))}
                 </div>
               </div>
@@ -103,23 +127,11 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
     <>
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
         {allImages.map((image, index) => (
-          <div
+          <BlurImage
             key={index}
-            className="break-inside-avoid group cursor-pointer"
+            image={image}
             onClick={() => setLightboxIndex(index)}
-          >
-            <div className="relative overflow-hidden rounded-lg bg-charcoal-800">
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={800}
-                height={600}
-                className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.02]"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
-            </div>
-          </div>
+          />
         ))}
       </div>
 

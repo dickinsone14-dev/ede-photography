@@ -41,7 +41,7 @@ export default function Lightbox({
 
   return (
     <div
-      className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center"
+      className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center animate-fade-in"
       onClick={onClose}
     >
       {/* Close button */}
@@ -96,7 +96,7 @@ export default function Lightbox({
           src={image.src}
           alt={image.alt}
           fill
-          className="object-contain"
+          className="object-contain animate-fade-in"
           sizes="90vw"
           priority
         />

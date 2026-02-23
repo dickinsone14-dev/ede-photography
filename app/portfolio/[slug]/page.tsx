@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import GalleryGrid from "@/components/GalleryGrid";
+import ScrollReveal from "@/components/ScrollReveal";
 import { getAllGalleries, getGalleryBySlug, getImageCount } from "@/lib/galleries";
 
 interface Props {
@@ -34,26 +35,28 @@ export default function GalleryPage({ params }: Props) {
       <div className="mb-8">
         <Link
           href="/portfolio"
-          className="text-sm text-gray-500 hover:text-white transition-colors"
+          className="text-sm text-brand-text-faint hover:text-brand-teal transition-colors"
         >
           Portfolio
         </Link>
-        <span className="text-gray-600 mx-2">/</span>
-        <span className="text-sm text-gray-300">{gallery.title}</span>
+        <span className="text-brand-text-faint mx-2">/</span>
+        <span className="text-sm text-brand-text">{gallery.title}</span>
       </div>
 
       {/* Header */}
-      <div className="mb-12">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-          {gallery.title}
-        </h1>
-        <p className="text-gray-400 max-w-3xl leading-relaxed">
-          {gallery.description}
-        </p>
-        <p className="text-sm text-gray-600 mt-4">
-          {imageCount} images
-        </p>
-      </div>
+      <ScrollReveal>
+        <div className="mb-12">
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-brand-text">
+            {gallery.title}
+          </h1>
+          <p className="text-brand-text-light max-w-3xl leading-relaxed">
+            {gallery.description}
+          </p>
+          <p className="text-sm text-brand-text-faint mt-4">
+            {imageCount} images
+          </p>
+        </div>
+      </ScrollReveal>
 
       {/* Gallery */}
       <GalleryGrid sections={gallery.sections} images={gallery.images} />
