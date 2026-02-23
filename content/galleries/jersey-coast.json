@@ -6,10 +6,10 @@
   "coverImage": "/images/jersey/IMG_4210.jpg",
   "description": "Jersey and its coastline — the rugged shores, hidden coves, and ever-changing light of the Channel Islands. From cliff walks to sheltered bays, these images explore the island's wild Atlantic-facing coast.",
   "images": [
+    { "src": "/images/jersey/DSCF8637-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/DSCF9255.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/IMG_4905.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/IMG_4886.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4870.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/IMG_4878.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/IMG_4884.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/IMG_4901.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
@@ -17,13 +17,11 @@
     { "src": "/images/jersey/IMG_4900.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/IMG_4210.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/DSCF8632-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF8637-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/DSCF8819.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/DSCF8830.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/DSCF9097-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/DSC00385.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
     { "src": "/images/jersey/972EC151-E41B-4010-9BD4-32203E07EF9A.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF8630-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/69630023.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" }
+    { "src": "/images/jersey/DSCF8630-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" }
   ]
 }
