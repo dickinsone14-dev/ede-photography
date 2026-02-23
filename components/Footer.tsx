@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/20 text-center">
+        <div className="mt-12 pt-8 text-center">
           <p className="text-xs text-gray-400">
             &copy; {new Date().getFullYear()} E.D.E Photography. All rights
             reserved.
