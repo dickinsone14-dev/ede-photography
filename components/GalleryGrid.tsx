@@ -43,7 +43,7 @@ function BlurImage({
       className="group cursor-pointer"
       onClick={onClick}
     >
-      <div className="relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1 flex items-center justify-center">
+      <div className="relative aspect-square overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1 flex items-center justify-center">
         <Image
           src={image.src}
           alt={image.alt}
