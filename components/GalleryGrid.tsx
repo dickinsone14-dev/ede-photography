@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useCallback } from "react";
 import Lightbox from "./Lightbox";
-import ScrollDivider from "./ScrollDivider";
+
 
 export interface GalleryImage {
   src: string;
@@ -73,7 +73,7 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
   if (sections) {
     return (
       <>
-        <div>
+        <div className="space-y-16">
           {sections.map((section, sectionIdx) => {
             const sectionStartIndex = runningIndex;
             runningIndex += section.images.length;
@@ -84,11 +84,7 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
               .replace(/(^-|-$)/g, "");
 
             return (
-              <div key={sectionIdx}>
-                {/* Scroll divider between sections */}
-                {sectionIdx > 0 && <ScrollDivider />}
-
-                <div id={sectionId} className="scroll-mt-24">
+              <div key={sectionIdx} id={sectionId} className="scroll-mt-24">
                   {/* Section header */}
                   <div className="mb-6">
                     <h2 className="text-xl md:text-2xl font-semibold tracking-tight text-brand-text">
@@ -109,7 +105,6 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
                       />
                     ))}
                   </div>
-                </div>
               </div>
             );
           })}

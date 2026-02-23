@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import ScrollReveal from "@/components/ScrollReveal";
-import ScrollDivider from "@/components/ScrollDivider";
+
 
 export const metadata: Metadata = {
   title: "About",
@@ -27,8 +27,6 @@ export default function AboutPage() {
           </div>
         </div>
       </ScrollReveal>
-
-      <ScrollDivider />
 
       {/* Bio */}
       <ScrollReveal>
@@ -82,8 +80,6 @@ export default function AboutPage() {
           </div>
         </div>
       </ScrollReveal>
-
-      <ScrollDivider />
 
       {/* Instagram link */}
       <ScrollReveal>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/components/HeroImage";
 import ScrollReveal from "@/components/ScrollReveal";
-import ScrollDivider from "@/components/ScrollDivider";
+
 
 const featuredWork = [
   {
@@ -61,8 +61,6 @@ export default function Home() {
         height="full"
       />
 
-      <ScrollDivider />
-
       {/* Intro */}
       <ScrollReveal>
         <section className="container-wide py-20">
@@ -80,8 +78,6 @@ export default function Home() {
           </div>
         </section>
       </ScrollReveal>
-
-      <ScrollDivider />
 
       {/* Featured Work */}
       <ScrollReveal stagger={100}>
@@ -115,8 +111,6 @@ export default function Home() {
         </section>
       </ScrollReveal>
 
-      <ScrollDivider />
-
       {/* CTAs */}
       <ScrollReveal>
         <section className="container-wide pb-20">
@@ -136,8 +130,6 @@ export default function Home() {
           </div>
         </section>
       </ScrollReveal>
-
-      <ScrollDivider />
 
       {/* About snippet */}
       <ScrollReveal>

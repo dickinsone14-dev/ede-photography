@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import ScrollReveal from "@/components/ScrollReveal";
-import ScrollDivider from "@/components/ScrollDivider";
+
 import storeData from "@/content/store.json";
 
 export const metadata: Metadata = {
@@ -58,8 +58,6 @@ export default function StorePage() {
           </p>
         </div>
       </ScrollReveal>
-
-      <ScrollDivider />
 
       {/* Top 10 Photos of 2025 */}
       <ScrollReveal>
@@ -153,7 +151,6 @@ export default function StorePage() {
 
       {/* Albums */}
       {otherAlbums.map((album) => (
-        <><ScrollDivider key={`divider-${album.name}`} />
         <ScrollReveal key={album.name}>
           <section className="mb-16">
             <div className="flex items-center justify-between mb-6">
@@ -199,10 +196,8 @@ export default function StorePage() {
               ))}
             </div>
           </section>
-        </ScrollReveal></>
+        </ScrollReveal>
       ))}
-
-      <ScrollDivider />
 
       {/* Full store CTA */}
       <ScrollReveal>
@@ -238,8 +233,6 @@ export default function StorePage() {
           </a>
         </section>
       </ScrollReveal>
-
-      <ScrollDivider />
 
       {/* Info section */}
       <ScrollReveal>
