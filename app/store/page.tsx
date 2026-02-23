@@ -25,6 +25,72 @@ interface Album {
   images: StoreImage[];
 }
 
+function ImageGrid({ images, sizes }: { images: StoreImage[]; sizes: string }) {
+  const landscapes = images.filter((img) => img.orientation === "landscape");
+  const portraits = images.filter((img) => img.orientation !== "landscape");
+
+  return (
+    <>
+      {landscapes.length > 0 && (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3">
+          {landscapes.map((img) => (
+            <a
+              key={img.imageId}
+              href={img.picfairUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative aspect-[16/10] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+            >
+              <Image
+                src={img.thumbnailUrl}
+                alt={img.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes={sizes}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-3">
+                <p className="text-xs font-medium text-white">{img.title}</p>
+                <p className="text-xs text-white/80 mt-0.5">
+                  From {img.price}
+                </p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+      {portraits.length > 0 && (
+        <div className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3${landscapes.length > 0 ? " mt-2 sm:mt-3" : ""}`}>
+          {portraits.map((img) => (
+            <a
+              key={img.imageId}
+              href={img.picfairUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative aspect-[2/3] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+            >
+              <Image
+                src={img.thumbnailUrl}
+                alt={img.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes={sizes}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-3">
+                <p className="text-xs font-medium text-white">{img.title}</p>
+                <p className="text-xs text-white/80 mt-0.5">
+                  From {img.price}
+                </p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </>
+  );
+}
+
 export default function StorePage() {
   const { top10, hiking, winterAlps, jersey } = storeData.albums as {
     top10: Album;
@@ -97,32 +163,10 @@ export default function StorePage() {
             </a>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3">
-            {top10.images.map((img) => (
-              <a
-                key={img.imageId}
-                href={img.picfairUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`group relative ${img.orientation === "landscape" ? "aspect-[16/10]" : "aspect-[2/3]"} overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1`}
-              >
-                <Image
-                  src={img.thumbnailUrl}
-                  alt={img.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-3">
-                  <p className="text-xs font-medium text-white">{img.title}</p>
-                  <p className="text-xs text-white/80 mt-0.5">
-                    From {img.price}
-                  </p>
-                </div>
-              </a>
-            ))}
-          </div>
+          <ImageGrid
+            images={top10.images}
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+          />
 
           {/* Mobile CTA */}
           <a
@@ -170,32 +214,10 @@ export default function StorePage() {
                 View on Picfair
               </a>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3">
-              {album.images.map((img) => (
-                <a
-                  key={img.imageId}
-                  href={img.picfairUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`group relative ${img.orientation === "landscape" ? "aspect-[16/10]" : "aspect-[2/3]"} overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1`}
-                >
-                  <Image
-                    src={img.thumbnailUrl}
-                    alt={img.title}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-3">
-                    <p className="text-xs font-medium text-white">{img.title}</p>
-                    <p className="text-xs text-white/80 mt-0.5">
-                      From {img.price}
-                    </p>
-                  </div>
-                </a>
-              ))}
-            </div>
+            <ImageGrid
+              images={album.images}
+              sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+            />
           </section>
         </ScrollReveal>
       ))}
