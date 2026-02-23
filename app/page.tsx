@@ -9,14 +9,14 @@ const featuredWork = [
     src: "/images/hiking/cadair-idris/DSCF7279-2.jpg",
     alt: "Llyn Cau and the cliffs of Cadair Idris",
     location: "Cadair Idris, Snowdonia",
-    gallery: "Hiking the UK",
+    gallery: "Hiking in the UK",
     href: "/portfolio/hiking-uk#cadair-idris-snowdonia",
   },
   {
     src: "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
     alt: "Llyn y Fan Fach crater lake in snow",
     location: "Brecon Beacons",
-    gallery: "Hiking the UK",
+    gallery: "Hiking in the UK",
     href: "/portfolio/hiking-uk#llyn-y-fan-fach-brecon-beacons",
   },
   {
@@ -30,7 +30,7 @@ const featuredWork = [
     src: "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
     alt: "Mountain cabins at Dinorwic Quarry",
     location: "Dinorwic Quarry, Snowdonia",
-    gallery: "Hiking the UK",
+    gallery: "Hiking in the UK",
     href: "/portfolio/hiking-uk#dinorwic-quarry-snowdonia",
   },
   {
