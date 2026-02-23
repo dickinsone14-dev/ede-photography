@@ -70,9 +70,7 @@ export default function Home() {
             <p className="text-brand-text-light leading-relaxed">
               I photograph the landscapes of the UK and beyond — from the ridges
               of the Brecon Beacons and Snowdonia to the Lake District, the
-              shores of Jersey, and the peaks of the Alps. My photography comes from the things I love
-              doing — early starts, long days on the hill, and time spent in
-              places that stay with you.
+              shores of Jersey, and the peaks of the Alps.
             </p>
           </div>
         </section>
@@ -139,8 +137,7 @@ export default function Home() {
               <p className="text-brand-text-light leading-relaxed mb-6">
                 I&apos;m Ed — a photographer based in the UK. Originally from
                 Jersey, I now spend most of my time in the mountains of Wales
-                and further afield. My photography is shaped by the things I
-                love doing and the time I spend in these places.
+                and further afield.
               </p>
               <Link
                 href="/about"

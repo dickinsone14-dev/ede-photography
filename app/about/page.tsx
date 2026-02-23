@@ -32,9 +32,7 @@ export default function AboutPage() {
                 These days I spend most of my time in the mountains of Wales — the
                 Brecon Beacons and Snowdonia in particular — as well as making
                 regular trips to the Alps, the Lake District, and back to
-                Jersey. My work comes from the things I love to do — early
-                starts, long days on the hill, and the time spent in places
-                that mean the most to me.
+                Jersey.
               </p>
 
               <p>
