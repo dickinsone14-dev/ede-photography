@@ -11,7 +11,7 @@ export default function Footer() {
           alt=""
           fill
           className="object-cover object-[center_42%]"
-          quality={75}
+          quality={100}
           sizes="100vw"
         />
         {/* Dark overlay for text readability */}
