@@ -1,0 +1,33 @@
+{
+  "title": "Street",
+  "slug": "street",
+  "category": "other-work",
+  "description": "Candid street photography from cities across the UK and Europe. Observations of everyday life, light, shadow, and the small moments that make urban spaces interesting.",
+  "coverImage": "https://picsum.photos/seed/street-cover/1600/1000",
+  "images": [
+    {
+      "src": "https://picsum.photos/seed/street-alley/1200/1600",
+      "alt": "Morning light through a narrow alleyway",
+      "location": "London",
+      "date": "2024-10"
+    },
+    {
+      "src": "https://picsum.photos/seed/street-rain/1200/800",
+      "alt": "Rainy reflections on a cobbled street",
+      "location": "Bath",
+      "date": "2024-09"
+    },
+    {
+      "src": "https://picsum.photos/seed/street-market/1200/800",
+      "alt": "Market stall vendor arranging produce",
+      "location": "Cardiff",
+      "date": "2024-08"
+    },
+    {
+      "src": "https://picsum.photos/seed/street-brutalist/1200/800",
+      "alt": "Shadow patterns on a brutalist building facade",
+      "location": "London",
+      "date": "2024-07"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Events",
+  "slug": "events",
+  "category": "other-work",
+  "description": "Event photography from music nights, festivals, and community gatherings. A different pace to the landscapes — capturing energy, atmosphere, and candid moments.",
+  "coverImage": "https://picsum.photos/seed/events-cover/1600/1000",
+  "images": [
+    {
+      "src": "https://picsum.photos/seed/events-liveband/1200/800",
+      "alt": "Live band performing at a local venue",
+      "location": "Cardiff",
+      "date": "2024-11"
+    },
+    {
+      "src": "https://picsum.photos/seed/events-festival/1200/800",
+      "alt": "Festival crowd at sunset",
+      "location": "Bristol",
+      "date": "2024-08"
+    },
+    {
+      "src": "https://picsum.photos/seed/events-djset/1200/1600",
+      "alt": "DJ set with atmospheric lighting",
+      "location": "London",
+      "date": "2024-07"
+    },
+    {
+      "src": "https://picsum.photos/seed/events-streetfood/1200/800",
+      "alt": "Street food market in the evening",
+      "location": "Cardiff",
+      "date": "2024-06"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Jersey & the Coast",
+  "slug": "jersey-coast",
+  "category": "portfolio",
+  "description": "The rugged coastline and hidden coves of Jersey, the Channel Islands. From dramatic cliff paths to sheltered bays, these images explore the island's wild Atlantic-facing shores and the ever-changing light over the sea.",
+  "coverImage": "https://picsum.photos/seed/jersey-cover/1600/1000",
+  "images": [
+    {
+      "src": "https://picsum.photos/seed/jersey-corbiere/1200/800",
+      "alt": "Corbiere Lighthouse at low tide during golden hour",
+      "location": "St Brelade, Jersey",
+      "date": "2024-09",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-01"
+    },
+    {
+      "src": "https://picsum.photos/seed/jersey-plemont/1200/1600",
+      "alt": "Plemont Bay caves with incoming tide",
+      "location": "St Ouen, Jersey",
+      "date": "2024-09",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-02"
+    },
+    {
+      "src": "https://picsum.photos/seed/jersey-noirmont/1200/800",
+      "alt": "Long exposure of waves breaking over Noirmont headland",
+      "location": "St Brelade, Jersey",
+      "date": "2024-08",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-03"
+    },
+    {
+      "src": "https://picsum.photos/seed/jersey-stouen/1200/800",
+      "alt": "Sunset over St Ouen's Bay from the dunes",
+      "location": "St Ouen, Jersey",
+      "date": "2024-07",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-04"
+    },
+    {
+      "src": "https://picsum.photos/seed/jersey-bouley/1200/800",
+      "alt": "Bouley Bay harbour in early morning mist",
+      "location": "Trinity, Jersey",
+      "date": "2024-06",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-05"
+    }
+  ]
+}

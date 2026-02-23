@@ -1,0 +1,44 @@
+{
+  "title": "Winter in the Alps",
+  "slug": "winter-alps",
+  "category": "portfolio",
+  "description": "The European Alps in winter — vast snowfields, frozen lakes, and dramatic peaks. Shot during ski touring and winter hiking trips across the French and Swiss Alps, these images capture the raw scale and silence of the mountains under snow.",
+  "coverImage": "https://picsum.photos/seed/alps-cover/1600/1000",
+  "images": [
+    {
+      "src": "https://picsum.photos/seed/alps-montblanc/1200/800",
+      "alt": "Mont Blanc massif at first light from Chamonix valley",
+      "location": "Chamonix, France",
+      "date": "2025-01",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-01"
+    },
+    {
+      "src": "https://picsum.photos/seed/alps-lacblanc/1200/800",
+      "alt": "Frozen Lac Blanc with the Aiguilles reflected",
+      "location": "Chamonix, France",
+      "date": "2025-01",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-02"
+    },
+    {
+      "src": "https://picsum.photos/seed/alps-valais/1200/1600",
+      "alt": "Ski touring above the clouds in the Valais",
+      "location": "Valais, Switzerland",
+      "date": "2024-12",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-03"
+    },
+    {
+      "src": "https://picsum.photos/seed/alps-matterhorn/1200/800",
+      "alt": "Matterhorn north face in winter storm light",
+      "location": "Zermatt, Switzerland",
+      "date": "2024-12",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-04"
+    },
+    {
+      "src": "https://picsum.photos/seed/alps-aosta/1200/800",
+      "alt": "Fresh powder and pine trees in the Aosta Valley",
+      "location": "Aosta Valley, Italy",
+      "date": "2024-02",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-05"
+    }
+  ]
+}

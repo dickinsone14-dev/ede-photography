@@ -1,0 +1,51 @@
+{
+  "title": "Hiking",
+  "slug": "hiking",
+  "category": "portfolio",
+  "description": "Mountain landscapes captured across Snowdonia, the Brecon Beacons, and the Scottish Highlands. These images are taken on multi-day hikes and wild camps, often at dawn or dusk when the light transforms the hills into something extraordinary.",
+  "coverImage": "https://picsum.photos/seed/hiking-cover/1600/1000",
+  "images": [
+    {
+      "src": "https://picsum.photos/seed/hiking-ridge/1200/800",
+      "alt": "Cribyn ridge at golden hour from Corn Du",
+      "location": "Brecon Beacons",
+      "date": "2025-03",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-01"
+    },
+    {
+      "src": "https://picsum.photos/seed/hiking-snowdon/1200/1600",
+      "alt": "Cloud inversion from the summit of Snowdon at sunrise",
+      "location": "Snowdonia",
+      "date": "2025-01",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-02"
+    },
+    {
+      "src": "https://picsum.photos/seed/hiking-llyn/1200/800",
+      "alt": "Llyn y Fan Fach reflecting the escarpment at dawn",
+      "location": "Brecon Beacons",
+      "date": "2024-11",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-03"
+    },
+    {
+      "src": "https://picsum.photos/seed/hiking-glyderau/1200/800",
+      "alt": "The Glyderau ridge in low cloud",
+      "location": "Snowdonia",
+      "date": "2024-10",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-04"
+    },
+    {
+      "src": "https://picsum.photos/seed/hiking-lomond/1200/800",
+      "alt": "Wild camp above Loch Lomond at sunset",
+      "location": "Scottish Highlands",
+      "date": "2024-08",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-05"
+    },
+    {
+      "src": "https://picsum.photos/seed/hiking-penyfan/1200/1600",
+      "alt": "Pen y Fan summit plateau in winter conditions",
+      "location": "Brecon Beacons",
+      "date": "2025-02",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-06"
+    }
+  ]
+}

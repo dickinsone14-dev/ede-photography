@@ -1,0 +1,44 @@
+{
+  "title": "Brecon Beacons",
+  "slug": "brecon-beacons",
+  "category": "portfolio",
+  "description": "The Brecon Beacons (Bannau Brycheiniog) in all seasons. These old red sandstone mountains offer some of the most dramatic ridgelines in Wales, from the sweeping escarpments of Fan Brycheiniog to the iconic horseshoe of Pen y Fan and Corn Du.",
+  "coverImage": "https://picsum.photos/seed/brecon-cover/1600/1000",
+  "images": [
+    {
+      "src": "https://picsum.photos/seed/brecon-penyfan/1200/800",
+      "alt": "Pen y Fan and Corn Du from Cribyn at sunrise",
+      "location": "Brecon Beacons",
+      "date": "2025-02",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-01"
+    },
+    {
+      "src": "https://picsum.photos/seed/brecon-fanbrycheiniog/1200/800",
+      "alt": "Fan Brycheiniog escarpment reflected in Llyn y Fan Fawr",
+      "location": "Brecon Beacons",
+      "date": "2024-11",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-02"
+    },
+    {
+      "src": "https://picsum.photos/seed/brecon-inversion/1200/1600",
+      "alt": "Cloud inversion from Fan y Big looking east",
+      "location": "Brecon Beacons",
+      "date": "2024-10",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-03"
+    },
+    {
+      "src": "https://picsum.photos/seed/brecon-obelisk/1200/800",
+      "alt": "The Tommy Jones obelisk in winter snow",
+      "location": "Brecon Beacons",
+      "date": "2025-01",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-04"
+    },
+    {
+      "src": "https://picsum.photos/seed/brecon-waterfall/1200/800",
+      "alt": "Waterfall Country — Sgwd yr Eira behind the falls",
+      "location": "Brecon Beacons",
+      "date": "2024-09",
+      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-05"
+    }
+  ]
+}
