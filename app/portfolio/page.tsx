@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GalleryCard from "@/components/GalleryCard";
+import PageBackground from "@/components/PageBackground";
 import ScrollReveal from "@/components/ScrollReveal";
 
 import { getGalleriesByCategory, getImageCount } from "@/lib/galleries";
@@ -14,6 +15,7 @@ export default function PortfolioIndex() {
   const galleries = getGalleriesByCategory("portfolio");
 
   return (
+    <PageBackground src="/images/hiking/llyn-y-fan-fach/DSCF1566.jpg">
     <div className="container-wide py-16">
       <ScrollReveal>
         <div className="mb-12">
@@ -43,5 +45,6 @@ export default function PortfolioIndex() {
         </div>
       </ScrollReveal>
     </div>
+    </PageBackground>
   );
 }

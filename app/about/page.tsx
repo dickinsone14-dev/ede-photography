@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import PageBackground from "@/components/PageBackground";
 import ScrollReveal from "@/components/ScrollReveal";
 
 
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
+    <PageBackground src="/images/hiking/cadair-idris/DSCF6982-2.jpg">
     <div className="container-narrow py-16">
       {/* Portrait */}
       <ScrollReveal>
@@ -97,5 +99,6 @@ export default function AboutPage() {
         </section>
       </ScrollReveal>
     </div>
+    </PageBackground>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import PageBackground from "@/components/PageBackground";
 import ScrollReveal from "@/components/ScrollReveal";
 
 
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
+    <PageBackground src="/images/winter-alps/crans-montana/DSCF2709.jpg">
     <div className="container-narrow py-16">
       <ScrollReveal>
         <div className="mb-12">
@@ -69,5 +71,6 @@ export default function ContactPage() {
         </div>
       </ScrollReveal>
     </div>
+    </PageBackground>
   );
 }
