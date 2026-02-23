@@ -96,7 +96,7 @@ export default function StorePage() {
             </a>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3">
             {top10.images.map((img) => (
               <a
                 key={img.imageId}
@@ -169,7 +169,7 @@ export default function StorePage() {
                 View on Picfair
               </a>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3">
               {album.images.map((img) => (
                 <a
                   key={img.imageId}
