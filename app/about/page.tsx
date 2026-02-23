@@ -24,12 +24,11 @@ export default function AboutPage() {
             <div className="space-y-6 text-brand-text-light leading-relaxed">
               <p>
                 I&apos;m Ed — a photographer based in the UK. I grew up in Jersey, surrounded by the sea, and developed an
-                early appreciation for the outdoors and the way light changes
-                everything about a place.
+                early appreciation for the outdoors.
               </p>
 
               <p>
-                These days I spend most of my time in the mountains of Wales — the
+                I try to spend as much of my time as possible in the mountains of Wales — the
                 Brecon Beacons and Snowdonia in particular — as well as making
                 regular trips to the Alps, the Lake District, and back to
                 Jersey.
