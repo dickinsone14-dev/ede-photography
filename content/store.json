@@ -1,60 +1,66 @@
 {
-  "prints": [
+  "picfairUrl": "https://ede-photography.picfair.com/",
+  "top10AlbumUrl": "https://ede-photography.picfair.com/albums/325334-top-10-photos-of-2025",
+  "top10": [
     {
-      "title": "Cadair Idris at Golden Hour",
       "src": "/images/hiking/cadair-idris/DSCF6982-2.jpg",
-      "alt": "Cadair Idris, Snowdonia at golden hour",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
+      "title": "Cadair Idris at Golden Hour",
+      "alt": "Silhouette on the summit of Cadair Idris at golden hour",
+      "location": "Snowdonia"
     },
     {
-      "title": "Dinorwic Quarry, Snowdonia",
-      "src": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
-      "alt": "Dinorwic Quarry, Snowdonia",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
-    },
-    {
-      "title": "Llyn y Fan Fach",
       "src": "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
-      "alt": "Llyn y Fan Fach, Brecon Beacons",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
+      "title": "Llyn y Fan Fach in Snow",
+      "alt": "Llyn y Fan Fach crater lake in snow",
+      "location": "Brecon Beacons"
     },
     {
-      "title": "Crans Montana",
-      "src": "/images/winter-alps/crans-montana/DSCF2999.jpg",
-      "alt": "Crans Montana, Swiss Alps",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
-    },
-    {
-      "title": "Jersey Coastline",
-      "src": "/images/jersey/IMG_4905.jpg",
-      "alt": "Jersey coastline",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
-    },
-    {
-      "title": "Ogwen Valley, Snowdonia",
-      "src": "/images/hiking/ogwen-valley/DSCF1008.jpg",
-      "alt": "Ogwen Valley, Snowdonia",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
-    },
-    {
-      "title": "Pen y Fan, Brecon Beacons",
-      "src": "/images/hiking/pen-y-fan/DSC00852.jpg",
-      "alt": "Pen y Fan, Brecon Beacons",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
-    },
-    {
-      "title": "Mont Joly, Megeve",
       "src": "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
-      "alt": "Mont Joly, Megeve",
-      "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/"
+      "title": "Sunset over Mont Blanc",
+      "alt": "Sunset over the Mont Blanc massif from Mont Joly",
+      "location": "French Alps"
+    },
+    {
+      "src": "/images/winter-alps/crans-montana/DSCF2709.jpg",
+      "title": "Crans Montana",
+      "alt": "Snowboarder against alpine backdrop",
+      "location": "Swiss Alps"
+    },
+    {
+      "src": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
+      "title": "Dinorwic Quarry",
+      "alt": "Mountain cabins at Dinorwic Quarry",
+      "location": "Snowdonia"
+    },
+    {
+      "src": "/images/jersey/IMG_4905.jpg",
+      "title": "Jersey Cliffs",
+      "alt": "Dramatic coastal cliffs of Jersey",
+      "location": "Channel Islands"
+    },
+    {
+      "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2034-3.jpg",
+      "title": "Dinorwic Quarry Rd. 2",
+      "alt": "Dinorwic Quarry, Snowdonia",
+      "location": "Snowdonia"
+    },
+    {
+      "src": "/images/hiking/ogwen-valley/DSCF1008.jpg",
+      "title": "Ogwen Valley",
+      "alt": "Ogwen Valley, Snowdonia",
+      "location": "Snowdonia"
+    },
+    {
+      "src": "/images/hiking/pen-y-fan/DSC00852.jpg",
+      "title": "Pen y Fan",
+      "alt": "Pen y Fan, Brecon Beacons",
+      "location": "Brecon Beacons"
+    },
+    {
+      "src": "/images/winter-alps/crans-montana/DSCF2999.jpg",
+      "title": "Alpine Panorama",
+      "alt": "Alpine panorama from Crans Montana",
+      "location": "Swiss Alps"
     }
   ]
 }
