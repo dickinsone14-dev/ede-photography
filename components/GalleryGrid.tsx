@@ -40,15 +40,16 @@ function BlurImage({
 
   return (
     <div
-      className="group cursor-pointer"
+      className="group cursor-pointer self-end"
       onClick={onClick}
     >
-      <div className="relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+      <div className="relative overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
         <Image
           src={image.src}
           alt={image.alt}
-          fill
-          className="img-blur-placeholder object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+          width={800}
+          height={600}
+          className="img-blur-placeholder w-full h-auto transition-transform duration-500 group-hover:scale-[1.02]"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           onLoad={handleLoad}
         />
@@ -93,7 +94,7 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
                 </div>
 
                 {/* Section images */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-end">
                   {section.images.map((image, imgIdx) => (
                     <BlurImage
                       key={imgIdx}
@@ -124,7 +125,7 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
   // Flat gallery (no sections)
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-end">
         {allImages.map((image, index) => (
           <BlurImage
             key={index}
