@@ -52,8 +52,8 @@ export default function Home() {
     <>
       {/* Hero */}
       <HeroImage
-        src="/images/hiking/llyn-y-fan-fach/DSCF1762-2.jpg"
-        alt="Three hikers descending a snowy mountain at Llyn y Fan Fach, Brecon Beacons"
+        src="/images/hiking/llyn-y-fan-fach/DSCF1854.jpg"
+        alt="Three hikers looking down a mountain path at Llyn y Fan Fach, Brecon Beacons"
         title="E.D.E Photography"
         subtitle="UK Landscape & Adventure Photography"
         height="full"
