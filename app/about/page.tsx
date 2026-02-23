@@ -84,7 +84,7 @@ export default function AboutPage() {
       <ScrollReveal>
         <section className="mt-16 pt-16 border-t border-brand-border">
           <a
-            href="https://www.instagram.com/e.d.e_photography/"
+            href="https://www.instagram.com/e.d.e.photography/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm text-brand-teal hover:text-brand-teal-hover transition-colors"

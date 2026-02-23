@@ -46,7 +46,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://www.instagram.com/e.d.e_photography/"
+                  href="https://www.instagram.com/e.d.e.photography/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-brand-text-light hover:text-brand-teal transition-colors"

@@ -47,7 +47,7 @@ export default function ContactPage() {
                 Instagram
               </h3>
               <a
-                href="https://www.instagram.com/e.d.e_photography/"
+                href="https://www.instagram.com/e.d.e.photography/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-brand-teal hover:text-brand-teal-hover transition-colors"

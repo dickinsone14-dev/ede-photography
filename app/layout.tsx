@@ -41,7 +41,7 @@ export default function RootLayout({
       "UK landscape and adventure photography. Prints, licensing, and commissions.",
     url: "https://ede-photography.com",
     image: "https://ede-photography.com/images/hiking/cadair-idris/DSCF6982-2.jpg",
-    sameAs: ["https://www.instagram.com/e.d.e_photography/"],
+    sameAs: ["https://www.instagram.com/e.d.e.photography/"],
     address: {
       "@type": "PostalAddress",
       addressCountry: "GB",
