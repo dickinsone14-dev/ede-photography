@@ -8,28 +8,28 @@ const featuredWork = [
     alt: "Silhouette on the summit of Cadair Idris at golden hour",
     location: "Cadair Idris, Snowdonia",
     gallery: "Hiking",
-    href: "/portfolio/hiking",
+    href: "/portfolio/hiking#cadair-idris-snowdonia",
   },
   {
     src: "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
     alt: "Llyn y Fan Fach crater lake in snow",
     location: "Brecon Beacons",
     gallery: "Hiking",
-    href: "/portfolio/hiking",
+    href: "/portfolio/hiking#llyn-y-fan-fach-brecon-beacons",
   },
   {
     src: "/images/winter-alps/crans-montana/DSCF2709.jpg",
     alt: "Snowboarder against alpine backdrop",
     location: "Crans Montana, Switzerland",
     gallery: "Winter in the Alps",
-    href: "/portfolio/winter-alps",
+    href: "/portfolio/winter-alps#crans-montana-swiss-alps",
   },
   {
     src: "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
     alt: "Mountain cabins at Dinorwic Quarry",
     location: "Dinorwic Quarry, Snowdonia",
     gallery: "Hiking",
-    href: "/portfolio/hiking",
+    href: "/portfolio/hiking#dinorwic-quarry-snowdonia",
   },
   {
     src: "/images/jersey/IMG_4905.jpg",
@@ -43,7 +43,7 @@ const featuredWork = [
     alt: "Sunset over the Mont Blanc massif from Mont Joly",
     location: "Megeve, French Alps",
     gallery: "Hiking",
-    href: "/portfolio/hiking",
+    href: "/portfolio/hiking#mont-joly-megeve",
   },
 ];
 

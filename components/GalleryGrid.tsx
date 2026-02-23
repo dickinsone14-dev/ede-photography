@@ -42,8 +42,13 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
             const sectionStartIndex = runningIndex;
             runningIndex += section.images.length;
 
+            const sectionId = section.title
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")
+              .replace(/(^-|-$)/g, "");
+
             return (
-              <div key={sectionIdx}>
+              <div key={sectionIdx} id={sectionId} className="scroll-mt-24">
                 {/* Section header */}
                 <div className="mb-6">
                   <h2 className="text-xl md:text-2xl font-semibold tracking-tight">
