@@ -2,6 +2,7 @@
   "title": "Hiking",
   "slug": "hiking",
   "category": "portfolio",
+  "order": 1,
   "coverImage": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
   "description": "Mountain landscapes and hiking photography across Wales, the Lake District, the Peak District, and the French Alps. From the quarries of Dinorwic to the summit of Cadair Idris, these images are taken on long days out in the hills — often at dawn or dusk when the light transforms the landscape.",
   "sections": [

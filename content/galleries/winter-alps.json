@@ -2,6 +2,7 @@
   "title": "Winter in the Alps",
   "slug": "winter-alps",
   "category": "portfolio",
+  "order": 2,
   "coverImage": "/images/winter-alps/crans-montana/DSCF2709.jpg",
   "description": "The European Alps in winter — ski touring, mountain villages, and dramatic peaks across the French and Swiss Alps. From the slopes of Megeve and Tignes to the valleys of Nendaz and Crans Montana, these images capture the raw scale and beauty of the mountains under snow.",
   "sections": [

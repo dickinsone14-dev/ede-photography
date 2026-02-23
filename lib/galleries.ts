@@ -19,6 +19,7 @@ export interface Gallery {
   title: string;
   slug: string;
   category: "portfolio" | "other-work";
+  order?: number;
   description: string;
   coverImage: string;
   sections?: GallerySection[];
@@ -38,7 +39,9 @@ export function getAllGalleries(): Gallery[] {
 export function getGalleriesByCategory(
   category: "portfolio" | "other-work"
 ): Gallery[] {
-  return getAllGalleries().filter((g) => g.category === category);
+  return getAllGalleries()
+    .filter((g) => g.category === category)
+    .sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
 }
 
 export function getGalleryBySlug(slug: string): Gallery | undefined {
