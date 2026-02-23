@@ -7,10 +7,18 @@ export default function Footer() {
       {/* Background photo */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <Image
+          src="/images/hiking/dinorwic-quarry-rd2/DSCF2095.jpg"
+          alt=""
+          fill
+          className="object-cover md:hidden"
+          quality={100}
+          sizes="100vw"
+        />
+        <Image
           src="/images/winter-alps/megeve-film/IMG_7877.jpg"
           alt=""
           fill
-          className="object-cover object-[center_42%]"
+          className="object-cover object-[center_42%] hidden md:block"
           quality={100}
           sizes="100vw"
         />

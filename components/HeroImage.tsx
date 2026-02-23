@@ -6,6 +6,8 @@ import { useEffect, useRef } from "react";
 interface HeroImageProps {
   src: string;
   alt: string;
+  mobileSrc?: string;
+  mobileAlt?: string;
   title?: string;
   subtitle?: string;
   overlay?: boolean;
@@ -15,6 +17,8 @@ interface HeroImageProps {
 export default function HeroImage({
   src,
   alt,
+  mobileSrc,
+  mobileAlt,
   title,
   subtitle,
   overlay = true,
@@ -47,15 +51,38 @@ export default function HeroImage({
   return (
     <section className={`relative ${heightClasses[height]} w-full overflow-hidden`}>
       <div ref={imgRef} className="absolute inset-0 will-change-transform">
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          priority
-          quality={100}
-          className="object-cover"
-          sizes="100vw"
-        />
+        {mobileSrc ? (
+          <>
+            <Image
+              src={mobileSrc}
+              alt={mobileAlt || alt}
+              fill
+              priority
+              quality={100}
+              className="object-cover md:hidden"
+              sizes="100vw"
+            />
+            <Image
+              src={src}
+              alt={alt}
+              fill
+              priority
+              quality={100}
+              className="object-cover hidden md:block"
+              sizes="100vw"
+            />
+          </>
+        ) : (
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            priority
+            quality={100}
+            className="object-cover"
+            sizes="100vw"
+          />
+        )}
       </div>
       {overlay && (
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
