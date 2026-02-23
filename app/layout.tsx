@@ -6,11 +6,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "E.D.E Photography — UK Landscape & Adventure Photography",
+    default: "E.D.E Photography — UK Photography",
     template: "%s | E.D.E Photography",
   },
   description:
-    "UK landscape and adventure photography by Ed. Prints available. Specialising in mountains, hiking, and coastal landscapes across Wales, the Alps, and Jersey.",
+    "Photography by Ed. Prints available. Specialising in mountains, hiking, and coastal photography across Wales, the Alps, and Jersey.",
   metadataBase: new URL("https://ede-photography.com"),
   openGraph: {
     type: "website",
@@ -39,7 +39,7 @@ export default function RootLayout({
     "@type": "ProfessionalService",
     name: "E.D.E Photography",
     description:
-      "UK landscape and adventure photography. Prints, licensing, and commissions.",
+      "Photography. Prints, licensing, and commissions.",
     url: "https://ede-photography.com",
     image: "https://ede-photography.com/images/hiking/cadair-idris/DSCF6982-2.jpg",
     sameAs: ["https://www.instagram.com/e.d.e.photography/"],

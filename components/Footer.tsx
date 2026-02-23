@@ -11,7 +11,7 @@ export default function Footer() {
               E.D.E Photography
             </Link>
             <p className="mt-2 text-sm text-brand-text-light">
-              UK Landscape & Adventure Photography
+              UK Photography
             </p>
           </div>
 

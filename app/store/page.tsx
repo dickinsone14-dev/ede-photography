@@ -7,7 +7,7 @@ import storeData from "@/content/store.json";
 export const metadata: Metadata = {
   title: "Store",
   description:
-    "Buy fine art landscape photography prints and digital downloads. Premium giclée prints fulfilled by Picfair with worldwide shipping.",
+    "Buy fine art photography prints and digital downloads. Premium giclée prints fulfilled by Picfair with worldwide shipping.",
 };
 
 interface StoreImage {

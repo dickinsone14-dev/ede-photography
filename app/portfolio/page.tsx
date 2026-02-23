@@ -7,7 +7,7 @@ import { getGalleriesByCategory, getImageCount } from "@/lib/galleries";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Landscape photography galleries — hiking, mountains, coastal, and winter alpine photography across the UK and Europe.",
+    "Photography galleries — hiking, mountains, coastal, and winter alpine photography across the UK and Europe.",
 };
 
 export default function PortfolioIndex() {
@@ -21,8 +21,8 @@ export default function PortfolioIndex() {
             Portfolio
           </h1>
           <p className="text-brand-text-light max-w-2xl">
-            Landscape and adventure photography from the mountains, coastlines,
-            and wild places of the UK and Europe.
+            Photography from the mountains, coastlines, and wild places of
+            the UK and Europe.
           </p>
         </div>
       </ScrollReveal>

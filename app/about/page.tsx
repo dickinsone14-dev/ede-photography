@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About Ed — UK landscape and adventure photographer. Jersey roots, Welsh mountains, Alpine winters.",
+    "About Ed — UK photographer. Jersey roots, Welsh mountains, Alpine winters.",
 };
 
 export default function AboutPage() {
@@ -37,8 +37,7 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-brand-text-light leading-relaxed">
             <p>
-              I&apos;m Ed — a landscape and adventure photographer based in the
-              UK. I grew up in Jersey, surrounded by the sea, and developed an
+              I&apos;m Ed — a photographer based in the UK. I grew up in Jersey, surrounded by the sea, and developed an
               early appreciation for the outdoors and the way light changes
               everything about a place.
             </p>

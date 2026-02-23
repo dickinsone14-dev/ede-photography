@@ -57,7 +57,7 @@ export default function Home() {
         src="/images/hiking/llyn-y-fan-fach/DSCF1692.jpg"
         alt="Three hikers descending a snowy mountain at Llyn y Fan Fach, Brecon Beacons"
         title="E.D.E Photography"
-        subtitle="UK Landscape & Adventure Photography"
+        subtitle="UK Photography"
         height="full"
       />
 
@@ -138,10 +138,10 @@ export default function Home() {
             <div className="max-w-2xl">
               <h2 className="text-lg font-medium text-brand-text-faint mb-4">About</h2>
               <p className="text-brand-text-light leading-relaxed mb-6">
-                I&apos;m Ed — a landscape and adventure photographer based in the
-                UK. Originally from Jersey, I now spend most of my time in the
-                mountains of Wales and further afield, chasing light and weather
-                across ridgelines and coastlines.
+                I&apos;m Ed — a photographer based in the UK. Originally from
+                Jersey, I now spend most of my time in the mountains of Wales
+                and further afield, chasing light and weather across ridgelines
+                and coastlines.
               </p>
               <Link
                 href="/about"
