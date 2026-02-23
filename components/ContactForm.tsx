@@ -15,7 +15,7 @@ export default function ContactForm() {
     const data = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const response = await fetch("https://formspree.io/f/mbdapznw", {
         method: "POST",
         body: data,
         headers: {
@@ -62,7 +62,7 @@ export default function ContactForm() {
           id="name"
           name="name"
           required
-          className="w-full bg-white border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder-brand-text-faint focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors"
+          className="w-full bg-neutral-900 border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder-brand-text-faint focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors"
           placeholder="Your name"
         />
       </div>
@@ -76,7 +76,7 @@ export default function ContactForm() {
           id="email"
           name="email"
           required
-          className="w-full bg-white border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder-brand-text-faint focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors"
+          className="w-full bg-neutral-900 border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder-brand-text-faint focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors"
           placeholder="your@email.com"
         />
       </div>
@@ -89,7 +89,7 @@ export default function ContactForm() {
           id="subject"
           name="subject"
           required
-          className="w-full bg-white border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors"
+          className="w-full bg-neutral-900 border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors"
         >
           <option value="">Select a subject</option>
           <option value="Print enquiry">Print enquiry</option>
@@ -109,7 +109,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={6}
-          className="w-full bg-white border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder-brand-text-faint focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors resize-none"
+          className="w-full bg-neutral-900 border border-brand-border rounded-lg px-4 py-3 text-sm text-brand-text placeholder-brand-text-faint focus:outline-none focus:ring-2 focus:ring-brand-accent/30 focus:border-brand-accent transition-colors resize-none"
           placeholder="Tell me about your project or enquiry..."
         />
       </div>

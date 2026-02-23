@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollIndicator from "@/components/ScrollIndicator";
@@ -6,7 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "E.D.E Photography — UK Photography",
+    default: "E.D.E Photography",
     template: "%s | E.D.E Photography",
   },
   description:
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   other: {
-    "theme-color": "#ffffff",
+    "theme-color": "#000000",
   },
 };
 
@@ -52,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#000000" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -63,6 +64,7 @@ export default function RootLayout({
         <main className="flex-1 pt-16">{children}</main>
         <ScrollIndicator />
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

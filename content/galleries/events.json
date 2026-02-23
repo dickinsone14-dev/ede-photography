@@ -9,85 +9,415 @@
       "title": "The Mansion: Nightmare in Wonderland, London",
       "date": "November 2025",
       "images": [
-        { "src": "/images/events/mansion-nightmare/DSCF1248.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1245.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1162.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1184.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1196.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1201.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1209.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1199.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1227.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1262.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1338.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1268.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1282.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1293.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1322.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1329.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1335.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1343.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1347.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
-        { "src": "/images/events/mansion-nightmare/DSCF1373.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" }
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1248.jpg",
+          "alt": "Saxophonist in sunglasses playing among costumed partygoers beside an ornate gold mirror",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1245.jpg",
+          "alt": "Partygoer holding up a playing card beneath a chandelier in a packed red-walled room",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1162.jpg",
+          "alt": "Costumed crowd dancing near giant red-and-white mushroom props and hanging flowers",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1184.jpg",
+          "alt": "Guest in a police vest costume posing through haze with mushroom decorations behind",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1196.jpg",
+          "alt": "Two friends in red military-style jackets and bow ties with playing card decorations hanging behind them",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1201.jpg",
+          "alt": "Person in a Chucky doll costume dancing on the crowded party floor",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1209.jpg",
+          "alt": "Woman in lace gloves dancing with arm raised beside oversized polka-dot mushroom props in hazy room",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1199.jpg",
+          "alt": "Four friends posing together in red jackets and formal wear with playing card suit decorations on the wall",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1227.jpg",
+          "alt": "Costumed guests gathered near dark paintings as a Chucky costume wearer interacts with the crowd",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1262.jpg",
+          "alt": "Group in Wonderland-themed costumes including a red top hat, ace of spades shirt, and bunny ears posing together",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1338.jpg",
+          "alt": "Five friends in costume makeup and formal wear huddled together holding playing cards",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1268.jpg",
+          "alt": "Three friends relaxing on a sofa beside a glowing red mushroom prop with striped shirts and face paint",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1282.jpg",
+          "alt": "Guests mingling under star-shaped mirror decorations and oversized playing cards on the wall",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1293.jpg",
+          "alt": "Packed crowd singing along in a red-lit room with an arched mirror and playing card wall art",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1322.jpg",
+          "alt": "Two women with Halloween face paint laughing and posing with arms up on the dance floor",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1329.jpg",
+          "alt": "Three friends in costume including a red military jacket and fake wound makeup posing arm-in-arm",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1335.jpg",
+          "alt": "Group of friends laughing and grabbing each other with fake blood makeup in a dark party room",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1343.jpg",
+          "alt": "Partygoers in costume near an ornate gold mirror in a deep red room with playing cards on the wall",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1347.jpg",
+          "alt": "Guest holding a cocktail and smiling at camera against red damask wallpaper and velvet curtains",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/mansion-nightmare/DSCF1373.jpg",
+          "alt": "Partygoers in bunny ears and costumes laughing in a tightly packed crowd with Halloween makeup",
+          "location": "London",
+          "date": "2025-11",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "Boomtown, Winchester",
       "date": "August 2025",
       "images": [
-        { "src": "/images/events/boomtown/DSC01560.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01520.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01646.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01324.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01368.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01348.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01382.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01406.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01285.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
-        { "src": "/images/events/boomtown/DSC01593.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" }
+        {
+          "src": "/images/events/boomtown/DSC01560.jpg",
+          "alt": "Black and white shot of a Union Jack flag waving in front of a massive industrial stage set with sweeping spotlights",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01520.jpg",
+          "alt": "Huge crowd facing an ornate castle-themed main stage at golden hour with dust rising in the sunlight",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01646.jpg",
+          "alt": "Night-time crowd before a grand illuminated stage with teal lights, pyrotechnics, and fire columns",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01324.jpg",
+          "alt": "Festival crowd in a woodland clearing with a flare held aloft casting orange light through the trees",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01368.jpg",
+          "alt": "Green and yellow lasers cutting across the night sky over a silhouetted crowd with LED screens on stage",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01348.jpg",
+          "alt": "DJ performing under purple lights in the pharmacy-themed Little Pharma stage with neon molecule graphics",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01382.jpg",
+          "alt": "Massive crowd before a palace-style stage with golden light beams streaming through haze at night",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01406.jpg",
+          "alt": "Festival crowd dancing beneath a geometric star-shaped stage structure in a sunlit forest clearing",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01285.jpg",
+          "alt": "Wide view of thousands gathered before the ornate main stage under dramatic overcast skies with flags waving",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/boomtown/DSC01593.jpg",
+          "alt": "Reveller in a cowboy hat reaching toward the camera with blue stage lights illuminating the crowd behind",
+          "location": "Winchester",
+          "date": "2025-08",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "Winestock, London",
       "date": "July 2025",
       "images": [
-        { "src": "/images/events/winestock/DSCF9177.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9131.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9125.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9170.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9110-2.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9115.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9120.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/winestock/DSCF9136.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" }
+        {
+          "src": "/images/events/winestock/DSCF9177.jpg",
+          "alt": "Close-up of the Winestock logo on a glossy black DJ booth reflecting the crowd at night",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9131.jpg",
+          "alt": "Guest in a velvet blazer holding a glass of wine with a tipi tent and festoon lights behind at dusk",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9125.jpg",
+          "alt": "Group of friends in elegant dresses and black tie holding drinks and chatting at golden hour",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9170.jpg",
+          "alt": "Performer in a blue feathered headdress and costume elevated above the crowd under festoon lights at night",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9110-2.jpg",
+          "alt": "Three friends in black tie laughing while riding a cargo bike across the festival lawn",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9115.jpg",
+          "alt": "Golden sunset casting long shadows over smartly dressed guests socialising between marquees on the lawn",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9120.jpg",
+          "alt": "Photographer shooting through a film camera with guests in formal wear and a dramatic sunset behind",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/winestock/DSCF9136.jpg",
+          "alt": "Guests gathered on a dance floor under a stretch tent with the lit Winestock stage backdrop at dusk",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "The Panther Club: Grand Opening, London",
       "date": "July 2025",
       "images": [
-        { "src": "/images/events/panther-club/DSCF8942.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF9001.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF8975-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF8962-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF8964-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF8909.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF9016-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF8978.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
-        { "src": "/images/events/panther-club/DSCF8896-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" }
+        {
+          "src": "/images/events/panther-club/DSCF8942.jpg",
+          "alt": "Guest in a bow tie throwing rock-and-roll hand signs in a sepia-toned crowded club",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF9001.jpg",
+          "alt": "DJ mixing on Pioneer decks with headphones around his neck while a woman watches from beside the booth",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF8975-2.jpg",
+          "alt": "DJ in a patterned shirt with headphones adjusting the decks as guests in formalwear look on",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF8962-2.jpg",
+          "alt": "Dimly lit cocktail bar with a glowing chandelier and silhouetted figures at the backlit counter",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF8964-2.jpg",
+          "alt": "Two guests in velvet blazers chatting near the bar with bottles on illuminated shelves behind them",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF8909.jpg",
+          "alt": "Four friends in smart evening wear posing together inside the dark club",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF9016-2.jpg",
+          "alt": "Young DJ in a suit with headphones around his neck focused on Pioneer CDJs as a couple dances behind",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF8978.jpg",
+          "alt": "Silhouette of a figure walking through a tunnel of illuminated arches at the club entrance",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/panther-club/DSCF8896-2.jpg",
+          "alt": "Couple holding a martini glass standing in a moody, dimly lit lounge with a chandelier reflected in the glass wall",
+          "location": "London",
+          "date": "2025-07",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "The Mansion: I love you to the Moon and back, London",
       "date": "February 2025",
       "images": [
-        { "src": "/images/events/mansion-moon/DSC00571.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00574-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00579.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00595-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00599-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00602-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00590.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
-        { "src": "/images/events/mansion-moon/DSC00596.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" }
+        {
+          "src": "/images/events/mansion-moon/DSC00571.jpg",
+          "alt": "Packed dance floor beneath a crystal chandelier and laser beams in an ornate mansion ballroom",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00574-2.jpg",
+          "alt": "Partygoer in a Yoda mask with an open robe posing beside a smiling woman in black and white",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00579.jpg",
+          "alt": "Guitarist playing a Stratocaster on a leather sofa with paintings on the wall behind in black and white",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00595-2.jpg",
+          "alt": "DJ mixing on CDJs with hands raised from the crowd visible in dramatic backlight and haze",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00599-2.jpg",
+          "alt": "Ornate chandelier on a carved ceiling with a neon light tube trailing down in a grand mansion room",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00602-2.jpg",
+          "alt": "Guests lounging on sofas beneath large oil paintings and a neon light installation in a grand room",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00590.jpg",
+          "alt": "Young woman with arm raised dancing in a crowded red-walled room with a chandelier and ornate mirror above",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/events/mansion-moon/DSC00596.jpg",
+          "alt": "Glowing mirror ball casting light through a dark room filled with chandeliers and red-purple haze",
+          "location": "London",
+          "date": "2025-02",
+          "orientation": "landscape"
+        }
       ]
     }
   ]

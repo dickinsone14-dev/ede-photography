@@ -1,0 +1,583 @@
+{
+  "title": "Hiking the UK",
+  "slug": "hiking-uk",
+  "category": "portfolio",
+  "order": 1,
+  "coverImage": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
+  "description": "Mountain landscapes and hiking photography across Wales, the Lake District, and the Peak District. From the quarries of Dinorwic to the summit of Cadair Idris, these images are taken on long days out in the hills — often at dawn or dusk when the light transforms the landscape.",
+  "sections": [
+    {
+      "title": "Dinorwic Quarry (Rd. 2), Snowdonia",
+      "date": "December 2025",
+      "images": [
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2034-3.jpg",
+          "alt": "Dark slate rock face with heather in the foreground and cloud-shrouded mountains behind under an overcast sky",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2228.jpg",
+          "alt": "Rows of ruined slate quarry workers' barracks lining a muddy path with a mountain rising beyond under stormy skies",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2252.jpg",
+          "alt": "Person descending slate steps beside a quarry wall overlooking a still lake with cloud-capped mountains in the distance",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2271.jpg",
+          "alt": "Mountain and lake framed through bare winter tree branches under dramatic dark clouds",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2308.jpg",
+          "alt": "Wild mountain goats with large curved horns walking along a stone wall beside a road in a wooded valley",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2135.jpg",
+          "alt": "Two hikers emerging from the dark mouth of a quarry tunnel along old rail tracks into overcast mountain landscape",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2066.jpg",
+          "alt": "Lone hiker dwarfed by a towering dark slate quarry face with a bench in the grassy foreground",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF1988-2.jpg",
+          "alt": "Two hikers with large backpacks sitting on slate and looking out over a valley and lake from a quarry ledge",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2168.jpg",
+          "alt": "Bilingual Welsh and English warning notice sign at the entrance to the quarry with misty mountains behind",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2095.jpg",
+          "alt": "Person climbing steep slate steps on a dark quarry incline surrounded by rough-cut rock walls",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF1909.jpg",
+          "alt": "Person resting against graffiti-covered quarry shelter walls lit by flash in the darkness",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2073-3.jpg",
+          "alt": "Sheer vertical slate quarry cliff face rising against an overcast grey sky",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/22080014.jpg",
+          "alt": "Ruined quarry shelter with open doorway framing cloud-wrapped Snowdonia peaks across a heather moorland, shot on film",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/22080010.jpg",
+          "alt": "Misty mountain panorama viewed through the window of a ruined quarry building, shot on film",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry-rd2/22080002.jpg",
+          "alt": "Person unpacking gear inside a graffiti-covered quarry building with a washing line strung across the room, shot on film",
+          "location": "Snowdonia",
+          "date": "2025-12",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "title": "Llyn y Fan Fach, Brecon Beacons",
+      "date": "November 2025",
+      "images": [
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
+          "alt": "Snow-covered escarpment curving around the dark waters of Llyn y Fan Fach with mist rolling over the ridge",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1603.jpg",
+          "alt": "Aerial view of dark glacial lake nestled beneath frost-covered cliffs disappearing into low cloud",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1648.jpg",
+          "alt": "Two hikers walking along a frosty cliff-edge path above a steep drop into thick mist",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1678.jpg",
+          "alt": "Hiker standing on a frosty ridge edge looking down over a frozen landscape and distant lake in heavy mist",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1692.jpg",
+          "alt": "Three hikers descending a snowy slope into thick fog with a mountain escarpment barely visible behind",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1762-2.jpg",
+          "alt": "Snow-dusted steep mountainside with exposed rock bands vanishing into low cloud",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1813.jpg",
+          "alt": "Frosty path leading through moorland toward a snow-dusted escarpment at dusk",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1854.jpg",
+          "alt": "Three hikers descending a hillside trail beside a stream toward a small pool with mountains behind at dusk",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/llyn-y-fan-fach/DSCF1860.jpg",
+          "alt": "Lone figure walking along a road in a grassy valley with a stream and snow-capped mountains in the fading light",
+          "location": "Brecon Beacons",
+          "date": "2025-11",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "title": "Ogwen Valley, Snowdonia",
+      "date": "October 2025",
+      "images": [
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1043.jpg",
+          "alt": "Mountain summit rising against dramatic streaked clouds at dusk with steep gullies falling into shadow",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1008.jpg",
+          "alt": "Two hikers resting on a rocky summit overlooking a wide U-shaped valley stretching toward the coast under heavy cloud",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1130.jpg",
+          "alt": "Jagged rocky peak of Tryfan rising dramatically against dark clouds with golden grass and slate in the foreground",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1015.jpg",
+          "alt": "Hiker with backpack walking across open moorland in black and white with mountains and dramatic clouds behind",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1013.jpg",
+          "alt": "Lone hiker walking across windswept moorland in black and white with a mountain backdrop and billowing clouds",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1012.jpg",
+          "alt": "Hiker leaning into the wind on an exposed grassy ridge in black and white with arm raised against dramatic sky",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1040.jpg",
+          "alt": "Two silhouetted hikers ascending a steep grassy ridge with mountains stretching into the distance in black and white",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1032.jpg",
+          "alt": "Mountain summit in black and white rising above a dark cwm with a path visible along the ridge under moody clouds",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1011.jpg",
+          "alt": "View down through rocky crags to a lake far below in a mountain cwm, shot in black and white",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1003.jpg",
+          "alt": "Sweeping valley view from a rocky vantage point with a winding river and road far below in black and white",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/ogwen-valley/DSCF1057.jpg",
+          "alt": "Wide moorland plateau between mountains with a wild camp tent visible and dramatic clouds gathering overhead in black and white",
+          "location": "Snowdonia",
+          "date": "2025-10",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "title": "Cadair Idris, Snowdonia",
+      "date": "May 2025",
+      "images": [
+        {
+          "src": "/images/hiking/cadair-idris/DSCF6982-2.jpg",
+          "alt": "Silhouetted figure standing on a rock outcrop against a vivid sunset sky of orange, pink, and blue",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF7227.jpg",
+          "alt": "Steep cliff edge with a trail along the summit ridge looking out over hazy hills under a clear sky",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF7177-2.jpg",
+          "alt": "Sunlit green valley with a winding road viewed from a high mountain vantage point above the treeline",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF7267.jpg",
+          "alt": "Sheep grazing on a hillside below the dark imposing cliffs of a mountain summit in black and white",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF6917-2.jpg",
+          "alt": "Person sitting among rock formations bathed in warm golden light with a sunlit mountain face behind at sunset",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF7279-2.jpg",
+          "alt": "Llyn Cau lake nestled in a dramatic mountain amphitheatre below the Cadair Idris summit under a clear sky",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF7231.jpg",
+          "alt": "View from the mountain summit over rolling hills toward a distant estuary and coastline in hazy light",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/cadair-idris/DSCF7195.jpg",
+          "alt": "Fence post and wire on a grassy ridge with a steep drop to a dark mountain lake below and cliffs beyond",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        }
+      ]
+    },
+    {
+      "title": "Dinorwic Quarry, Snowdonia",
+      "date": "May 2025",
+      "images": [
+        {
+          "src": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
+          "alt": "Ruined slate quarry buildings at twilight with a half moon above and Snowdon range lit by the last golden light",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry/DSCF7765.jpg",
+          "alt": "Overgrown path between rows of ruined slate quarry barracks with mountains and summer clouds ahead",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry/DSCF8090-2.jpg",
+          "alt": "Sunset over Snowdonia mountains with pink and orange clouds reflected in a dark lake seen from the quarry",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry/DSCF8372.jpg",
+          "alt": "Hiker walking toward ruined quarry winding house with large iron drums and slate buildings in warm evening light",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/dinorwic-quarry/DSCF8378.jpg",
+          "alt": "Ruined slate building gable end framing a distant mountain ridge and winding path in muted sepia tones",
+          "location": "Snowdonia",
+          "date": "2025-05",
+          "orientation": "portrait"
+        }
+      ]
+    },
+    {
+      "title": "Back Tor, Peak District",
+      "date": "May 2025",
+      "images": [
+        {
+          "src": "/images/hiking/back-tor/DSCF7441.jpg",
+          "alt": "Weathered gritstone outcrop with a sunlit capstone perched on top overlooking rolling Peak District moorland under a blue sky",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/back-tor/DSCF7513.jpg",
+          "alt": "Person sitting on the edge of a gritstone tor with legs dangling over the drop, looking out over the moorland at golden hour",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/back-tor/DSCF7653.jpg",
+          "alt": "Hiker standing on a rocky outcrop looking across heather moorland and distant hills in warm afternoon light",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/back-tor/DSCF7707.jpg",
+          "alt": "Winding country road under a large tree with stone walls and green hills stretching into the distance on a sunny day",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/back-tor/DSCF7666.jpg",
+          "alt": "Hiker walking along a flagstone path through heather moorland toward distant Peak District hills under a clear sky",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/back-tor/DSCF7316.jpg",
+          "alt": "Gravel track stretching into the distance across open moorland with sheep grazing nearby under an overcast sky",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/back-tor/DSCF7370.jpg",
+          "alt": "Large gritstone boulder on moorland with sun rays breaking through clouds over the distant hills",
+          "location": "Peak District",
+          "date": "2025-05",
+          "orientation": "portrait"
+        }
+      ]
+    },
+    {
+      "title": "Pen y Fan, Brecon Beacons",
+      "date": "March 2025",
+      "images": [
+        {
+          "src": "/images/hiking/pen-y-fan/DSC00852.jpg",
+          "alt": "Cribyn summit bathed in golden sunrise light with its distinctive pointed ridge and steep eroded face",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/DSC00803.jpg",
+          "alt": "Silhouette of a bird in flight over layered Brecon Beacons ridges fading into a warm golden haze at sunset",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/DSC00835.jpg",
+          "alt": "Hiker with green backpack climbing toward the Pen y Fan summit at golden hour with sweeping ridgelines lit by warm light",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69630026-3.jpg",
+          "alt": "Brecon Beacons ridgeline with flat-topped summits and a copse of trees at the base in warm film tones",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69630027.jpg",
+          "alt": "Open moorland with a stream and a distant paraglider in the sky above rolling hills, shot on film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69630030.jpg",
+          "alt": "The steep north face of Pen y Fan rising sharply against a clear blue sky with dry grass in the foreground, shot on film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69630034.jpg",
+          "alt": "Layered mountain ridges receding into warm hazy light at golden hour with tiny figures silhouetted on the nearest ridge, shot on film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69630025.jpg",
+          "alt": "Hikers walking along a fenced track toward Pen y Fan with the flat summit visible in the distance, shot on film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69610014.jpg",
+          "alt": "Three hikers descending the rocky summit plateau of Pen y Fan with sweeping valley views behind in black and white film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69610021.jpg",
+          "alt": "The pointed ridge of Cribyn casting deep shadows across the hillside in black and white film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69610027.jpg",
+          "alt": "Portrait of a hiker in a beanie and jacket with Pen y Fan rising behind in black and white film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69610032.jpg",
+          "alt": "Wild mountain pony grazing on frosty grass with misty hills in the background in black and white film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69630026-2.jpg",
+          "alt": "Pen y Fan and Corn Du ridgeline with a stand of trees at the base of the mountain seen from the approach path in black and white film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/pen-y-fan/69610025.jpg",
+          "alt": "Hiker with a large backpack standing on a path looking across open Brecon Beacons moorland in black and white film",
+          "location": "Brecon Beacons",
+          "date": "2025-03",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "title": "Helvellyn, Lake District",
+      "date": "June 2024",
+      "images": [
+        {
+          "src": "/images/hiking/helvellyn/IMG_0804.jpg",
+          "alt": "Two hikers standing on a summit looking out over green valleys and lakes under an overcast sky, shot on film",
+          "location": "Lake District",
+          "date": "2024-06",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/helvellyn/IMG_0783.jpg",
+          "alt": "Mountain tarn nestled between green hillsides reflecting white cumulus clouds under a blue sky, shot on film",
+          "location": "Lake District",
+          "date": "2024-06",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/helvellyn/IMG_0792.jpg",
+          "alt": "Hiker with a large backpack walking through a lush green valley toward distant hills and a lake, shot on film",
+          "location": "Lake District",
+          "date": "2024-06",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/helvellyn/IMG_0797.jpg",
+          "alt": "Two hikers scrambling along a narrow rocky ridge with steep green slopes falling away on both sides, shot on film",
+          "location": "Lake District",
+          "date": "2024-06",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/hiking/helvellyn/IMG_0782.jpg",
+          "alt": "Sheep on a grassy hillside with rolling green Lake District fells stretching into the hazy distance, shot on film",
+          "location": "Lake District",
+          "date": "2024-06",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/helvellyn/IMG_0801.jpg",
+          "alt": "Person looking out from a tent at a calm mountain lake while holding a mug with camping gear nearby, shot on film",
+          "location": "Lake District",
+          "date": "2024-06",
+          "orientation": "landscape"
+        }
+      ]
+    }
+  ]
+}

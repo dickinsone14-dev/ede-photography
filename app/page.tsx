@@ -6,18 +6,18 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const featuredWork = [
   {
-    src: "/images/hiking/cadair-idris/DSCF6982-2.jpg",
-    alt: "Silhouette on the summit of Cadair Idris at golden hour",
+    src: "/images/hiking/cadair-idris/DSCF7279-2.jpg",
+    alt: "Llyn Cau and the cliffs of Cadair Idris",
     location: "Cadair Idris, Snowdonia",
-    gallery: "Hiking",
-    href: "/portfolio/hiking#cadair-idris-snowdonia",
+    gallery: "Hiking the UK",
+    href: "/portfolio/hiking-uk#cadair-idris-snowdonia",
   },
   {
     src: "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
     alt: "Llyn y Fan Fach crater lake in snow",
     location: "Brecon Beacons",
-    gallery: "Hiking",
-    href: "/portfolio/hiking#llyn-y-fan-fach-brecon-beacons",
+    gallery: "Hiking the UK",
+    href: "/portfolio/hiking-uk#llyn-y-fan-fach-brecon-beacons",
   },
   {
     src: "/images/winter-alps/crans-montana/DSCF2709.jpg",
@@ -30,8 +30,8 @@ const featuredWork = [
     src: "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
     alt: "Mountain cabins at Dinorwic Quarry",
     location: "Dinorwic Quarry, Snowdonia",
-    gallery: "Hiking",
-    href: "/portfolio/hiking#dinorwic-quarry-snowdonia",
+    gallery: "Hiking the UK",
+    href: "/portfolio/hiking-uk#dinorwic-quarry-snowdonia",
   },
   {
     src: "/images/jersey/IMG_4905.jpg",
@@ -44,8 +44,8 @@ const featuredWork = [
     src: "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
     alt: "Sunset over the Mont Blanc massif from Mont Joly",
     location: "Megeve, French Alps",
-    gallery: "Hiking",
-    href: "/portfolio/hiking#mont-joly-megeve",
+    gallery: "Hiking Abroad",
+    href: "/portfolio/hiking-abroad#mont-joly-megeve",
   },
 ];
 
@@ -57,7 +57,6 @@ export default function Home() {
         src="/images/hiking/llyn-y-fan-fach/DSCF1692.jpg"
         alt="Three hikers descending a snowy mountain at Llyn y Fan Fach, Brecon Beacons"
         title="E.D.E Photography"
-        subtitle="UK Photography"
         height="full"
       />
 
@@ -70,10 +69,10 @@ export default function Home() {
             </h2>
             <p className="text-brand-text-light leading-relaxed">
               I photograph the landscapes of the UK and beyond — from the ridges
-              of the Brecon Beacons and Snowdonia to the shores of Jersey and the
-              peaks of the Alps. My work is driven by early starts, long hikes,
-              and a love of being in the mountains when the light does something
-              extraordinary.
+              of the Brecon Beacons and Snowdonia to the Lake District, the
+              shores of Jersey, and the peaks of the Alps. My photography comes from the things I love
+              doing — early starts, long days on the hill, and time spent in
+              places that stay with you.
             </p>
           </div>
         </section>
@@ -140,8 +139,8 @@ export default function Home() {
               <p className="text-brand-text-light leading-relaxed mb-6">
                 I&apos;m Ed — a photographer based in the UK. Originally from
                 Jersey, I now spend most of my time in the mountains of Wales
-                and further afield, chasing light and weather across ridgelines
-                and coastlines.
+                and further afield. My photography is shaped by the things I
+                love doing and the time I spend in these places.
               </p>
               <Link
                 href="/about"

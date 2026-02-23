@@ -10,85 +10,415 @@
       "title": "Megeve, French Alps",
       "date": "January 2026",
       "images": [
-        { "src": "/images/winter-alps/megeve-film/IMG_7873.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7902.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7919.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7872.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7877.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7910.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7909.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7893.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7911.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7935.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7918.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7925.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-film/IMG_7933.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" }
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7873.jpg",
+          "alt": "Wooden mountain hut terrace with skiers resting beside it, overlooking snow-covered slopes and a jagged peak in the distance",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7902.jpg",
+          "alt": "Skier in a red jacket standing with poles on a sunny mountaintop, facing a panoramic view of the Mont Blanc massif with other skiers lounging in deck chairs",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7919.jpg",
+          "alt": "Close-up portrait of a smiling skier wearing orange mirrored sunglasses and a dark puffer jacket, holding ski poles with snowy mountains behind",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7872.jpg",
+          "alt": "Dramatic panoramic view of the Mont Blanc massif with snow-covered ridges and exposed rock faces under a hazy winter sky",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7877.jpg",
+          "alt": "Skiers relaxing in deck chairs at a mountaintop terrace with skis and snowboards propped up, sharp alpine peaks stretching across the horizon",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7910.jpg",
+          "alt": "Group of friends in ski gear being hit by a snowball mid-air, laughing on a sunny slope with pine trees in the background",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7909.jpg",
+          "alt": "Chairlift carrying skiers uphill framed by dark pine trees, with snow-covered alpine peaks and a clear blue sky behind",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7893.jpg",
+          "alt": "Moody overcast sky above snow-dusted mountain ridges with dark forested valleys and ski runs visible below",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7911.jpg",
+          "alt": "Group of eight skiers and snowboarders posing together on a snowy summit with a distant peak rising behind them under a clear blue sky",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7935.jpg",
+          "alt": "Remote alpine chalets nestled in a wide, untouched snow-covered valley with rolling white hills and a rocky ridge to the left",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7918.jpg",
+          "alt": "Lone skier in an orange jacket gliding down a groomed piste toward a chairlift station, with pine trees and distant peaks in late afternoon light",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7925.jpg",
+          "alt": "Sweeping view of snow-covered alpine ridges and forested valleys at dusk, with a prominent peak catching the last golden light",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-film/IMG_7933.jpg",
+          "alt": "Young man in a beanie laughing among friends on a snowy plateau, with alpine chalets and snow-covered hills in the warm afternoon sun",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "Tignes, French Alps",
       "date": "January 2026",
       "images": [
-        { "src": "/images/winter-alps/tignes/IMG_7847.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7829.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7857.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7831.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7837.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7849.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7852.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/tignes/IMG_7861.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" }
+        {
+          "src": "/images/winter-alps/tignes/IMG_7847.jpg",
+          "alt": "Rocky mountain peak rising above undulating snow-covered terrain with ski lift poles visible, shot on expired film giving a warm pink-toned sky",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7829.jpg",
+          "alt": "Silhouette of a jagged mountain ridge against a dusky pink and teal sky with a single airplane contrail streaking overhead",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7857.jpg",
+          "alt": "Two skiers silhouetted against a snow-covered peak bathed in pink alpine light, shot with grainy expired film tones",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7831.jpg",
+          "alt": "Panoramic view of rugged snow-covered high-altitude peaks with exposed rock faces under a moody pink-tinted sky",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7837.jpg",
+          "alt": "Sharp rocky summit with steep snow-filled couloirs and ski tracks visible on the lower slopes under a deep teal sky",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7849.jpg",
+          "alt": "Empty chairlift ascending a steep snow-covered mountainside with cables stretching upward against a partly cloudy sky",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7852.jpg",
+          "alt": "Snow-covered mountain chalet with glowing windows at twilight, dwarfed by a dramatic rocky peak rising steeply behind in blue evening light",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/tignes/IMG_7861.jpg",
+          "alt": "Rugged mountainside with patches of snow and exposed rock under a hazy pink sky, shot with warm expired film tones",
+          "location": "Tignes, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "Megeve, French Alps",
       "date": "January 2026",
       "images": [
-        { "src": "/images/winter-alps/megeve-hike/DSCF3693.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-hike/DSCF3964.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-hike/DSCF3831.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-hike/DSCF4100.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-hike/DSCF3926.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-hike/DSCF4055.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
-        { "src": "/images/winter-alps/megeve-hike/DSCF4136.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" }
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF3693.jpg",
+          "alt": "Snowflakes falling at night illuminated against a dark sky, with footprints in the snow visible at the bottom of the frame",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF3964.jpg",
+          "alt": "Black bird in flight silhouetted against a sunset sky over snow-covered ski slopes, with distant alpine peaks on the horizon",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF3831.jpg",
+          "alt": "Closed ski run sign reading Ferme at dusk with dramatic snow-capped peaks and deep valleys in the fading twilight behind",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF4100.jpg",
+          "alt": "Empty chairlift silhouetted against a golden dusk sky, suspended above snow-covered slopes with alpine peaks glowing in the distance",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF3926.jpg",
+          "alt": "Birds soaring over a vast mountain panorama at sunset, with jagged snow-covered peaks and deep shadowed valleys below a warm glowing sky",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF4055.jpg",
+          "alt": "Distant mountain range with sunlit snow-covered peaks glowing golden at sunset above a dark shadowed valley at blue hour",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-hike/DSCF4136.jpg",
+          "alt": "Off-piste danger warning sign in French, English, and German with dramatic snow-covered peaks and Mont Blanc massif visible behind at dusk",
+          "location": "Megeve, France",
+          "date": "2026-01",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "Nendaz, Swiss Alps",
       "date": "December 2025",
       "images": [
-        { "src": "/images/winter-alps/nendaz/DSCF3260.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/nendaz/DSCF3525.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/nendaz/DSCF3579.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/nendaz/DSCF3621.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/nendaz/DSCF3495.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/nendaz/DSCF3617.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/nendaz/DSCF3522.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" }
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3260.jpg",
+          "alt": "Hiker with a headlamp walking through deep snow at night in a mountain valley, dark forested slopes rising on either side",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3525.jpg",
+          "alt": "Black and white image of a steep snow-covered alpine slope with scattered pine trees casting long shadows in bright sunlight",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3579.jpg",
+          "alt": "Ski tourer carrying skis on a backpack, hiking down a snowy ridge overlooking a valley with other skiers below, shot in black and white",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3621.jpg",
+          "alt": "Mountain peak covered in ski tracks weaving through fresh snow, with exposed rocky summit, shot in high-contrast black and white",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3495.jpg",
+          "alt": "Rugged alpine peak with steep rocky faces and sparse snow cover rising dramatically against a clear sky, shot in black and white",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3617.jpg",
+          "alt": "Jagged mountain ridge with multiple peaks silhouetted against a grey sky, minimal snow on the dark rocky faces, shot in black and white",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/nendaz/DSCF3522.jpg",
+          "alt": "Snow-dusted mountain peak with a jet contrail streaking across a clear sky above, scattered trees on the lower slopes, shot in black and white",
+          "location": "Nendaz, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        }
       ]
     },
     {
       "title": "Crans Montana, Swiss Alps",
       "date": "December 2025",
       "images": [
-        { "src": "/images/winter-alps/crans-montana/DSCF2999.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2976.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2709.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2433.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2599.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2695.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2849.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2888.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2608.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2602.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2538.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF2758-2.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3103.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3181.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3121.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3114.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3138.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3166.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3093.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
-        { "src": "/images/winter-alps/crans-montana/DSCF3176.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" }
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2999.jpg",
+          "alt": "Piste basher grooming machine working at night on a steep ski slope, headlights illuminating the snow and powder spray",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2976.jpg",
+          "alt": "Dramatic panorama of snow-covered Swiss Alps peaks under heavy dark clouds, deep valley in shadow below",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2709.jpg",
+          "alt": "Snowboarder wearing a Santa hat standing on a summit looking out over a vast range of snow-covered peaks under moody clouds, boards and skis laid in the snow",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2433.jpg",
+          "alt": "Group of people gathered around wine barrels on a wooden mountain terrace, dramatic snow-capped peaks and stormy clouds filling the background",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2599.jpg",
+          "alt": "Low-angle view of a skier resting on the snow, shot from ski boot level showing black ski boots with red buckles and reflective goggles against an overcast sky",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2695.jpg",
+          "alt": "Rows of skis and poles stored in a rack at a mountain restaurant, with a skier standing beside them looking toward distant snow-covered peaks under cloudy skies",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2849.jpg",
+          "alt": "Avalanche barrier fence curving along a snowy ridgeline with a vast panorama of alpine peaks fading into cloud and haze beyond",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2888.jpg",
+          "alt": "Sweeping mountain valley view under dramatic dark storm clouds with patches of warm light breaking through onto distant snow-covered peaks",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2608.jpg",
+          "alt": "Close-up of Atomic skis with artistic blue and black graphics resting in snow, with a moody mountain panorama and overcast sky behind",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2602.jpg",
+          "alt": "Cable car pylons and gondola on a snow-covered cliff edge with exposed rocky outcrops, overlooking a vast alpine valley under stormy skies",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2538.jpg",
+          "alt": "Steep rocky cliff face with a lone tree clinging to the edge, snow-covered peaks visible through clouds in the distance under a dark moody sky",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF2758-2.jpg",
+          "alt": "Ski resort information board with digital clock and piste map at the top of a run, panoramic view of snow-covered mountains and deep valley behind",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3103.jpg",
+          "alt": "Two cable car gondolas suspended on wires against a dramatic cloudy sky at dusk, with a chain of snow-covered peaks along the horizon below",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3181.jpg",
+          "alt": "Multilingual danger of falling warning sign on a snowy mountain ridge with steep drop-offs and alpine peaks under overcast skies behind",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3121.jpg",
+          "alt": "Cable car gondola silhouetted against a warm sunset sky, passing a dramatic snow-covered cliff face with exposed rock layers and distant peaks",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3114.jpg",
+          "alt": "Massive exposed rock face rising from a snow-covered slope with orange piste markers, under a muted golden overcast sky",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3138.jpg",
+          "alt": "Single cable car gondola suspended above a deep alpine valley at dusk, snow-covered mountain range stretching across the background under warm evening clouds",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3166.jpg",
+          "alt": "Wide panoramic view of snow-covered alpine ridges with rocky outcrops in the foreground, layered mountain peaks receding into a hazy overcast sky",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3093.jpg",
+          "alt": "Cable car pylon perched on a steep snow-covered cliff edge with dramatic rock formations, distant alpine peaks and moody clouds filling the background",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/crans-montana/DSCF3176.jpg",
+          "alt": "Mountain ski station buildings and chairlift on a snowy ridge with piste markers in the foreground, panoramic view of distant peaks under a golden overcast sky",
+          "location": "Crans Montana, Switzerland",
+          "date": "2025-12",
+          "orientation": "landscape"
+        }
       ]
     }
   ]

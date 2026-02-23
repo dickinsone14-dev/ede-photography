@@ -32,7 +32,7 @@ export default function Navbar() {
   }, [mobileOpen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-brand-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-brand-border">
       <div className="container-wide flex items-center justify-between h-16">
         <Link
           href="/"
@@ -93,7 +93,7 @@ export default function Navbar() {
       {/* Mobile nav */}
       <div
         ref={mobileRef}
-        className="md:hidden border-t border-brand-border bg-white/95 backdrop-blur-md overflow-hidden transition-all duration-300 ease-in-out"
+        className="md:hidden border-t border-brand-border bg-black/95 backdrop-blur-md overflow-hidden transition-all duration-300 ease-in-out"
         style={{ maxHeight: 0, opacity: 0 }}
       >
         <ul className="flex flex-col py-4">

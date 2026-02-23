@@ -59,7 +59,7 @@ export default function ScrollIndicator() {
         visible ? "opacity-100" : "opacity-0"
       }`}
     >
-      <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-brand-text-faint/70 bg-white/60 backdrop-blur-sm rounded-full px-3 py-1">
+      <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-brand-text-faint/70 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1">
         Scroll
       </span>
       <svg

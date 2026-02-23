@@ -2,26 +2,111 @@
   "title": "Jersey & the Coast",
   "slug": "jersey-coast",
   "category": "portfolio",
-  "order": 3,
+  "order": 4,
   "coverImage": "/images/jersey/IMG_4210.jpg",
   "description": "Jersey and its coastline — the rugged shores, hidden coves, and ever-changing light of the Channel Islands. From cliff walks to sheltered bays, these images explore the island's wild Atlantic-facing coast.",
   "images": [
-    { "src": "/images/jersey/DSCF8637-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF9255.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4905.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4886.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4878.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4884.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4901.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4894.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4900.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/IMG_4210.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF8632-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF8819.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF8830.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF9097-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSC00385.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/972EC151-E41B-4010-9BD4-32203E07EF9A.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
-    { "src": "/images/jersey/DSCF8630-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" }
+    {
+      "src": "/images/jersey/DSCF8637-2.jpg",
+      "alt": "Stone sea wall with rusted metal railings overlooking turquoise waves, with a distant lighthouse and headland under golden evening clouds",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/DSCF9255.jpg",
+      "alt": "Black and white photograph of a shirtless young man standing on jagged coastal rocks, seen from behind, looking out toward scrubland",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4905.jpg",
+      "alt": "Steep green hillside covered in heather and gorse dropping down to dark rocky cliffs and calm sea under an overcast sky",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4886.jpg",
+      "alt": "Green headland with worn cliff paths jutting into a calm blue-grey sea, with fern fronds blurred in the foreground",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4878.jpg",
+      "alt": "Sheltered cove framed by lush green headlands and ferns, with calm water and distant wooded hills under a hazy sky",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4884.jpg",
+      "alt": "Rocky hilltop outcrop surrounded by red-brown heather and bright green ferns on a coastal cliff edge with the sea beyond",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4901.jpg",
+      "alt": "View across a bay toward a rocky headland with a communications tower and clustered buildings, framed by fern branches under moody grey clouds",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4894.jpg",
+      "alt": "Man checking his phone beside a wooden footpath signpost on a fern-lined coastal cliff path with a calm blue sea in the background",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4900.jpg",
+      "alt": "Hidden cove with rocky green headland glimpsed through overhanging oak branches and ferns on a still summer day",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/IMG_4210.jpg",
+      "alt": "Rows of turquoise waves seen through a weathered orange metal railing along a seaside promenade, with a distant tower on the horizon",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/DSCF8632-2.jpg",
+      "alt": "Wide sandy beach at golden hour with distant figures walking along the shoreline, waves breaking and green cliffs rising in the background",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/DSCF8819.jpg",
+      "alt": "Sea kayaker in a yellow kayak paddling between brown rocky outcrops with seagulls perched on the rocks in calm grey water",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/DSCF8830.jpg",
+      "alt": "View through ferns and trees toward a distant bay and rugged coastal cliffs bathed in warm afternoon light",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/DSCF9097-2.jpg",
+      "alt": "Elizabeth Castle on its rocky tidal island seen across an exposed sandy beach at low tide under dramatic stormy clouds",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/DSC00385.jpg",
+      "alt": "Lone surfer carrying a board walks across a vast wet beach toward lines of breaking waves with other surfers in the water",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/jersey/972EC151-E41B-4010-9BD4-32203E07EF9A.jpg",
+      "alt": "Narrow coastal lane winding uphill between banks of bright yellow gorse under dark moody clouds at dusk",
+      "location": "Jersey, Channel Islands",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/jersey/DSCF8630-2.jpg",
+      "alt": "Pink and orange wispy clouds streaking across a pastel sunset sky above a green canopy of trees and fields at twilight",
+      "location": "Jersey, Channel Islands",
+      "orientation": "landscape"
+    }
   ]
 }

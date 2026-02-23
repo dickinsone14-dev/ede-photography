@@ -1,83 +1,73 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import PageBackground from "@/components/PageBackground";
 import ScrollReveal from "@/components/ScrollReveal";
 
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "About Ed — UK photographer. Jersey roots, Welsh mountains, Alpine winters.",
+    "About Ed — Jersey roots, Welsh mountains, Alpine winters.",
 };
 
 export default function AboutPage() {
   return (
-    <PageBackground src="/images/hiking/cadair-idris/DSCF6982-2.jpg">
-    <div className="container-narrow py-16">
-      {/* Portrait */}
+    <div className="container-wide py-16">
+      {/* Hero: Title + Bio on left, Portrait on right */}
       <ScrollReveal>
-        <div className="mb-12">
-          <div className="relative aspect-[4/3] md:aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Text */}
+          <div>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-8 text-brand-text">
+              About
+            </h1>
+
+            <div className="space-y-6 text-brand-text-light leading-relaxed">
+              <p>
+                I&apos;m Ed — a photographer based in the UK. I grew up in Jersey, surrounded by the sea, and developed an
+                early appreciation for the outdoors and the way light changes
+                everything about a place.
+              </p>
+
+              <p>
+                These days I spend most of my time in the mountains of Wales — the
+                Brecon Beacons and Snowdonia in particular — as well as making
+                regular trips to the Alps, the Lake District, and back to
+                Jersey. My work comes from the things I love to do — early
+                starts, long days on the hill, and the time spent in places
+                that mean the most to me.
+              </p>
+
+              <p>
+                Prints of my work are available through the{" "}
+                <a
+                  href="/store"
+                  className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
+                >
+                  store
+                </a>
+                , and I&apos;m available for commissions, licensing, and
+                collaborations. Get in touch via the{" "}
+                <a
+                  href="/contact"
+                  className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
+                >
+                  contact page
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+
+          {/* Portrait */}
+          <div className="relative aspect-[3/4] overflow-hidden rounded-lg bg-brand-surface">
             <Image
               src="/images/about/DSC00756.jpg"
               alt="Ed — E.D.E Photography"
               fill
               className="object-cover"
-              sizes="(max-width: 896px) 100vw, 896px"
+              sizes="(max-width: 768px) 100vw, 50vw"
               priority
             />
-          </div>
-        </div>
-      </ScrollReveal>
-
-      {/* Bio */}
-      <ScrollReveal>
-        <div className="max-w-none">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-8 text-brand-text">
-            About
-          </h1>
-
-          <div className="space-y-6 text-brand-text-light leading-relaxed">
-            <p>
-              I&apos;m Ed — a photographer based in the UK. I grew up in Jersey, surrounded by the sea, and developed an
-              early appreciation for the outdoors and the way light changes
-              everything about a place.
-            </p>
-
-            <p>
-              These days I spend most of my time in the mountains of Wales — the
-              Brecon Beacons and Snowdonia in particular — as well as making
-              regular trips to the Alps, the Scottish Highlands, and back to
-              Jersey. My work is driven by early starts, long hikes, and the
-              pursuit of those rare moments when conditions come together and the
-              landscape does something extraordinary.
-            </p>
-
-            <p>
-              I&apos;m drawn to ridgelines, cloud inversions, winter conditions,
-              and the quiet hours at either end of the day. I shoot to capture
-              what it feels like to be in these places — the scale, the silence,
-              and the changing light.
-            </p>
-
-            <p>
-              Prints of my work are available through the{" "}
-              <a
-                href="/store"
-                className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
-              >
-                store
-              </a>
-              , and I&apos;m available for commissions, licensing, and
-              collaborations. Get in touch via the{" "}
-              <a
-                href="/contact"
-                className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
-              >
-                contact page
-              </a>
-              .
-            </p>
           </div>
         </div>
       </ScrollReveal>
@@ -99,6 +89,5 @@ export default function AboutPage() {
         </section>
       </ScrollReveal>
     </div>
-    </PageBackground>
   );
 }

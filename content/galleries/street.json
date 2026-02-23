@@ -5,18 +5,70 @@
   "coverImage": "/images/street/IMG_0798.jpg",
   "description": "Candid street photography from cities across the UK and Europe. Observations of everyday life, light, shadow, and the small moments that make urban spaces interesting.",
   "images": [
-    { "src": "/images/street/C92B8120-DC5D-4D38-8FCF-7F04DF5CE476_1_105_c.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSCF9616.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSC00505.jpg", "alt": "Street photography" },
-    { "src": "/images/street/2B32789B-F367-489C-9D9D-2539D05CB750_1_105_c.jpg", "alt": "Street photography" },
-    { "src": "/images/street/69630004.jpg", "alt": "Street photography" },
-    { "src": "/images/street/IMG_0798.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSCF6136.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSCF9623.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSCF6143.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSC00560.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSCF8870.jpg", "alt": "Street photography" },
-    { "src": "/images/street/DSC00503.jpg", "alt": "Street photography" },
-    { "src": "/images/street/F53EB1AA-F150-40C3-B325-DB441DED38CE_1_105_c.jpg", "alt": "Street photography" }
+    {
+      "src": "/images/street/C92B8120-DC5D-4D38-8FCF-7F04DF5CE476_1_105_c.jpg",
+      "alt": "Pedestrians walking on rain-soaked Great Marlborough Street in London with parked vans and historic buildings in black and white",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/street/DSCF9616.jpg",
+      "alt": "Lone street lamp glowing on a winding road lined with trees under an overcast sky in muted blue tones",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSC00505.jpg",
+      "alt": "Dramatic black and white view down a narrow London mews with dark shadows framing a moody sky and distant street lamp",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/2B32789B-F367-489C-9D9D-2539D05CB750_1_105_c.jpg",
+      "alt": "Motion-blurred crowd at Piccadilly Circus at night captured with long exposure on film",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/69630004.jpg",
+      "alt": "Rain-slicked London street at night with warm pub lights and coloured reflections on wet pavement",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/IMG_0798.jpg",
+      "alt": "Looking up at apartment buildings from street level with golden sun flare and warm light leak on film",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSCF6136.jpg",
+      "alt": "Magdalen College tower in Oxford framed by green trees against a bright blue sky with white clouds",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSCF9623.jpg",
+      "alt": "Yellow Portuguese building with arched doorway at the end of a road as the sun sets behind green hills",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSCF6143.jpg",
+      "alt": "Ornate Gothic turret and weather vane of an Oxford college building shot from below with deep teal sky",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSC00560.jpg",
+      "alt": "Red brick Victorian tower with round windows and pointed spire against a clear blue dusk sky",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSCF8870.jpg",
+      "alt": "Man in a dark suit carrying a bag walking away down a London street with pedestrians in the background",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/DSC00503.jpg",
+      "alt": "Ornate wrought-iron street lantern surrounded by ivy and branches in front of a Georgian townhouse",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/street/F53EB1AA-F150-40C3-B325-DB441DED38CE_1_105_c.jpg",
+      "alt": "Motion-blurred motorcyclist rounding a corner on a rainy London street in black and white with graffiti on the building",
+      "orientation": "portrait"
+    }
   ]
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import FaqAccordion from "@/components/FaqAccordion";
-import PageBackground from "@/components/PageBackground";
 import ScrollReveal from "@/components/ScrollReveal";
 
 import faqData from "@/content/faqs.json";
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
 
 export default function FaqsPage() {
   return (
-    <PageBackground src="/images/jersey/DSCF8637-2.jpg">
     <div className="container-narrow py-16">
       <ScrollReveal>
         <div className="mb-12">
@@ -38,6 +36,5 @@ export default function FaqsPage() {
         <FaqAccordion items={faqData} />
       </ScrollReveal>
     </div>
-    </PageBackground>
   );
 }

@@ -7,6 +7,7 @@ export interface GalleryImage {
   location?: string;
   date?: string;
   picfairUrl?: string;
+  orientation?: "landscape" | "portrait";
 }
 
 export interface GallerySection {
