@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 interface HeroImageProps {
   src: string;
@@ -21,8 +21,6 @@ export default function HeroImage({
   height = "large",
 }: HeroImageProps) {
   const imgRef = useRef<HTMLDivElement>(null);
-  const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const el = imgRef.current;
     if (!el) return;
@@ -34,8 +32,6 @@ export default function HeroImage({
       if (el) {
         el.style.transform = `translateY(${rate}px)`;
       }
-      // Fade out scroll indicator after 80px
-      setScrolled(scrollY > 80);
     }
 
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -80,29 +76,6 @@ export default function HeroImage({
         </div>
       )}
 
-      {/* Scroll down indicator */}
-      <div
-        className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 transition-opacity duration-500 ${
-          scrolled ? "opacity-0 pointer-events-none" : "opacity-100"
-        }`}
-      >
-        <span className="text-xs tracking-widest uppercase text-white/70">
-          Scroll
-        </span>
-        <svg
-          className="w-5 h-5 text-white/70 animate-bounce"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M19 9l-7 7-7-7"
-          />
-        </svg>
-      </div>
     </section>
   );
 }
