@@ -11,70 +11,80 @@
           "picfairUrl": "https://ede-photography.picfair.com/images/023997886-plowing-through-the-night",
           "title": "Plowing through the night",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393874/yzhgh1chi9jbc3hroiqh.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997887-snowy-decent",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997887-snowy-decent",
           "title": "Snowy Decent",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393875/vhxrljuas3kciiyliwo9.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997878-winter-s-arrival",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997878-winter-s-arrival",
           "title": "Winter's Arrival",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393828/ror0rb8ce2n0vuowho8z.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997870-tranquility",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997870-tranquility",
           "title": "Tranquility",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393795/y5xujljkfko4ys5qckyb.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023631383-wake-up",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631383-wake-up",
           "title": "Wake Up",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117427/pnrlf5a7f1vefcinnbpj.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631366-solitude",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631366-solitude",
           "title": "Solitude",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117205/fmixwuu4vunx1t52iplk.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631356-sky-meets-stone",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631356-sky-meets-stone",
           "title": "Sky Meets Stone",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117105/vfrbcewbydktwqeldu3b.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631194-fading-light",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631194-fading-light",
           "title": "Fading Light",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762115373/a4bbirfiiiktobq8tef6.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631301-shadows-of-industry",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631301-shadows-of-industry",
           "title": "Shadows of Industry",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116774/ehyb5es2jjqm3ojv5ucf.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023997871-distinct-peak",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997871-distinct-peak",
           "title": "Distinct Peak",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393795/nrd5bq3vjjyt5dnec6fd.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         }
       ]
     },
@@ -87,280 +97,320 @@
           "picfairUrl": "https://ede-photography.picfair.com/images/024096625-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768864984/gwifwjoo1mbxxojqqmmh.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096623-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096623-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768864982/fekfi7brpd3yvrdhevbs.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631383-wake-up",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631383-wake-up",
           "title": "Wake Up",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117427/pnrlf5a7f1vefcinnbpj.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631194-fading-light",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631194-fading-light",
           "title": "Fading Light",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762115373/a4bbirfiiiktobq8tef6.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997889-lone-cabin-on-the-beaten-track",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997889-lone-cabin-on-the-beaten-track",
           "title": "Lone Cabin on the Beaten Track",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393881/z37wvxb6fuk1f7trol0u.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997870-tranquility",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997870-tranquility",
           "title": "Tranquility",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393795/y5xujljkfko4ys5qckyb.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023997887-snowy-decent",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997887-snowy-decent",
           "title": "Snowy Decent",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393875/vhxrljuas3kciiyliwo9.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997891-leading-lines",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997891-leading-lines",
           "title": "Leading Lines",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393907/oajylxwp2acupckjkdun.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997878-winter-s-arrival",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997878-winter-s-arrival",
           "title": "Winter's Arrival",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393828/ror0rb8ce2n0vuowho8z.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631356-sky-meets-stone",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631356-sky-meets-stone",
           "title": "Sky Meets Stone",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117105/vfrbcewbydktwqeldu3b.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997885-gloomy-tryfan",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997885-gloomy-tryfan",
           "title": "Gloomy Tryfan",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393871/pxghrnbbxtx3nc4vampm.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997879-unchanged-lake",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997879-unchanged-lake",
           "title": "Unchanged Lake",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393831/wpd2zmuxltzz5rhpkrmg.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023997880-into-the-snow",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997880-into-the-snow",
           "title": "Into the Snow",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393836/fazp4pyemwn8x3utoltv.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997882-route-to-snowdon",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997882-route-to-snowdon",
           "title": "Route to Snowdon",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393850/lssqyb9qlbbtrh2tojqc.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997877-no-entry",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997877-no-entry",
           "title": "No Entry",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393829/aaw169azrblw47cciwc9.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997876-ridgelines",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997876-ridgelines",
           "title": "Ridgelines",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393828/w8vwdalmcg7qzzx2yxlb.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997875-closed-for-the-summer",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997875-closed-for-the-summer",
           "title": "Closed for the Summer",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393825/upti7pyg8vehols5cgf1.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997874-notice",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997874-notice",
           "title": "Notice",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393801/vmpngqwys4xlgsygkktm.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997873-all-branches-lead-somewhere",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997873-all-branches-lead-somewhere",
           "title": "All Branches Lead Somewhere",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393798/bgfzybtmf2jnvdrzr57m.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997869-leading-to-the-sea",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997869-leading-to-the-sea",
           "title": "Leading to the Sea",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393788/sfttpghms6qgd9jla7xz.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023755241-awakening-peaks",
           "picfairUrl": "https://ede-photography.picfair.com/images/023755241-awakening-peaks",
           "title": "Awakening Peaks",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1763382266/q4v6ui5guiok765mcu1n.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023755243-bliss",
           "picfairUrl": "https://ede-photography.picfair.com/images/023755243-bliss",
           "title": "Bliss",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1763382265/pnvz51erutuyflk9txwh.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023755232-human-intervention",
           "picfairUrl": "https://ede-photography.picfair.com/images/023755232-human-intervention",
           "title": "Human Intervention",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1763382256/oqitx1qlnky3jjgx0a6b.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631301-shadows-of-industry",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631301-shadows-of-industry",
           "title": "Shadows of Industry",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116774/ehyb5es2jjqm3ojv5ucf.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023755231-above-the-clouds",
           "picfairUrl": "https://ede-photography.picfair.com/images/023755231-above-the-clouds",
           "title": "Above the Clouds",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1763382256/zb05usxurt1hgubm44ip.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631382-fence-to-nowhere",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631382-fence-to-nowhere",
           "title": "Fence to Nowhere",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117409/hndjz6e711bp5k8ni7r1.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023631364-dreamworld",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631364-dreamworld",
           "title": "Dreamworld",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117190/mfnopgo4yloqd80wr7wl.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631366-solitude",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631366-solitude",
           "title": "Solitude",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117205/fmixwuu4vunx1t52iplk.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631376-the-dragon-s-den",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631376-the-dragon-s-den",
           "title": "The Dragon's Den",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117294/tq70es5gfwmztbcugwiq.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631363-watching-over",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631363-watching-over",
           "title": "Watching Over",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117175/r6gr8u0zdkaieou6woob.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631349-a-different-age",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631349-a-different-age",
           "title": "A Different Age",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117084/m48p6ltvbwybgsd29reo.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631319-snowdon-sunrise",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631319-snowdon-sunrise",
           "title": "Snowdon Sunrise",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116937/mm8pnvtzvrf0gjhmronx.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631309-horizon-s-edge",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631309-horizon-s-edge",
           "title": "Horizon's Edge",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116880/tvjh0k50n9qwlsluxmoe.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631306-grazing-with-a-view",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631306-grazing-with-a-view",
           "title": "Grazing With a View",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116850/texpraxfe5j3e8t6vdow.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023631289-tabletop-summit",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631289-tabletop-summit",
           "title": "Tabletop Summit",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116647/c4hfjn36rpufdwqogtnk.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "portrait"
         },
         {
           "imageId": "023631285-soaring-above",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631285-soaring-above",
           "title": "Soaring Above",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116622/yvwmpxnlzvcauyqjzzti.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631287-pastel-landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631287-pastel-landscape",
           "title": "Pastel Landscape",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116633/t0phypwfcgcih6zpo1zu.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631283-brecon-pony",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631283-brecon-pony",
           "title": "Brecon Pony",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116614/w6maguba8bqzdjmvxn48.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631278-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631278-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116596/wbz41nfm3zt19tsyhwng.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024276378-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276378-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1771696346/kcnsyxsk2bspnbie6krm.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         }
       ]
     },
@@ -373,189 +423,216 @@
           "picfairUrl": "https://ede-photography.picfair.com/images/023997884-christmas-came-early",
           "title": "Christmas Came Early",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393869/joumhxownjbme3tepxte.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997886-plowing-through-the-night",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997886-plowing-through-the-night",
           "title": "Plowing Through the Night",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393874/yzhgh1chi9jbc3hroiqh.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997871-distinct-peak",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997871-distinct-peak",
           "title": "Distinct Peak",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393795/nrd5bq3vjjyt5dnec6fd.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096631-flying-high",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096631-flying-high",
           "title": "Flying High",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768865098/d8dwfiesasfn61gzpkak.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024140017-nendaz-1",
           "picfairUrl": "https://ede-photography.picfair.com/images/024140017-nendaz-1",
           "title": "Nendaz 1",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769472914/t4a9pebxsbyqouhck8bv.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997888-bridge-between-drops",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997888-bridge-between-drops",
           "title": "Bridge Between Drops",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393879/pdc5pn5ekyocpk86sq4w.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096634-danger",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096634-danger",
           "title": "Danger",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768865102/zgpysrlnop7do1vggyd3.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997872-suspended-above",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997872-suspended-above",
           "title": "Suspended Above",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393797/ib6znqmp79jv3zsdmw2x.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024150381-tignes-1",
           "picfairUrl": "https://ede-photography.picfair.com/images/024150381-tignes-1",
           "title": "Tignes 1",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769555201/m7xlz1klgnpknfjygd0i.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024140019-nendaz-2",
           "picfairUrl": "https://ede-photography.picfair.com/images/024140019-nendaz-2",
           "title": "Nendaz 2",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769472916/kkfsf6zbqlblncfbhdfb.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096641-jetting-off",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096641-jetting-off",
           "title": "Jetting off",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768865106/jprivxjfbjme8k8g7wbb.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997881-last-light",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997881-last-light",
           "title": "Last Light",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393850/khxzhlx82gl3qsbs7u2u.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096632-aiguille-vert",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096632-aiguille-vert",
           "title": "Aiguille Vert",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768865100/lgqttuzskyihjswq0izw.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096636-waiting-for-the-sun",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096636-waiting-for-the-sun",
           "title": "Waiting for the Sun",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768865101/an7rsbea9wvb6nfhhzei.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024140018-nendaz-3",
           "picfairUrl": "https://ede-photography.picfair.com/images/024140018-nendaz-3",
           "title": "Nendaz 3",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769472915/grvcai23vnyn7ocebft7.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024096644-ferme",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096644-ferme",
           "title": "Ferme",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1768865114/rigwhisdkrhqrt348wvq.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024150378-tignes-2",
           "picfairUrl": "https://ede-photography.picfair.com/images/024150378-tignes-2",
           "title": "Tignes 2",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769555196/bllz7qpoagzqmwfm2goi.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023997883-sharp-edges",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997883-sharp-edges",
           "title": "Sharp Edges",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1767393858/t52wnsuzr5u3fzoztuhb.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024140021-nendaz-4",
           "picfairUrl": "https://ede-photography.picfair.com/images/024140021-nendaz-4",
           "title": "Nendaz 4",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769472928/ado82gtordcm57ymgqhq.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024140020-nendaz-5",
           "picfairUrl": "https://ede-photography.picfair.com/images/024140020-nendaz-5",
           "title": "Nendaz 5",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769472926/hat6rnxzwpm2ygyhaqrz.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024150379-tignes-3",
           "picfairUrl": "https://ede-photography.picfair.com/images/024150379-tignes-3",
           "title": "Tignes 3",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769555196/mgjiks2e9im7bgckf5ys.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024150418-crans-montana-1",
           "picfairUrl": "https://ede-photography.picfair.com/images/024150418-crans-montana-1",
           "title": "Crans Montana 1",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1769556175/njdyxbbriseagvkstssa.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024276314-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276314-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1771694444/hiqe4aj05gcxa2whlng5.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024276315-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276315-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1771694444/etlnhzlmt6rrc6ym1sal.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024276316-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276316-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1771694444/w2vvvxwcgfpjduy2orwn.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024276317-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276317-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1771694447/yi1cfbep1zuvls5r9jp5.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "024276376-untitled",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276376-untitled",
           "title": "Untitled",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1771696312/tb18hl7l1bnvkiv6xaaz.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         }
       ]
     },
@@ -568,84 +645,96 @@
           "picfairUrl": "https://ede-photography.picfair.com/images/023631279-between-leaves",
           "title": "Between Leaves",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116600/dwprvxusy9qfgbhpdmwh.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631281-land-meets-sea",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631281-land-meets-sea",
           "title": "Land Meets Sea",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116612/i9ski8tuhmsbik2hnebt.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631286-sea-cliff-vista",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631286-sea-cliff-vista",
           "title": "Sea Cliff Vista",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116622/xeabmdeh8lacymvhvxz0.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631299-bustling-beaches",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631299-bustling-beaches",
           "title": "Bustling Beaches",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116742/trdk6iq3bfh5lvn4tsbx.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631300-rays-amongst-madness",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631300-rays-amongst-madness",
           "title": "Rays Amongst Madness",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116747/cvjubmthgrxgtr7pxmku.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631302-crowd-control",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631302-crowd-control",
           "title": "Crowd Control",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116805/bn5gmox7w7qr2wlwmprk.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631363-watching-over",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631363-watching-over",
           "title": "Watching Over",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117175/r6gr8u0zdkaieou6woob.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631362-coastal-silence",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631362-coastal-silence",
           "title": "Coastal Silence",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117174/nykhtm2ovlgpkgh65oqk.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631357-boom",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631357-boom",
           "title": "Boom",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117109/uq7rctz3u2geqazitix3.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631365-towering-above",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631365-towering-above",
           "title": "Towering Above",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117200/fm8yufukykbamwywpfci.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631386-in-between-the-green",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631386-in-between-the-green",
           "title": "In Between the Green",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762117439/adxwg7edwwdx1z9hbqdo.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         },
         {
           "imageId": "023631280-surf-rolling-in",
           "picfairUrl": "https://ede-photography.picfair.com/images/023631280-surf-rolling-in",
           "title": "Surf Rolling in",
           "thumbnailUrl": "https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/fl_no_overflow,g_south,l_text:style_gothic2:%C2%A9%20ede-photography,o_20,y_10/fl_no_overflow,g_center,l_watermark4,o_25,y_50/v1762116610/my0loq5boiagurfudphm.jpg",
-          "price": "£15.99"
+          "price": "£15.99",
+          "orientation": "landscape"
         }
       ]
     }

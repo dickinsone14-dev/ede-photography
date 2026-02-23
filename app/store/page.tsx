@@ -16,6 +16,7 @@ interface StoreImage {
   title: string;
   thumbnailUrl: string;
   price: string;
+  orientation?: "landscape" | "portrait";
 }
 
 interface Album {
@@ -103,7 +104,7 @@ export default function StorePage() {
                 href={img.picfairUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative aspect-[3/4] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                className={`group relative ${img.orientation === "landscape" ? "aspect-[16/10]" : "aspect-[2/3]"} overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1`}
               >
                 <Image
                   src={img.thumbnailUrl}
@@ -176,7 +177,7 @@ export default function StorePage() {
                   href={img.picfairUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative aspect-[3/4] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                  className={`group relative ${img.orientation === "landscape" ? "aspect-[16/10]" : "aspect-[2/3]"} overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1`}
                 >
                   <Image
                     src={img.thumbnailUrl}
