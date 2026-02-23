@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import GalleryCard from "@/components/GalleryCard";
-import { getGalleriesByCategory } from "@/lib/galleries";
+import { getGalleriesByCategory, getImageCount } from "@/lib/galleries";
 
 export const metadata: Metadata = {
   title: "Other Work",
@@ -29,7 +29,7 @@ export default function OtherWorkIndex() {
             title={gallery.title}
             slug={gallery.slug}
             coverImage={gallery.coverImage}
-            imageCount={gallery.images.length}
+            imageCount={getImageCount(gallery)}
             category="other-work"
           />
         ))}

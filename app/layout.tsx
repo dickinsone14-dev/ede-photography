@@ -37,7 +37,7 @@ export default function RootLayout({
     description:
       "UK landscape and adventure photography. Prints, licensing, and commissions.",
     url: "https://ede-photography.com",
-    image: "https://picsum.photos/seed/hero-landscape/1600/1000",
+    image: "https://ede-photography.com/images/hiking/cadair-idris/DSCF6982-2.jpg",
     sameAs: ["https://www.instagram.com/e.d.e_photography/"],
     address: {
       "@type": "PostalAddress",

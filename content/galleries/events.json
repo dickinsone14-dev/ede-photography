@@ -2,32 +2,93 @@
   "title": "Events",
   "slug": "events",
   "category": "other-work",
-  "description": "Event photography from music nights, festivals, and community gatherings. A different pace to the landscapes — capturing energy, atmosphere, and candid moments.",
-  "coverImage": "https://picsum.photos/seed/events-cover/1600/1000",
-  "images": [
+  "coverImage": "/images/events/winestock/DSCF9170.jpg",
+  "description": "Event photography from music nights, festivals, and club openings across London and the UK. Capturing energy, atmosphere, and candid moments.",
+  "sections": [
     {
-      "src": "https://picsum.photos/seed/events-liveband/1200/800",
-      "alt": "Live band performing at a local venue",
-      "location": "Cardiff",
-      "date": "2024-11"
+      "title": "The Mansion: Nightmare in Wonderland, London",
+      "date": "November 2025",
+      "images": [
+        { "src": "/images/events/mansion-nightmare/DSCF1248.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1245.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1162.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1184.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1196.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1201.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1209.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1199.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1227.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1262.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1338.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1268.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1282.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1293.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1322.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1329.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1335.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1343.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1347.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" },
+        { "src": "/images/events/mansion-nightmare/DSCF1373.jpg", "alt": "The Mansion: Nightmare in Wonderland", "location": "London", "date": "2025-11" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/events-festival/1200/800",
-      "alt": "Festival crowd at sunset",
-      "location": "Bristol",
-      "date": "2024-08"
+      "title": "Boomtown, Winchester",
+      "date": "August 2025",
+      "images": [
+        { "src": "/images/events/boomtown/DSC01560.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01520.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01646.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01324.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01368.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01348.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01382.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01406.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01285.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" },
+        { "src": "/images/events/boomtown/DSC01593.jpg", "alt": "Boomtown Festival", "location": "Winchester", "date": "2025-08" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/events-djset/1200/1600",
-      "alt": "DJ set with atmospheric lighting",
-      "location": "London",
-      "date": "2024-07"
+      "title": "Winestock, London",
+      "date": "July 2025",
+      "images": [
+        { "src": "/images/events/winestock/DSCF9177.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9131.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9125.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9170.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9110-2.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9115.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9120.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/winestock/DSCF9136.jpg", "alt": "Winestock", "location": "London", "date": "2025-07" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/events-streetfood/1200/800",
-      "alt": "Street food market in the evening",
-      "location": "Cardiff",
-      "date": "2024-06"
+      "title": "The Panther Club: Grand Opening, London",
+      "date": "July 2025",
+      "images": [
+        { "src": "/images/events/panther-club/DSCF8942.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF9001.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF8975-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF8962-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF8964-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF8909.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF9016-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF8978.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" },
+        { "src": "/images/events/panther-club/DSCF8896-2.jpg", "alt": "The Panther Club: Grand Opening", "location": "London", "date": "2025-07" }
+      ]
+    },
+    {
+      "title": "The Mansion: I love you to the Moon and back, London",
+      "date": "February 2025",
+      "images": [
+        { "src": "/images/events/mansion-moon/DSC00571.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00574-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00579.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00595-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00599-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00602-2.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00590.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" },
+        { "src": "/images/events/mansion-moon/DSC00596.jpg", "alt": "The Mansion: I love you to the Moon and back", "location": "London", "date": "2025-02" }
+      ]
     }
   ]
 }

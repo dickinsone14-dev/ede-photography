@@ -2,43 +2,113 @@
   "title": "Winter in the Alps",
   "slug": "winter-alps",
   "category": "portfolio",
-  "description": "The European Alps in winter — vast snowfields, frozen lakes, and dramatic peaks. Shot during ski touring and winter hiking trips across the French and Swiss Alps, these images capture the raw scale and silence of the mountains under snow.",
-  "coverImage": "https://picsum.photos/seed/alps-cover/1600/1000",
-  "images": [
+  "coverImage": "/images/winter-alps/crans-montana/DSCF2709.jpg",
+  "description": "The European Alps in winter — ski touring, mountain villages, and dramatic peaks across the French and Swiss Alps. From the slopes of Megeve and Tignes to the valleys of Nendaz and Crans Montana, these images capture the raw scale and beauty of the mountains under snow.",
+  "sections": [
     {
-      "src": "https://picsum.photos/seed/alps-montblanc/1200/800",
-      "alt": "Mont Blanc massif at first light from Chamonix valley",
-      "location": "Chamonix, France",
-      "date": "2025-01",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-01"
+      "title": "Megeve, French Alps",
+      "date": "January 2026",
+      "images": [
+        { "src": "/images/winter-alps/megeve-film/IMG_7873.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7902.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7866.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7919.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7872.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7869.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7877.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7885.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7910.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7909.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7893.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7900.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7880.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7911.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7935.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7931.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7928.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7918.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7925.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7938.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-film/IMG_7933.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/alps-lacblanc/1200/800",
-      "alt": "Frozen Lac Blanc with the Aiguilles reflected",
-      "location": "Chamonix, France",
-      "date": "2025-01",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-02"
+      "title": "Tignes, French Alps",
+      "date": "January 2026",
+      "images": [
+        { "src": "/images/winter-alps/tignes/IMG_7847.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7829.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7857.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7831.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7837.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7845.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7849.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7852.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7861.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/tignes/IMG_7859.jpg", "alt": "Tignes, French Alps", "location": "Tignes, France", "date": "2026-01" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/alps-valais/1200/1600",
-      "alt": "Ski touring above the clouds in the Valais",
-      "location": "Valais, Switzerland",
-      "date": "2024-12",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-03"
+      "title": "Megeve, French Alps",
+      "date": "January 2026",
+      "images": [
+        { "src": "/images/winter-alps/megeve-hike/DSCF3693.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF3964.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF3831.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF4100.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF3926.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF4055.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF4147.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF4136.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" },
+        { "src": "/images/winter-alps/megeve-hike/DSCF4161.jpg", "alt": "Megeve, French Alps", "location": "Megeve, France", "date": "2026-01" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/alps-matterhorn/1200/800",
-      "alt": "Matterhorn north face in winter storm light",
-      "location": "Zermatt, Switzerland",
-      "date": "2024-12",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-04"
+      "title": "Nendaz, Swiss Alps",
+      "date": "December 2025",
+      "images": [
+        { "src": "/images/winter-alps/nendaz/DSCF3260.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3300.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3371.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3525.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3579.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3621.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3495.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3617.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3522.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3598.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/nendaz/DSCF3591-2.jpg", "alt": "Nendaz, Swiss Alps", "location": "Nendaz, Switzerland", "date": "2025-12" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/alps-aosta/1200/800",
-      "alt": "Fresh powder and pine trees in the Aosta Valley",
-      "location": "Aosta Valley, Italy",
-      "date": "2024-02",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-05"
+      "title": "Crans Montana, Swiss Alps",
+      "date": "December 2025",
+      "images": [
+        { "src": "/images/winter-alps/crans-montana/DSCF2999.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2976.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2709.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2746.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2433.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2599.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2695.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2583.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2849.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2888.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2608.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2602.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2538.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF2758-2.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3103.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3181.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3121.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3114.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3138.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3166.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3093.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3176.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3183.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" },
+        { "src": "/images/winter-alps/crans-montana/DSCF3199.jpg", "alt": "Crans Montana, Swiss Alps", "location": "Crans Montana, Switzerland", "date": "2025-12" }
+      ]
     }
   ]
 }

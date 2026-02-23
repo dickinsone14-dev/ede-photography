@@ -2,43 +2,27 @@
   "title": "Jersey & the Coast",
   "slug": "jersey-coast",
   "category": "portfolio",
-  "description": "The rugged coastline and hidden coves of Jersey, the Channel Islands. From dramatic cliff paths to sheltered bays, these images explore the island's wild Atlantic-facing shores and the ever-changing light over the sea.",
-  "coverImage": "https://picsum.photos/seed/jersey-cover/1600/1000",
+  "coverImage": "/images/jersey/IMG_4210.jpg",
+  "description": "Jersey and its coastline — the rugged shores, hidden coves, and ever-changing light of the Channel Islands. From cliff walks to sheltered bays, these images explore the island's wild Atlantic-facing coast.",
   "images": [
-    {
-      "src": "https://picsum.photos/seed/jersey-corbiere/1200/800",
-      "alt": "Corbiere Lighthouse at low tide during golden hour",
-      "location": "St Brelade, Jersey",
-      "date": "2024-09",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-01"
-    },
-    {
-      "src": "https://picsum.photos/seed/jersey-plemont/1200/1600",
-      "alt": "Plemont Bay caves with incoming tide",
-      "location": "St Ouen, Jersey",
-      "date": "2024-09",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-02"
-    },
-    {
-      "src": "https://picsum.photos/seed/jersey-noirmont/1200/800",
-      "alt": "Long exposure of waves breaking over Noirmont headland",
-      "location": "St Brelade, Jersey",
-      "date": "2024-08",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-03"
-    },
-    {
-      "src": "https://picsum.photos/seed/jersey-stouen/1200/800",
-      "alt": "Sunset over St Ouen's Bay from the dunes",
-      "location": "St Ouen, Jersey",
-      "date": "2024-07",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-04"
-    },
-    {
-      "src": "https://picsum.photos/seed/jersey-bouley/1200/800",
-      "alt": "Bouley Bay harbour in early morning mist",
-      "location": "Trinity, Jersey",
-      "date": "2024-06",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-05"
-    }
+    { "src": "/images/jersey/DSCF9255.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4905.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4886.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4870.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4878.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4884.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4901.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4894.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4900.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/IMG_4210.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSCF8632-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSCF8637-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSCF8819.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSCF8830.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSCF9097-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSC00385.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/972EC151-E41B-4010-9BD4-32203E07EF9A.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/DSCF8630-2.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" },
+    { "src": "/images/jersey/69630023.jpg", "alt": "Jersey coastline", "location": "Jersey, Channel Islands" }
   ]
 }

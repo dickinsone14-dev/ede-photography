@@ -2,50 +2,179 @@
   "title": "Hiking",
   "slug": "hiking",
   "category": "portfolio",
-  "description": "Mountain landscapes captured across Snowdonia, the Brecon Beacons, and the Scottish Highlands. These images are taken on multi-day hikes and wild camps, often at dawn or dusk when the light transforms the hills into something extraordinary.",
-  "coverImage": "https://picsum.photos/seed/hiking-cover/1600/1000",
-  "images": [
+  "coverImage": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
+  "description": "Mountain landscapes and hiking photography across Wales, the Lake District, the Peak District, and the French Alps. From the quarries of Dinorwic to the summit of Cadair Idris, these images are taken on long days out in the hills — often at dawn or dusk when the light transforms the landscape.",
+  "sections": [
     {
-      "src": "https://picsum.photos/seed/hiking-ridge/1200/800",
-      "alt": "Cribyn ridge at golden hour from Corn Du",
-      "location": "Brecon Beacons",
-      "date": "2025-03",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-01"
+      "title": "Dinorwic Quarry (Rd. 2), Snowdonia",
+      "date": "December 2025",
+      "images": [
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2034-3.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2228.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2252.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2271.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2308.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2340.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2139.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2135.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2066.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2029.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF1988-2.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2168.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2095.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF1909.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2265.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/DSCF2073-3.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/22080014.jpg", "alt": "Dinorwic Quarry on film, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/22080007.jpg", "alt": "Dinorwic Quarry on film, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/22080010.jpg", "alt": "Dinorwic Quarry on film, Snowdonia", "location": "Snowdonia", "date": "2025-12" },
+        { "src": "/images/hiking/dinorwic-quarry-rd2/22080002.jpg", "alt": "Dinorwic Quarry on film, Snowdonia", "location": "Snowdonia", "date": "2025-12" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/hiking-snowdon/1200/1600",
-      "alt": "Cloud inversion from the summit of Snowdon at sunrise",
-      "location": "Snowdonia",
-      "date": "2025-01",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-02"
+      "title": "Llyn y Fan Fach, Brecon Beacons",
+      "date": "November 2025",
+      "images": [
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1483.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1603.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1648.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1678.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1692.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1762-2.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1813.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1854.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" },
+        { "src": "/images/hiking/llyn-y-fan-fach/DSCF1860.jpg", "alt": "Llyn y Fan Fach, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-11" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/hiking-llyn/1200/800",
-      "alt": "Llyn y Fan Fach reflecting the escarpment at dawn",
-      "location": "Brecon Beacons",
-      "date": "2024-11",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-03"
+      "title": "Mont Joly, Megeve",
+      "date": "October 2025",
+      "images": [
+        { "src": "/images/hiking/mont-joly-megeve/02620001.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0582.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0513.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0382.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF9744.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0810.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0817-2.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0815-2.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0407.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0906.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF9941.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0911.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0707.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0576.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0590.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0442.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0266.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02620006.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02640027.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02620024.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02640028.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02640002.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02640006.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02620031.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02640022.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/02640030.jpg", "alt": "Mont Joly on film, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0518.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" },
+        { "src": "/images/hiking/mont-joly-megeve/DSCF0508.jpg", "alt": "Mont Joly, Megeve", "location": "Megeve, France", "date": "2025-10" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/hiking-glyderau/1200/800",
-      "alt": "The Glyderau ridge in low cloud",
-      "location": "Snowdonia",
-      "date": "2024-10",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-04"
+      "title": "Ogwen Valley, Snowdonia",
+      "date": "October 2025",
+      "images": [
+        { "src": "/images/hiking/ogwen-valley/DSCF1008.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1130.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1001.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1043.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1015.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1013.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1012.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1040.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1032.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1011.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1003.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" },
+        { "src": "/images/hiking/ogwen-valley/DSCF1057.jpg", "alt": "Ogwen Valley, Snowdonia", "location": "Snowdonia", "date": "2025-10" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/hiking-lomond/1200/800",
-      "alt": "Wild camp above Loch Lomond at sunset",
-      "location": "Scottish Highlands",
-      "date": "2024-08",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-05"
+      "title": "Cadair Idris, Snowdonia",
+      "date": "May 2025",
+      "images": [
+        { "src": "/images/hiking/cadair-idris/DSCF6982-2.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7227.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7177-2.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7267.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF6917-2.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7279-2.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7231.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7218.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/cadair-idris/DSCF7195.jpg", "alt": "Cadair Idris, Snowdonia", "location": "Snowdonia", "date": "2025-05" }
+      ]
     },
     {
-      "src": "https://picsum.photos/seed/hiking-penyfan/1200/1600",
-      "alt": "Pen y Fan summit plateau in winter conditions",
-      "location": "Brecon Beacons",
-      "date": "2025-02",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-06"
+      "title": "Dinorwic Quarry, Snowdonia",
+      "date": "May 2025",
+      "images": [
+        { "src": "/images/hiking/dinorwic-quarry/DSCF8120.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/dinorwic-quarry/DSCF7765.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/dinorwic-quarry/DSCF8090-2.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/dinorwic-quarry/DSCF8312.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/dinorwic-quarry/DSCF8372.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/dinorwic-quarry/DSCF8378.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" },
+        { "src": "/images/hiking/dinorwic-quarry/DSCF7827.jpg", "alt": "Dinorwic Quarry, Snowdonia", "location": "Snowdonia", "date": "2025-05" }
+      ]
+    },
+    {
+      "title": "Back Tor, Peak District",
+      "date": "May 2025",
+      "images": [
+        { "src": "/images/hiking/back-tor/DSCF7441.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7513.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7653.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7707.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7666.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7316.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7491.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7370.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" },
+        { "src": "/images/hiking/back-tor/DSCF7346.jpg", "alt": "Back Tor, Peak District", "location": "Peak District", "date": "2025-05" }
+      ]
+    },
+    {
+      "title": "Pen y Fan, Brecon Beacons",
+      "date": "March 2025",
+      "images": [
+        { "src": "/images/hiking/pen-y-fan/DSC00852.jpg", "alt": "Pen y Fan, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/DSC00803.jpg", "alt": "Pen y Fan, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/DSC00835.jpg", "alt": "Pen y Fan, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/DSC00845.jpg", "alt": "Pen y Fan, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69630026-3.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69630027.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69630030.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69630034.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69630025.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69610007.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69610014.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69610021.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69610027.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69610032.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69630026-2.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" },
+        { "src": "/images/hiking/pen-y-fan/69610025.jpg", "alt": "Pen y Fan on film, Brecon Beacons", "location": "Brecon Beacons", "date": "2025-03" }
+      ]
+    },
+    {
+      "title": "Helvellyn, Lake District",
+      "date": "June 2024",
+      "images": [
+        { "src": "/images/hiking/helvellyn/IMG_0804.jpg", "alt": "Helvellyn, Lake District", "location": "Lake District", "date": "2024-06" },
+        { "src": "/images/hiking/helvellyn/IMG_0783.jpg", "alt": "Helvellyn, Lake District", "location": "Lake District", "date": "2024-06" },
+        { "src": "/images/hiking/helvellyn/IMG_0792.jpg", "alt": "Helvellyn, Lake District", "location": "Lake District", "date": "2024-06" },
+        { "src": "/images/hiking/helvellyn/IMG_0797.jpg", "alt": "Helvellyn, Lake District", "location": "Lake District", "date": "2024-06" },
+        { "src": "/images/hiking/helvellyn/IMG_0782.jpg", "alt": "Helvellyn, Lake District", "location": "Lake District", "date": "2024-06" },
+        { "src": "/images/hiking/helvellyn/IMG_0801.jpg", "alt": "Helvellyn, Lake District", "location": "Lake District", "date": "2024-06" }
+      ]
     }
   ]
 }

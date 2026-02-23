@@ -9,13 +9,20 @@ export interface GalleryImage {
   picfairUrl?: string;
 }
 
+export interface GallerySection {
+  title: string;
+  date: string;
+  images: GalleryImage[];
+}
+
 export interface Gallery {
   title: string;
   slug: string;
   category: "portfolio" | "other-work";
   description: string;
   coverImage: string;
-  images: GalleryImage[];
+  sections?: GallerySection[];
+  images?: GalleryImage[];
 }
 
 const galleriesDir = path.join(process.cwd(), "content/galleries");
@@ -36,4 +43,17 @@ export function getGalleriesByCategory(
 
 export function getGalleryBySlug(slug: string): Gallery | undefined {
   return getAllGalleries().find((g) => g.slug === slug);
+}
+
+/** Get all images from a gallery, whether sectioned or flat */
+export function getAllImages(gallery: Gallery): GalleryImage[] {
+  if (gallery.sections) {
+    return gallery.sections.flatMap((s) => s.images);
+  }
+  return gallery.images || [];
+}
+
+/** Get total image count */
+export function getImageCount(gallery: Gallery): number {
+  return getAllImages(gallery).length;
 }

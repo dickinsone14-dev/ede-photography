@@ -1,60 +1,60 @@
 {
   "prints": [
     {
-      "title": "Cribyn Ridge at Golden Hour",
-      "src": "https://picsum.photos/seed/print-cribyn/900/1200",
-      "alt": "Cribyn ridge at golden hour from Corn Du",
+      "title": "Cadair Idris at Golden Hour",
+      "src": "/images/hiking/cadair-idris/DSCF6982-2.jpg",
+      "alt": "Cadair Idris, Snowdonia at golden hour",
       "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-01"
+      "picfairUrl": "https://ede-photography.picfair.com/"
     },
     {
-      "title": "Mont Blanc at First Light",
-      "src": "https://picsum.photos/seed/print-montblanc/900/1200",
-      "alt": "Mont Blanc massif at first light from Chamonix valley",
+      "title": "Dinorwic Quarry, Snowdonia",
+      "src": "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
+      "alt": "Dinorwic Quarry, Snowdonia",
       "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-01"
+      "picfairUrl": "https://ede-photography.picfair.com/"
     },
     {
-      "title": "Corbi\u00e8re Lighthouse",
-      "src": "https://picsum.photos/seed/print-corbiere/900/1200",
-      "alt": "Corbi\u00e8re Lighthouse at low tide during golden hour",
+      "title": "Llyn y Fan Fach",
+      "src": "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
+      "alt": "Llyn y Fan Fach, Brecon Beacons",
       "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-01"
+      "picfairUrl": "https://ede-photography.picfair.com/"
     },
     {
-      "title": "Pen y Fan Sunrise",
-      "src": "https://picsum.photos/seed/print-penyfan/900/1200",
-      "alt": "Pen y Fan and Corn Du from Cribyn at sunrise",
+      "title": "Crans Montana",
+      "src": "/images/winter-alps/crans-montana/DSCF2999.jpg",
+      "alt": "Crans Montana, Swiss Alps",
       "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-01"
+      "picfairUrl": "https://ede-photography.picfair.com/"
     },
     {
-      "title": "Matterhorn North Face",
-      "src": "https://picsum.photos/seed/print-matterhorn/900/1200",
-      "alt": "Matterhorn north face in winter storm light",
-      "price": "\u00a340",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/alps-04"
-    },
-    {
-      "title": "Sunset over St Ouen's Bay",
-      "src": "https://picsum.photos/seed/print-stouen/900/1200",
-      "alt": "Sunset over St Ouen's Bay from the dunes",
+      "title": "Jersey Coastline",
+      "src": "/images/jersey/IMG_4905.jpg",
+      "alt": "Jersey coastline",
       "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/jersey-04"
+      "picfairUrl": "https://ede-photography.picfair.com/"
     },
     {
-      "title": "Cloud Inversion, Snowdon",
-      "src": "https://picsum.photos/seed/print-snowdon/900/1200",
-      "alt": "Cloud inversion from the summit of Snowdon at sunrise",
-      "price": "\u00a340",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/hiking-02"
-    },
-    {
-      "title": "Sgwd yr Eira Waterfall",
-      "src": "https://picsum.photos/seed/print-sgwdyreira/900/1200",
-      "alt": "Waterfall Country \u2014 Sgwd yr Eira behind the falls",
+      "title": "Ogwen Valley, Snowdonia",
+      "src": "/images/hiking/ogwen-valley/DSCF1008.jpg",
+      "alt": "Ogwen Valley, Snowdonia",
       "price": "\u00a335",
-      "picfairUrl": "https://ede-photography.picfair.com/pics/brecon-05"
+      "picfairUrl": "https://ede-photography.picfair.com/"
+    },
+    {
+      "title": "Pen y Fan, Brecon Beacons",
+      "src": "/images/hiking/pen-y-fan/DSC00852.jpg",
+      "alt": "Pen y Fan, Brecon Beacons",
+      "price": "\u00a335",
+      "picfairUrl": "https://ede-photography.picfair.com/"
+    },
+    {
+      "title": "Mont Joly, Megeve",
+      "src": "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
+      "alt": "Mont Joly, Megeve",
+      "price": "\u00a335",
+      "picfairUrl": "https://ede-photography.picfair.com/"
     }
   ]
 }

@@ -1,26 +1,59 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/components/HeroImage";
-import { getGalleriesByCategory } from "@/lib/galleries";
+
+const featuredWork = [
+  {
+    src: "/images/hiking/cadair-idris/DSCF6982-2.jpg",
+    alt: "Silhouette on the summit of Cadair Idris at golden hour",
+    location: "Cadair Idris, Snowdonia",
+    gallery: "Hiking",
+    href: "/portfolio/hiking",
+  },
+  {
+    src: "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
+    alt: "Llyn y Fan Fach crater lake in snow",
+    location: "Brecon Beacons",
+    gallery: "Hiking",
+    href: "/portfolio/hiking",
+  },
+  {
+    src: "/images/winter-alps/crans-montana/DSCF2709.jpg",
+    alt: "Snowboarder against alpine backdrop",
+    location: "Crans Montana, Switzerland",
+    gallery: "Winter in the Alps",
+    href: "/portfolio/winter-alps",
+  },
+  {
+    src: "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
+    alt: "Mountain cabins at Dinorwic Quarry",
+    location: "Dinorwic Quarry, Snowdonia",
+    gallery: "Hiking",
+    href: "/portfolio/hiking",
+  },
+  {
+    src: "/images/jersey/IMG_4905.jpg",
+    alt: "Dramatic coastal cliffs of Jersey",
+    location: "Jersey, Channel Islands",
+    gallery: "Jersey & the Coast",
+    href: "/portfolio/jersey-coast",
+  },
+  {
+    src: "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
+    alt: "Sunset over the Mont Blanc massif from Mont Joly",
+    location: "Megeve, French Alps",
+    gallery: "Hiking",
+    href: "/portfolio/hiking",
+  },
+];
 
 export default function Home() {
-  const galleries = getGalleriesByCategory("portfolio");
-  const featuredImages = galleries
-    .flatMap((g) =>
-      g.images.slice(0, 2).map((img) => ({
-        ...img,
-        galleryTitle: g.title,
-        gallerySlug: g.slug,
-      }))
-    )
-    .slice(0, 4);
-
   return (
     <>
       {/* Hero */}
       <HeroImage
-        src="https://picsum.photos/seed/hero-landscape/1600/1000"
-        alt="Mountain landscape at golden hour"
+        src="/images/hiking/cadair-idris/DSCF6982-2.jpg"
+        alt="Cadair Idris, Snowdonia at golden hour"
         title="E.D.E Photography"
         subtitle="UK Landscape & Adventure Photography"
         height="full"
@@ -47,11 +80,11 @@ export default function Home() {
         <h2 className="text-lg font-medium text-gray-400 mb-8">
           Featured Work
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {featuredImages.map((img, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {featuredWork.map((img, i) => (
             <Link
               key={i}
-              href={`/portfolio/${img.gallerySlug}`}
+              href={img.href}
               className="group relative aspect-[3/2] overflow-hidden rounded-lg bg-charcoal-800"
             >
               <Image
@@ -59,14 +92,12 @@ export default function Home() {
                 alt={img.alt}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-sm font-medium">{img.alt}</p>
-                <p className="text-xs text-gray-300 mt-1">
-                  {img.galleryTitle}
-                </p>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                <p className="text-sm font-medium">{img.location}</p>
+                <p className="text-xs text-gray-300 mt-1">{img.gallery}</p>
               </div>
             </Link>
           ))}
@@ -95,9 +126,7 @@ export default function Home() {
       <section className="border-t border-white/5">
         <div className="container-wide py-20">
           <div className="max-w-2xl">
-            <h2 className="text-lg font-medium text-gray-400 mb-4">
-              About
-            </h2>
+            <h2 className="text-lg font-medium text-gray-400 mb-4">About</h2>
             <p className="text-gray-400 leading-relaxed mb-6">
               I&apos;m Ed — a landscape and adventure photographer based in the
               UK. Originally from Jersey, I now spend most of my time in the

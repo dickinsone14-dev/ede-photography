@@ -14,7 +14,7 @@ export default function AboutPage() {
       <div className="mb-12">
         <div className="relative aspect-[4/3] md:aspect-[3/2] overflow-hidden rounded-lg bg-charcoal-800">
           <Image
-            src="https://picsum.photos/seed/portrait-ed/1200/900"
+            src="/images/about/DSC00756.jpg"
             alt="Ed — E.D.E Photography"
             fill
             className="object-cover"
@@ -80,32 +80,23 @@ export default function AboutPage() {
         <h2 className="text-lg font-medium mb-8">Gear</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-sm font-medium text-gray-300 mb-3">Camera</h3>
+            <h3 className="text-sm font-medium text-gray-300 mb-3">Digital</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Sony A7 III</li>
+              <li>Fujifilm X-T30 (18-55mm f/2.8)</li>
+              <li>Retropia Dispo Lens</li>
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-medium text-gray-300 mb-3">Lenses</h3>
+            <h3 className="text-sm font-medium text-gray-300 mb-3">Film</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Sony 16-35mm f/4 ZA OSS</li>
-              <li>Sony 24-105mm f/4 G OSS</li>
-              <li>Sony 70-200mm f/4 G OSS</li>
+              <li>Nikon FM2n (50mm f/1.4)</li>
+              <li>Kodak Ektar H35</li>
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-medium text-gray-300 mb-3">Support</h3>
+            <h3 className="text-sm font-medium text-gray-300 mb-3">Other</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Peak Design Travel Tripod</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-sm font-medium text-gray-300 mb-3">Filters</h3>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li>NiSi V6 filter system</li>
-              <li>NiSi 6-stop ND</li>
-              <li>NiSi Medium GND 0.9</li>
-              <li>NiSi Circular Polariser</li>
+              <li>Sony a5000 (16-50mm f/3.5)</li>
             </ul>
           </div>
         </div>

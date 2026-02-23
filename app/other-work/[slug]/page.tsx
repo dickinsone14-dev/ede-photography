@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import GalleryGrid from "@/components/GalleryGrid";
-import { getAllGalleries, getGalleryBySlug } from "@/lib/galleries";
+import { getAllGalleries, getGalleryBySlug, getImageCount } from "@/lib/galleries";
 
 interface Props {
   params: { slug: string };
@@ -28,6 +28,8 @@ export default function OtherWorkGalleryPage({ params }: Props) {
   const gallery = getGalleryBySlug(params.slug);
   if (!gallery || gallery.category !== "other-work") notFound();
 
+  const imageCount = getImageCount(gallery);
+
   return (
     <div className="container-wide py-16">
       {/* Breadcrumb */}
@@ -51,12 +53,12 @@ export default function OtherWorkGalleryPage({ params }: Props) {
           {gallery.description}
         </p>
         <p className="text-sm text-gray-600 mt-4">
-          {gallery.images.length} images
+          {imageCount} images
         </p>
       </div>
 
       {/* Gallery */}
-      <GalleryGrid images={gallery.images} />
+      <GalleryGrid sections={gallery.sections} images={gallery.images} />
     </div>
   );
 }
