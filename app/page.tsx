@@ -136,8 +136,8 @@ export default function Home() {
               <h2 className="text-lg font-medium text-brand-text-faint mb-4">About</h2>
               <p className="text-brand-text-light leading-relaxed mb-6">
                 I&apos;m Ed — a photographer based in the UK. Originally from
-                Jersey, I now spend most of my time in the mountains of Wales
-                and further afield.
+                Jersey, I now try and spend as much time as possible in the
+                mountains of the UK and further afield.
               </p>
               <Link
                 href="/about"
