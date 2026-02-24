@@ -7,55 +7,55 @@
   "description": "The European Alps in winter — ski touring, mountain villages, and dramatic peaks across the French and Swiss Alps. From the slopes of Megeve and Tignes to the valleys of Nendaz and Crans Montana, these images capture the raw scale and beauty of the mountains under snow.",
   "sections": [
     {
-      "title": "Megeve Jumps, French Alps",
+      "title": "Saint Gervais, French Alps",
       "date": "February 2026",
       "images": [
         {
-          "src": "/images/winter-alps/megeve-jumps/DSCF4412.jpg",
-          "alt": "Skier launching off a steep snow bank into the air against a blue sky with bare trees framing the shot",
-          "location": "Megeve, France",
-          "date": "2026-02",
-          "orientation": "landscape"
-        },
-        {
-          "src": "/images/winter-alps/megeve-jumps/DSCF4413.jpg",
-          "alt": "Skier mid-jump above a powder snow drop with ski poles extended against a clear blue sky",
-          "location": "Megeve, France",
-          "date": "2026-02",
-          "orientation": "landscape"
-        },
-        {
-          "src": "/images/winter-alps/megeve-jumps/DSCF4414.jpg",
-          "alt": "Skier at the peak of a jump off a snow lip with bare branches and blue sky behind",
-          "location": "Megeve, France",
-          "date": "2026-02",
-          "orientation": "landscape"
-        },
-        {
-          "src": "/images/winter-alps/megeve-jumps/DSCF4427.jpg",
-          "alt": "Skier in camo jacket carving through deep powder on a steep slope with pine trees and snow spray",
-          "location": "Megeve, France",
-          "date": "2026-02",
-          "orientation": "landscape"
-        },
-        {
           "src": "/images/winter-alps/megeve-jumps/DSCF4450.jpg",
           "alt": "Skier dropping off a rocky cliff edge into powder snow with pine trees and mountains behind",
-          "location": "Megeve, France",
+          "location": "Saint Gervais, France",
           "date": "2026-02",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-jumps/DSCF4451.jpg",
           "alt": "Skier jumping off a rock drop with poles raised and snow spraying beneath against a backdrop of snowy pines",
-          "location": "Megeve, France",
+          "location": "Saint Gervais, France",
           "date": "2026-02",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-jumps/DSCF4452.jpg",
           "alt": "Skier landing a drop through powder snow between rocks with pine trees and mountain peaks in the background",
-          "location": "Megeve, France",
+          "location": "Saint Gervais, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-jumps/DSCF4412.jpg",
+          "alt": "Skier launching off a steep snow bank into the air against a blue sky with bare trees framing the shot",
+          "location": "Saint Gervais, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-jumps/DSCF4413.jpg",
+          "alt": "Skier mid-jump above a powder snow drop with ski poles extended against a clear blue sky",
+          "location": "Saint Gervais, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-jumps/DSCF4414.jpg",
+          "alt": "Skier at the peak of a jump off a snow lip with bare branches and blue sky behind",
+          "location": "Saint Gervais, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-jumps/DSCF4427.jpg",
+          "alt": "Skier in camo jacket carving through deep powder on a steep slope with pine trees and snow spray",
+          "location": "Saint Gervais, France",
           "date": "2026-02",
           "orientation": "landscape"
         }
