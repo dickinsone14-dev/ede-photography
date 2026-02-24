@@ -25,6 +25,7 @@ export default function GalleryCard({
           src={coverImage}
           alt={title}
           fill
+          quality={100}
           className="object-cover transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
