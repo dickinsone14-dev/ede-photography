@@ -7,6 +7,40 @@
   "description": "Mountain landscapes and hiking photos I've taken across Wales, the Lake District, and the Peak District. From the quarries of Dinorwic to the summit of Cadair Idris, these images are taken on long days out in the hills.",
   "sections": [
     {
+      "title": "Langdale Pikes, Lake District",
+      "date": "February 2026",
+      "images": [
+        {
+          "src": "/images/hiking/langdale-pikes/DSCF4558.jpg",
+          "alt": "Snow-covered Langdale Pikes rising into low cloud and mist with dark moorland ridges in the foreground",
+          "location": "Lake District",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/langdale-pikes/DSCF4572.jpg",
+          "alt": "Hiker standing on a snowy summit looking into thick fog with a backpack at their feet",
+          "location": "Lake District",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/langdale-pikes/DSCF4577.jpg",
+          "alt": "Hiker ascending a snow-covered mountain slope into heavy mist with a backpack and winter gear",
+          "location": "Lake District",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/langdale-pikes/DSCF4551.jpg",
+          "alt": "Hiker walking up a rocky stone path toward craggy peaks with a dry stone wall and moody overcast sky",
+          "location": "Lake District",
+          "date": "2026-02",
+          "orientation": "portrait"
+        }
+      ]
+    },
+    {
       "title": "Dinorwic Quarry (Rd. 2), Snowdonia",
       "date": "December 2025",
       "images": [
