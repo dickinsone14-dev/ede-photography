@@ -34,6 +34,7 @@ export default function OtherWorkIndex() {
                 title={gallery.title}
                 slug={gallery.slug}
                 coverImage={gallery.coverImage}
+                coverPosition={gallery.coverPosition}
                 imageCount={getImageCount(gallery)}
                 category="other-work"
               />

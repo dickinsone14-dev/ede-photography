@@ -5,6 +5,7 @@ interface GalleryCardProps {
   title: string;
   slug: string;
   coverImage: string;
+  coverPosition?: string;
   imageCount: number;
   category: "portfolio" | "other-work";
 }
@@ -13,6 +14,7 @@ export default function GalleryCard({
   title,
   slug,
   coverImage,
+  coverPosition,
   imageCount,
   category,
 }: GalleryCardProps) {
@@ -27,6 +29,7 @@ export default function GalleryCard({
           fill
           quality={100}
           className="object-cover transition-transform duration-500 group-hover:scale-105"
+          style={coverPosition ? { objectPosition: coverPosition } : undefined}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />

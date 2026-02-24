@@ -35,6 +35,7 @@ export default function PortfolioIndex() {
                 title={gallery.title}
                 slug={gallery.slug}
                 coverImage={gallery.coverImage}
+                coverPosition={gallery.coverPosition}
                 imageCount={getImageCount(gallery)}
                 category="portfolio"
               />

@@ -23,6 +23,7 @@ export interface Gallery {
   order?: number;
   description: string;
   coverImage: string;
+  coverPosition?: string;
   sections?: GallerySection[];
   images?: GalleryImage[];
 }
