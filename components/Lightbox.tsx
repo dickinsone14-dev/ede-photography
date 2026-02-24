@@ -109,8 +109,7 @@ export default function Lightbox({
       >
         <div className="container-wide flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2">
           <div>
-            <p className="text-sm text-gray-300">{image.alt}</p>
-            <div className="flex flex-wrap gap-x-4 gap-y-1 mt-1">
+            <div className="flex flex-wrap gap-x-4 gap-y-1">
               {image.location && (
                 <span className="text-xs text-gray-500">{image.location}</span>
               )}
