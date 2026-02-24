@@ -20,7 +20,7 @@ export default function GalleryCard({
 
   return (
     <Link href={href} className="group block">
-      <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+      <div className="relative aspect-[16/9] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
         <Image
           src={coverImage}
           alt={title}
