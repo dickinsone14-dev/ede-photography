@@ -27,11 +27,11 @@ const featuredWork = [
     href: "/portfolio/winter-alps#crans-montana-swiss-alps",
   },
   {
-    src: "/images/hiking/dinorwic-quarry/DSCF8120.jpg",
-    alt: "Mountain cabins at Dinorwic Quarry",
-    location: "Dinorwic Quarry, Snowdonia",
-    gallery: "Hiking in the UK",
-    href: "/portfolio/hiking-uk#dinorwic-quarry-snowdonia",
+    src: "/images/winter-alps/megeve-jumps/DSCF4450.jpg",
+    alt: "Skier dropping off a rocky cliff edge into powder snow",
+    location: "Saint Gervais, French Alps",
+    gallery: "Winter in the Alps",
+    href: "/portfolio/winter-alps#saint-gervais-french-alps",
   },
   {
     src: "/images/jersey/IMG_4905.jpg",
