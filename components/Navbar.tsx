@@ -32,7 +32,7 @@ export default function Navbar() {
   }, [mobileOpen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-brand-border">
+    <nav className="fixed left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-brand-border" style={{ top: "var(--announcement-height, 0px)" }}>
       <div className="container-wide flex items-center justify-between h-16">
         <Link
           href="/"

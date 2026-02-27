@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import AnnouncementBar from "@/components/AnnouncementBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollIndicator from "@/components/ScrollIndicator";
@@ -62,8 +63,9 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col">
         <SmoothScroll />
+        <AnnouncementBar />
         <Navbar />
-        <main className="flex-1 pt-16">{children}</main>
+        <main className="flex-1" style={{ paddingTop: "calc(4rem + var(--announcement-height, 0px))" }}>{children}</main>
         <ScrollIndicator />
         <Footer />
         <Analytics />
