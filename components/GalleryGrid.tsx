@@ -63,12 +63,18 @@ function BlurImage({
         />
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
         {image.picfairUrl && (
-          <div className="absolute bottom-2 right-2 z-10 opacity-0 group-hover:opacity-100 max-sm:opacity-60 transition-opacity duration-300">
+          <a
+            href={image.picfairUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-center gap-2 py-3 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 max-sm:opacity-70 transition-opacity duration-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-5 h-5 text-white drop-shadow-md"
+              className="w-4 h-4 text-white drop-shadow-md"
             >
               <path
                 fillRule="evenodd"
@@ -76,7 +82,10 @@ function BlurImage({
                 clipRule="evenodd"
               />
             </svg>
-          </div>
+            <span className="text-sm font-medium text-white drop-shadow-md tracking-wide">
+              Buy this print
+            </span>
+          </a>
         )}
       </div>
     </div>

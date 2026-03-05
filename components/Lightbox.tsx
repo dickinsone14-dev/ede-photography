@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useState } from "react";
 import type { GalleryImage } from "./GalleryGrid";
 
 interface LightboxProps {
@@ -20,6 +20,13 @@ export default function Lightbox({
   const image = images[currentIndex];
   const hasPrev = currentIndex > 0;
   const hasNext = currentIndex < images.length - 1;
+  const [showBuy, setShowBuy] = useState(false);
+
+  useEffect(() => {
+    setShowBuy(false);
+    const timer = setTimeout(() => setShowBuy(true), 1500);
+    return () => clearTimeout(timer);
+  }, [currentIndex]);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -100,6 +107,32 @@ export default function Lightbox({
           sizes="90vw"
           priority
         />
+        {image.picfairUrl && (
+          <a
+            href={image.picfairUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2.5 px-6 py-3 bg-white/15 backdrop-blur-md border border-white/20 rounded-full transition-all duration-500 hover:bg-white/25 hover:scale-105 ${
+              showBuy ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2 pointer-events-none"
+            }`}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="w-5 h-5 text-white"
+            >
+              <path
+                fillRule="evenodd"
+                d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v.75a.75.75 0 01-1.5 0v-.75a1.5 1.5 0 00-3 0v.75a.75.75 0 01-1.5 0v-.75z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span className="text-sm font-medium text-white tracking-wide">
+              Buy this print
+            </span>
+          </a>
+        )}
       </div>
 
       {/* Info bar */}
@@ -119,16 +152,6 @@ export default function Lightbox({
             </div>
           </div>
           <div className="flex items-center gap-4">
-            {image.picfairUrl && (
-              <a
-                href={image.picfairUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-gray-400 hover:text-white transition-colors underline underline-offset-4"
-              >
-                Buy this print
-              </a>
-            )}
             <span className="text-xs text-gray-600">
               {currentIndex + 1} / {images.length}
             </span>
