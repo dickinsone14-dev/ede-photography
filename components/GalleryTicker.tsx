@@ -178,16 +178,15 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
 
 export default function GalleryTicker() {
   const shuffled = useMemo(() => shuffle(items), []);
-  const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth < 640);
-    check();
-    window.addEventListener("resize", check);
-    return () => window.removeEventListener("resize", check);
-  }, []);
-
-  return isMobile
-    ? <MobileTicker shuffled={shuffled} />
-    : <DesktopTicker shuffled={shuffled} />;
+  return (
+    <>
+      <div className="sm:hidden">
+        <MobileTicker shuffled={shuffled} />
+      </div>
+      <div className="hidden sm:block">
+        <DesktopTicker shuffled={shuffled} />
+      </div>
+    </>
+  );
 }
