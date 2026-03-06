@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 const navLinks = [
   { href: "/portfolio", label: "Portfolio" },
@@ -16,6 +16,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const mobileRef = useRef<HTMLDivElement>(null);
+  const navRef = useRef<HTMLElement>(null);
 
   // Animate mobile menu height
   useEffect(() => {
@@ -31,8 +32,31 @@ export default function Navbar() {
     }
   }, [mobileOpen]);
 
+  // Close on outside click
+  useEffect(() => {
+    if (!mobileOpen) return;
+    function handleClick(e: MouseEvent) {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setMobileOpen(false);
+      }
+    }
+    document.addEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick);
+  }, [mobileOpen]);
+
+  // Close on Escape
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === "Escape") setMobileOpen(false);
+  }, []);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [mobileOpen, handleKeyDown]);
+
   return (
-    <nav className="fixed left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-brand-border" style={{ top: "var(--announcement-height, 0px)" }}>
+    <nav ref={navRef} className="fixed left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-brand-border" style={{ top: "var(--announcement-height, 0px)" }}>
       <div className="container-wide flex items-center justify-between h-16">
         <Link
           href="/"
