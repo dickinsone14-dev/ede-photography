@@ -44,6 +44,7 @@ export default function RootLayout({
     description:
       "Photography. Prints, licensing, and commissions.",
     url: "https://ede-photography.com",
+    logo: "https://ede-photography.com/icon.png",
     image: "https://ede-photography.com/images/hiking/cadair-idris/DSCF6982-2.jpg",
     sameAs: ["https://www.instagram.com/e.d.e.photography/"],
     address: {
