@@ -44,12 +44,53 @@ const items: TickerItem[] = [
   { src: "/images/jersey/DSCF8637-2.jpg", title: "Jersey & the Coast", href: "/portfolio/jersey-coast" },
 ];
 
-// Fixed card width matching the CSS (lg breakpoint)
+// Fixed card width for desktop
 const CARD_WIDTH = 360;
 const GAP = 24;
 
-export default function GalleryTicker() {
-  const shuffled = useMemo(() => shuffle(items), []);
+/** Mobile: single centred card that crossfades */
+function MobileTicker({ shuffled }: { shuffled: TickerItem[] }) {
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActive((prev) => (prev + 1) % shuffled.length);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, [shuffled.length]);
+
+  return (
+    <div className="px-4 py-12">
+      <div className="relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface mx-auto max-w-[420px]">
+        {shuffled.map((item, i) => (
+          <Link
+            key={i}
+            href={item.href}
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+              i === active ? "opacity-100 z-10" : "opacity-0 z-0"
+            }`}
+          >
+            <Image
+              src={item.src}
+              alt={item.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, 420px"
+              priority={i === 0}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-4">
+              <p className="text-sm font-medium text-white">{item.title}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/** Desktop: horizontal scroll with highlight */
+function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
   const tripled = useMemo(() => [...shuffled, ...shuffled, ...shuffled], [shuffled]);
   const count = shuffled.length;
 
@@ -59,7 +100,6 @@ export default function GalleryTicker() {
 
   const scrollToCard = useCallback((index: number, smooth: boolean) => {
     if (!trackRef.current) return;
-    // Scroll so the active card is fully visible with some left padding
     const scrollLeft = index * (CARD_WIDTH + GAP);
     if (smooth) {
       trackRef.current.scrollTo({ left: scrollLeft, behavior: "smooth" });
@@ -134,4 +174,20 @@ export default function GalleryTicker() {
       </div>
     </div>
   );
+}
+
+export default function GalleryTicker() {
+  const shuffled = useMemo(() => shuffle(items), []);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 640);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
+  return isMobile
+    ? <MobileTicker shuffled={shuffled} />
+    : <DesktopTicker shuffled={shuffled} />;
 }
