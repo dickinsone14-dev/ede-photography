@@ -53,7 +53,7 @@ export default function ContactPage() {
                 rel="noopener noreferrer"
                 className="text-sm text-brand-teal hover:text-brand-teal-hover transition-colors"
               >
-                @e.d.e_photography
+                @e.d.e.photography
               </a>
             </div>
 
