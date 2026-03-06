@@ -185,7 +185,6 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
             const portraitFirstSections = [
               "back-tor-peak-district",
               "helvellyn-lake-district",
-              "pen-y-fan-brecon-beacons",
             ];
 
             return (
