@@ -7,6 +7,8 @@
   html {
     scrollbar-width: none;
     -ms-overflow-style: none;
+    overscroll-behavior: none;
+    background-color: #000000;
   }
 
   html::-webkit-scrollbar {
