@@ -4,8 +4,56 @@
   "category": "portfolio",
   "order": 2,
   "coverImage": "/images/winter-alps/crans-montana/DSCF2709.jpg",
-  "description": "The European Alps in winter — ski touring, mountain villages, and dramatic peaks across the French and Swiss Alps. From the slopes of Megeve and Tignes to the valleys of Nendaz and Crans Montana, these images capture the raw scale and beauty of the mountains under snow.",
+  "description": "The European Alps in winter — ski touring, mountain villages, and dramatic peaks across the French and Swiss Alps. From the slopes of Megève and Tignes to the valleys of Nendaz and Crans Montana, these images capture the raw scale and beauty of the mountains under snow.",
   "sections": [
+    {
+      "title": "Megève, French Alps",
+      "date": "February 2026",
+      "images": [
+        {
+          "src": "/images/winter-alps/megeve-feb/DSCF4383.jpg",
+          "alt": "Skier heading uphill past an orange-padded lift pylon with a yellow direction sign, fresh snow tracks on the slope and pine trees on the hillside above",
+          "location": "Megève, France",
+          "date": "2026-02",
+          "orientation": "portrait"
+        },
+        {
+          "src": "/images/winter-alps/megeve-feb/DSCF4477.jpg",
+          "alt": "Panoramic view of rolling snow-covered alpine ridges and scattered pine trees with a distant peak rising against a soft blue sky",
+          "location": "Megève, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-feb/DSCF4476.jpg",
+          "alt": "Groomed ski runs sweeping beneath a massive snow-covered mountain with a lodge and skiers visible at the base under a hazy sky",
+          "location": "Megève, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-feb/DSCF4432.jpg",
+          "alt": "Skier crashing on a steep groomed piste with red poles flying, other skiers descending in the background on the wide open slope",
+          "location": "Megève, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-feb/DSCF4394.jpg",
+          "alt": "Wide view of snow-covered ski slopes dotted with pine trees and a chairlift running up toward a rocky summit under a pale winter sky",
+          "location": "Megève, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/winter-alps/megeve-feb/DSCF4387.jpg",
+          "alt": "Snow-covered alpine peak with exposed rock faces and dark pine forest in the foreground under an overcast winter sky",
+          "location": "Megève, France",
+          "date": "2026-02",
+          "orientation": "landscape"
+        }
+      ]
+    },
     {
       "title": "Saint Gervais, French Alps",
       "date": "February 2026",
@@ -62,13 +110,13 @@
       ]
     },
     {
-      "title": "Megeve, French Alps",
+      "title": "Megève, French Alps",
       "date": "January 2026",
       "images": [
         {
           "src": "/images/winter-alps/megeve-film/IMG_7873.jpg",
           "alt": "Wooden mountain hut terrace with skiers resting beside it, overlooking snow-covered slopes and a jagged peak in the distance",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276315-untitled"
@@ -76,7 +124,7 @@
         {
           "src": "/images/winter-alps/megeve-film/IMG_7902.jpg",
           "alt": "Skier in a red jacket standing with poles on a sunny mountaintop, facing a panoramic view of the Mont Blanc massif with other skiers lounging in deck chairs",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276314-untitled"
@@ -84,14 +132,14 @@
         {
           "src": "/images/winter-alps/megeve-film/IMG_7919.jpg",
           "alt": "Close-up portrait of a smiling skier wearing orange mirrored sunglasses and a dark puffer jacket, holding ski poles with snowy mountains behind",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7872.jpg",
           "alt": "Dramatic panoramic view of the Mont Blanc massif with snow-covered ridges and exposed rock faces under a hazy winter sky",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096632-aiguille-vert"
@@ -99,7 +147,7 @@
         {
           "src": "/images/winter-alps/megeve-film/IMG_7877.jpg",
           "alt": "Skiers relaxing in deck chairs at a mountaintop terrace with skis and snowboards propped up, sharp alpine peaks stretching across the horizon",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024276316-untitled"
@@ -107,56 +155,56 @@
         {
           "src": "/images/winter-alps/megeve-film/IMG_7910.jpg",
           "alt": "Group of friends in ski gear being hit by a snowball mid-air, laughing on a sunny slope with pine trees in the background",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7909.jpg",
           "alt": "Chairlift carrying skiers uphill framed by dark pine trees, with snow-covered alpine peaks and a clear blue sky behind",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7893.jpg",
           "alt": "Moody overcast sky above snow-dusted mountain ridges with dark forested valleys and ski runs visible below",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7911.jpg",
           "alt": "Group of eight skiers and snowboarders posing together on a snowy summit with a distant peak rising behind them under a clear blue sky",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7935.jpg",
           "alt": "Remote alpine chalets nestled in a wide, untouched snow-covered valley with rolling white hills and a rocky ridge to the left",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7918.jpg",
           "alt": "Lone skier in an orange jacket gliding down a groomed piste toward a chairlift station, with pine trees and distant peaks in late afternoon light",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7925.jpg",
           "alt": "Sweeping view of snow-covered alpine ridges and forested valleys at dusk, with a prominent peak catching the last golden light",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         },
         {
           "src": "/images/winter-alps/megeve-film/IMG_7933.jpg",
           "alt": "Young man in a beanie laughing among friends on a snowy plateau, with alpine chalets and snow-covered hills in the warm afternoon sun",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape"
         }
@@ -228,20 +276,20 @@
       ]
     },
     {
-      "title": "Megeve, French Alps",
+      "title": "Megève, French Alps",
       "date": "January 2026",
       "images": [
         {
           "src": "/images/winter-alps/megeve-hike/DSCF3693.jpg",
           "alt": "Snowflakes falling at night illuminated against a dark sky, with footprints in the snow visible at the bottom of the frame",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "portrait"
         },
         {
           "src": "/images/winter-alps/megeve-hike/DSCF3964.jpg",
           "alt": "Black bird in flight silhouetted against a sunset sky over snow-covered ski slopes, with distant alpine peaks on the horizon",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096631-flying-high"
@@ -249,7 +297,7 @@
         {
           "src": "/images/winter-alps/megeve-hike/DSCF3831.jpg",
           "alt": "Closed ski run sign reading Ferme at dusk with dramatic snow-capped peaks and deep valleys in the fading twilight behind",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096644-ferme"
@@ -257,7 +305,7 @@
         {
           "src": "/images/winter-alps/megeve-hike/DSCF4100.jpg",
           "alt": "Empty chairlift silhouetted against a golden dusk sky, suspended above snow-covered slopes with alpine peaks glowing in the distance",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096636-waiting-for-the-sun"
@@ -265,7 +313,7 @@
         {
           "src": "/images/winter-alps/megeve-hike/DSCF3926.jpg",
           "alt": "Birds soaring over a vast mountain panorama at sunset, with jagged snow-covered peaks and deep shadowed valleys below a warm glowing sky",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096641-jetting-off"
@@ -273,7 +321,7 @@
         {
           "src": "/images/winter-alps/megeve-hike/DSCF4055.jpg",
           "alt": "Distant mountain range with sunlit snow-covered peaks glowing golden at sunset above a dark shadowed valley at blue hour",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/023997881-last-light"
@@ -281,7 +329,7 @@
         {
           "src": "/images/winter-alps/megeve-hike/DSCF4136.jpg",
           "alt": "Off-piste danger warning sign in French, English, and German with dramatic snow-covered peaks and Mont Blanc massif visible behind at dusk",
-          "location": "Megeve, France",
+          "location": "Megève, France",
           "date": "2026-01",
           "orientation": "landscape",
           "picfairUrl": "https://ede-photography.picfair.com/images/024096634-danger"

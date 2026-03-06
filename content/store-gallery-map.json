@@ -50,7 +50,7 @@
       "storeAlbums": ["top10", "hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF0513.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Silhouetted chairlift chairs at sunrise with hazy layered mountains matches 'Tranquility' title"
     },
@@ -72,7 +72,7 @@
       "storeAlbums": ["top10", "hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Jagged Alpine peaks and Mont Blanc massif silhouetted against warm orange and pink sunset sky matches 'Fading Light'"
     },
@@ -127,7 +127,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF0518.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Visual match: chairlift chairs crossing golden grassy hillside at sunrise with silhouetted mountain ridges"
     },
@@ -138,7 +138,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF9744.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Winding gravel track past small wooden hut toward mountain slopes matches 'Lone Cabin on the Beaten Track'"
     },
@@ -204,7 +204,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF0382.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Fallen French warning sign for hikers on Alpine hillside matches 'No Entry'"
     },
@@ -259,7 +259,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/02640027.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Trail signpost for Mont Joly and Blanchot at dusk with Alpine peaks matches 'Awakening Peaks'"
     },
@@ -270,7 +270,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/02620031.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "medium",
       "matchReason": "Layered mountains in hazy golden light from high vantage. Best match is the lone figure on vast autumn alpine meadow with limestone cliffs and layered valleys."
     },
@@ -281,7 +281,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF9941.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Golden evening light on alpine meadows and pine forests with dramatic rocky cliff face matches 'Human Intervention'"
     },
@@ -292,7 +292,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/02640002.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Sea of clouds with rocky mountain summits emerging like islands in warm light matches 'Above the Clouds'"
     },
@@ -369,7 +369,7 @@
       "storeAlbums": ["hiking"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF0508.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Visual match: sunlit ridge with layered Alpine peaks panorama, portrait orientation. Matches Mont Joly summit ridge image."
     },
@@ -490,7 +490,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF3964.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Black bird in flight silhouetted against sunset sky over snow-covered ski slopes matches 'Flying High'"
     },
@@ -523,7 +523,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF4136.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Off-piste danger warning sign in French/English/German with Mont Blanc behind matches 'Danger'"
     },
@@ -567,7 +567,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF3926.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "medium",
       "matchReason": "Bird in flight near piste marker at sunset. Best match is birds soaring over vast mountain panorama at sunset with jagged peaks."
     },
@@ -578,7 +578,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF4055.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Distant mountain with sunlit snow-covered peaks glowing golden at sunset matches 'Last Light'"
     },
@@ -589,7 +589,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-film/IMG_7872.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Mont Blanc massif panorama with snow-covered ridges and exposed rock in winter haze matches 'Aiguille Vert'"
     },
@@ -600,7 +600,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF4100.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Empty chairlift silhouetted against golden dusk sky above snow-covered slopes matches 'Waiting for the Sun'"
     },
@@ -622,7 +622,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF3831.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Closed ski run sign reading 'Ferme' at dusk with snow-capped peaks matches title exactly"
     },
@@ -644,9 +644,9 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-hike/DSCF4055.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "medium",
-      "matchReason": "Mountain peaks with golden light at sunset. Similar scene to 'Last Light' - both reference Megeve sunset peaks. May be a different frame from the same viewpoint. Best available match."
+      "matchReason": "Mountain peaks with golden light at sunset. Similar scene to 'Last Light' - both reference Megève sunset peaks. May be a different frame from the same viewpoint. Best available match."
     },
     {
       "imageId": "024140021-nendaz-4",
@@ -699,7 +699,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-film/IMG_7902.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Visual match: skier in red jacket on mountaintop facing Mont Blanc panorama with deck chairs"
     },
@@ -710,7 +710,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-film/IMG_7873.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Visual match: wooden mountain hut terrace with skiers resting, snowy slopes and jagged peak in distance"
     },
@@ -721,7 +721,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-film/IMG_7877.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Visual match: skiers relaxing in deck chairs at mountaintop terrace with skis and snowboards propped up"
     },
@@ -732,7 +732,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/winter-alps/megeve-film/IMG_7872.jpg",
       "galleryFile": "winter-alps.json",
-      "gallerySection": "Megeve, French Alps",
+      "gallerySection": "Megève, French Alps",
       "confidence": "high",
       "matchReason": "Visual match: dramatic panoramic view of Mont Blanc massif with snow-covered ridges in winter haze"
     },
@@ -743,7 +743,7 @@
       "storeAlbums": ["winterAlps"],
       "gallerySrc": "/images/hiking/mont-joly-megeve/DSCF9941.jpg",
       "galleryFile": "hiking-abroad.json",
-      "gallerySection": "Mont Joly, Megeve",
+      "gallerySection": "Mont Joly, Megève",
       "confidence": "high",
       "matchReason": "Visual match: golden evening light on alpine meadows and pine forests with rocky cliff. Same image as 'Human Intervention' - placed in winterAlps album but actually from autumn hiking."
     },

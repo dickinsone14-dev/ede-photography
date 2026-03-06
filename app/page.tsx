@@ -43,7 +43,7 @@ const featuredWork = [
   {
     src: "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
     alt: "Sunset over the Mont Blanc massif from Mont Joly",
-    location: "Megeve, French Alps",
+    location: "Megève, French Alps",
     gallery: "Hiking Abroad",
     href: "/portfolio/hiking-abroad#mont-joly-megeve",
   },
