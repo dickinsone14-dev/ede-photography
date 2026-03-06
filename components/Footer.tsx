@@ -11,7 +11,7 @@ export default function Footer() {
           alt=""
           fill
           className="object-cover md:hidden"
-          quality={100}
+          quality={75}
           sizes="100vw"
         />
         <Image
@@ -19,11 +19,11 @@ export default function Footer() {
           alt=""
           fill
           className="object-cover object-[center_42%] hidden md:block"
-          quality={100}
+          quality={75}
           sizes="100vw"
         />
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-black/45" />
       </div>
 
       <div className="container-wide py-12 relative z-10">
