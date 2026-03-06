@@ -88,6 +88,7 @@ export default function Navbar() {
           onClick={() => setMobileOpen(!mobileOpen)}
           className="md:hidden p-3 -mr-1 text-brand-text-light hover:text-brand-text transition-colors"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileOpen}
         >
           <svg
             className="w-6 h-6"
