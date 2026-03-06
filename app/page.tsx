@@ -1,53 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/components/HeroImage";
 import ScrollReveal from "@/components/ScrollReveal";
-
-
-const featuredWork = [
-  {
-    src: "/images/hiking/cadair-idris/DSCF7279-2.jpg",
-    alt: "Llyn Cau and the cliffs of Cadair Idris",
-    location: "Cadair Idris, Snowdonia",
-    gallery: "Hiking in the UK",
-    href: "/portfolio/hiking-uk#cadair-idris-snowdonia",
-  },
-  {
-    src: "/images/hiking/llyn-y-fan-fach/DSCF1566.jpg",
-    alt: "Llyn y Fan Fach crater lake in snow",
-    location: "Brecon Beacons",
-    gallery: "Hiking in the UK",
-    href: "/portfolio/hiking-uk#llyn-y-fan-fach-brecon-beacons",
-  },
-  {
-    src: "/images/winter-alps/crans-montana/DSCF2709.jpg",
-    alt: "Snowboarder against alpine backdrop",
-    location: "Crans Montana, Switzerland",
-    gallery: "Winter in the Alps",
-    href: "/portfolio/winter-alps#crans-montana-swiss-alps",
-  },
-  {
-    src: "/images/winter-alps/megeve-jumps/DSCF4450.jpg",
-    alt: "Skier dropping off a rocky cliff edge into powder snow",
-    location: "Saint Gervais, French Alps",
-    gallery: "Winter in the Alps",
-    href: "/portfolio/winter-alps#saint-gervais-french-alps",
-  },
-  {
-    src: "/images/jersey/IMG_4905.jpg",
-    alt: "Dramatic coastal cliffs of Jersey",
-    location: "Jersey, Channel Islands",
-    gallery: "Jersey & the Coast",
-    href: "/portfolio/jersey-coast",
-  },
-  {
-    src: "/images/hiking/mont-joly-megeve/DSCF0582.jpg",
-    alt: "Sunset over the Mont Blanc massif from Mont Joly",
-    location: "Megève, French Alps",
-    gallery: "Hiking Abroad",
-    href: "/portfolio/hiking-abroad#mont-joly-megeve",
-  },
-];
+import GalleryTicker from "@/components/GalleryTicker";
 
 export default function Home() {
   return (
@@ -79,35 +33,14 @@ export default function Home() {
       </ScrollReveal>
 
       {/* Featured Work */}
-      <ScrollReveal stagger={100}>
-        <section className="container-wide pb-20">
-          <h2 className="text-lg font-medium text-brand-text-faint mb-8">
-            Featured Work
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {featuredWork.map((img, i) => (
-              <Link
-                key={i}
-                href={img.href}
-                data-stagger-item
-                className="scroll-reveal group relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-              >
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  quality={100}
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <p className="text-sm font-medium text-white">{img.location}</p>
-                  <p className="text-xs text-white/80 mt-1">{img.gallery}</p>
-                </div>
-              </Link>
-            ))}
+      <ScrollReveal>
+        <section className="pb-20">
+          <div className="container-wide">
+            <h2 className="text-lg font-medium text-brand-text-faint mb-8">
+              Featured Work
+            </h2>
           </div>
+          <GalleryTicker />
         </section>
       </ScrollReveal>
 
