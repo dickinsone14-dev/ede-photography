@@ -51,12 +51,19 @@ const GAP = 24;
 /** Mobile: single centred card that crossfades */
 function MobileTicker({ shuffled }: { shuffled: TickerItem[] }) {
   const [active, setActive] = useState(0);
+  const pausedUntil = useRef(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
+      if (Date.now() < pausedUntil.current) return;
       setActive((prev) => (prev + 1) % shuffled.length);
     }, 2500);
     return () => clearInterval(interval);
+  }, [shuffled.length]);
+
+  const goTo = useCallback((direction: -1 | 1) => {
+    pausedUntil.current = Date.now() + 5000;
+    setActive((prev) => (prev + direction + shuffled.length) % shuffled.length);
   }, [shuffled.length]);
 
   return (
@@ -84,6 +91,25 @@ function MobileTicker({ shuffled }: { shuffled: TickerItem[] }) {
             </div>
           </Link>
         ))}
+        {/* Navigation arrows */}
+        <button
+          onClick={(e) => { e.preventDefault(); goTo(-1); }}
+          className="absolute left-2 top-1/2 -translate-y-1/2 z-20 p-2 text-white/60 hover:text-white transition-colors"
+          aria-label="Previous"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button
+          onClick={(e) => { e.preventDefault(); goTo(1); }}
+          className="absolute right-2 top-1/2 -translate-y-1/2 z-20 p-2 text-white/60 hover:text-white transition-colors"
+          aria-label="Next"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
     </div>
   );
@@ -97,6 +123,7 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
   const [active, setActive] = useState(count);
   const trackRef = useRef<HTMLDivElement>(null);
   const isResetting = useRef(false);
+  const pausedUntil = useRef(0);
 
   const scrollToCard = useCallback((index: number, smooth: boolean) => {
     if (!trackRef.current) return;
@@ -111,6 +138,7 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
   useEffect(() => {
     const interval = setInterval(() => {
       if (isResetting.current) return;
+      if (Date.now() < pausedUntil.current) return;
       setActive((prev) => {
         const next = prev + 1;
         if (next >= count * 2) {
@@ -132,8 +160,45 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
     scrollToCard(active, !isResetting.current);
   }, [active, scrollToCard]);
 
+  const goTo = useCallback((direction: -1 | 1) => {
+    if (isResetting.current) return;
+    pausedUntil.current = Date.now() + 5000;
+    setActive((prev) => {
+      const next = prev + direction;
+      if (next < count) {
+        return count;
+      }
+      if (next >= count * 2) {
+        return count * 2 - 1;
+      }
+      return next;
+    });
+  }, [count]);
+
   return (
-    <div className="overflow-hidden py-12">
+    <div className="relative overflow-hidden py-12">
+      {/* Left arrow */}
+      <button
+        onClick={() => goTo(-1)}
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 p-2 sm:p-3 text-white/40 hover:text-white transition-colors"
+        aria-label="Previous"
+      >
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+
+      {/* Right arrow */}
+      <button
+        onClick={() => goTo(1)}
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 p-2 sm:p-3 text-white/40 hover:text-white transition-colors"
+        aria-label="Next"
+      >
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+
       <div
         ref={trackRef}
         className="flex gap-6 overflow-x-hidden px-4 sm:px-6 lg:px-8"
@@ -151,7 +216,7 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
                 className={`relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-1000 ease-in-out origin-center ${
                   isActive
                     ? "ring-1 ring-white/20 brightness-100 scale-[1.05]"
-                    : "opacity-50 brightness-75 scale-100"
+                    : "opacity-60 brightness-[0.82] scale-100"
                 }`}
               >
                 <Image
@@ -164,7 +229,7 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                   <p className={`text-sm font-medium transition-colors duration-1000 ease-in-out ${
-                    isActive ? "text-white" : "text-white/60"
+                    isActive ? "text-white" : "text-white/70"
                   }`}>{item.title}</p>
                 </div>
               </div>
