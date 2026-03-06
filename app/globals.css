@@ -4,6 +4,15 @@
 
 
 @layer base {
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
   body {
     @apply bg-black text-brand-text antialiased;
   }
