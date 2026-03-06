@@ -7,6 +7,89 @@
   "description": "Mountain landscapes and hiking photos I've taken across Wales, the Lake District, and the Peak District. From the quarries of Dinorwic to the summit of Cadair Idris, these images are taken on long days out in the hills.",
   "sections": [
     {
+      "title": "Sharp Edge, Lake District",
+      "date": "March 2026",
+      "images": [
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4744.jpg",
+          "alt": "Hiker with a backpack ascending a rocky mountain path with the craggy ridge of Sharp Edge rising behind under a clear sky",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4752.jpg",
+          "alt": "Hiker standing on a ridge giving a thumbs up with sweeping green valleys and distant fells stretching into the dusk behind",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4757.jpg",
+          "alt": "Hiker scrambling over lichen-covered rocks on the Sharp Edge arete with steep grassy slopes falling away below",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4779.jpg",
+          "alt": "Jagged rocky summit looking out over brown moorland ridges and deep valleys in fading twilight",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4790.jpg",
+          "alt": "Silhouetted figures on a distant rounded summit with a dusting of frost under a pastel pink and blue dusk sky",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4801.jpg",
+          "alt": "Hiker standing on a mountain edge looking out over layered blue ridges and snow-capped peaks at sunset with orange light breaking through clouds",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4825.jpg",
+          "alt": "Silhouetted hiker standing on a rock in a frozen summit tarn reflecting the sunset sky with snow-capped mountains beyond",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4842.jpg",
+          "alt": "Hiker with face covered by a buff and backpack looking over their shoulder with layered mountain ridges and a sunset sky behind",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4847.jpg",
+          "alt": "Steep grassy mountainside dropping into a valley with a village below and distant fells and a lake under a pink dusk sky",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4855.jpg",
+          "alt": "Dramatic rocky cliff face of Sharp Edge falling steeply into a dark valley with open moorland beyond at twilight",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        },
+        {
+          "src": "/images/hiking/sharp-edge/DSCF4897.jpg",
+          "alt": "Hiker walking up a muddy path through thick fog on a grassy hillside with visibility fading to white",
+          "location": "Lake District",
+          "date": "2026-03",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
       "title": "Langdale Pikes, Lake District",
       "date": "February 2026",
       "images": [
