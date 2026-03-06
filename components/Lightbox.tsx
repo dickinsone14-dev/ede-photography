@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useCallback, useState } from "react";
+import { useEffect, useCallback, useState, useRef } from "react";
 import type { GalleryImage } from "./GalleryGrid";
 
 interface LightboxProps {
@@ -46,10 +46,36 @@ export default function Lightbox({
     };
   }, [handleKeyDown]);
 
+  // Touch swipe support
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }, []);
+
+  const handleTouchEnd = useCallback(
+    (e: React.TouchEvent) => {
+      if (!touchStart.current) return;
+      const dx = e.changedTouches[0].clientX - touchStart.current.x;
+      const dy = e.changedTouches[0].clientY - touchStart.current.y;
+      const absDx = Math.abs(dx);
+      const absDy = Math.abs(dy);
+      // Only count horizontal swipes that are more horizontal than vertical
+      if (absDx > 50 && absDx > absDy) {
+        if (dx < 0 && hasNext) onNavigate(currentIndex + 1);
+        if (dx > 0 && hasPrev) onNavigate(currentIndex - 1);
+      }
+      touchStart.current = null;
+    },
+    [hasNext, hasPrev, onNavigate, currentIndex]
+  );
+
   return (
     <div
       className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center animate-fade-in"
       onClick={onClose}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
       {/* Close button */}
       <button
