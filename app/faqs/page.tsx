@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import FaqAccordion from "@/components/FaqAccordion";
 import ScrollReveal from "@/components/ScrollReveal";
 
@@ -21,12 +22,12 @@ export default function FaqsPage() {
           <p className="text-brand-text-light max-w-2xl">
             Everything you need to know about prints, licensing, commissions, and
             more. If your question isn&apos;t answered here, feel free to{" "}
-            <a
+            <Link
               href="/contact"
               className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
             >
               get in touch
-            </a>
+            </Link>
             .
           </p>
         </div>

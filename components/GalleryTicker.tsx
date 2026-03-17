@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect, useMemo, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 function shuffle<T>(array: T[]): T[] {
   const arr = [...array];
@@ -47,50 +47,71 @@ const items: TickerItem[] = [
 // Fixed card width for desktop
 const CARD_WIDTH = 360;
 const GAP = 24;
+const VISIBLE_COUNT = 9;
 
-/** Mobile: single centred card that crossfades */
+/** Mobile: only render active + previous item (2 DOM nodes max) */
 function MobileTicker({ shuffled }: { shuffled: TickerItem[] }) {
   const [active, setActive] = useState(0);
+  const [visible, setVisible] = useState<Set<number>>(() => new Set([0]));
   const pausedUntil = useRef(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       if (Date.now() < pausedUntil.current) return;
-      setActive((prev) => (prev + 1) % shuffled.length);
+      setActive((prev) => {
+        const next = (prev + 1) % shuffled.length;
+        setVisible(new Set([prev, next]));
+        return next;
+      });
     }, 2500);
     return () => clearInterval(interval);
   }, [shuffled.length]);
 
+  // Clean up previous item after transition
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(new Set([active]));
+    }, 1100); // slightly longer than 1000ms transition
+    return () => clearTimeout(timer);
+  }, [active]);
+
   const goTo = useCallback((direction: -1 | 1) => {
     pausedUntil.current = Date.now() + 5000;
-    setActive((prev) => (prev + direction + shuffled.length) % shuffled.length);
+    setActive((prev) => {
+      const next = (prev + direction + shuffled.length) % shuffled.length;
+      setVisible(new Set([prev, next]));
+      return next;
+    });
   }, [shuffled.length]);
 
   return (
     <div className="px-4 py-12">
       <div className="relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface mx-auto max-w-[420px]">
-        {shuffled.map((item, i) => (
-          <Link
-            key={i}
-            href={item.href}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-              i === active ? "opacity-100 z-10" : "opacity-0 z-0"
-            }`}
-          >
-            <Image
-              src={item.src}
-              alt={item.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 640px) 100vw, 420px"
-              priority={i === 0}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-            <div className="absolute bottom-0 left-0 right-0 p-4">
-              <p className="text-sm font-medium text-white">{item.title}</p>
-            </div>
-          </Link>
-        ))}
+        {shuffled.map((item, i) => {
+          if (!visible.has(i)) return null;
+          return (
+            <Link
+              key={i}
+              href={item.href}
+              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+                i === active ? "opacity-100 z-10" : "opacity-0 z-0"
+              }`}
+            >
+              <Image
+                src={item.src}
+                alt={item.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 420px"
+                priority={i === 0}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4">
+                <p className="text-sm font-medium text-white">{item.title}</p>
+              </div>
+            </Link>
+          );
+        })}
         {/* Navigation arrows */}
         <button
           onClick={(e) => { e.preventDefault(); goTo(-1); }}
@@ -115,65 +136,41 @@ function MobileTicker({ shuffled }: { shuffled: TickerItem[] }) {
   );
 }
 
-/** Desktop: horizontal scroll with highlight */
-function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
-  const tripled = useMemo(() => [...shuffled, ...shuffled, ...shuffled], [shuffled]);
-  const count = shuffled.length;
+/** Wrapping modular index */
+function mod(n: number, m: number): number {
+  return ((n % m) + m) % m;
+}
 
-  const [active, setActive] = useState(count);
-  const trackRef = useRef<HTMLDivElement>(null);
-  const isResetting = useRef(false);
+/** Desktop: virtual window of 9 items using translateX */
+function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
+  const count = shuffled.length;
+  const [active, setActive] = useState(0);
   const pausedUntil = useRef(0);
 
-  const scrollToCard = useCallback((index: number, smooth: boolean) => {
-    if (!trackRef.current) return;
-    const scrollLeft = index * (CARD_WIDTH + GAP);
-    if (smooth) {
-      trackRef.current.scrollTo({ left: scrollLeft, behavior: "smooth" });
-    } else {
-      trackRef.current.scrollLeft = scrollLeft;
-    }
-  }, []);
+  // How many cards on each side of active
+  const half = Math.floor(VISIBLE_COUNT / 2); // 4
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (isResetting.current) return;
       if (Date.now() < pausedUntil.current) return;
-      setActive((prev) => {
-        const next = prev + 1;
-        if (next >= count * 2) {
-          isResetting.current = true;
-          setTimeout(() => {
-            setActive(count);
-            scrollToCard(count, false);
-            isResetting.current = false;
-          }, 50);
-          return next;
-        }
-        return next;
-      });
+      setActive((prev) => (prev + 1) % count);
     }, 2500);
     return () => clearInterval(interval);
-  }, [count, scrollToCard]);
-
-  useEffect(() => {
-    scrollToCard(active, !isResetting.current);
-  }, [active, scrollToCard]);
+  }, [count]);
 
   const goTo = useCallback((direction: -1 | 1) => {
-    if (isResetting.current) return;
     pausedUntil.current = Date.now() + 5000;
-    setActive((prev) => {
-      const next = prev + direction;
-      if (next < count) {
-        return count;
-      }
-      if (next >= count * 2) {
-        return count * 2 - 1;
-      }
-      return next;
-    });
+    setActive((prev) => mod(prev + direction, count));
   }, [count]);
+
+  // Build the visible window: indices from active-half to active+half
+  const visibleIndices: number[] = [];
+  for (let offset = -half; offset <= half; offset++) {
+    visibleIndices.push(mod(active + offset, count));
+  }
+
+  // The track width for VISIBLE_COUNT items
+  const trackWidth = VISIBLE_COUNT * CARD_WIDTH + (VISIBLE_COUNT - 1) * GAP;
 
   return (
     <div className="relative overflow-hidden py-12">
@@ -199,50 +196,69 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
         </svg>
       </button>
 
-      <div
-        ref={trackRef}
-        className="flex gap-6 overflow-x-hidden px-4 sm:px-6 lg:px-8"
-      >
-        {tripled.map((item, i) => {
-          const isActive = i === active;
-          return (
-            <Link
-              key={i}
-              href={item.href}
-              className="group flex-shrink-0"
-              style={{ width: CARD_WIDTH }}
-            >
-              <div
-                className={`relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-1000 ease-in-out origin-center ${
-                  isActive
-                    ? "ring-1 ring-white/20 brightness-100 scale-[1.05]"
-                    : "opacity-60 brightness-[0.82] scale-100"
-                }`}
+      <div className="flex justify-center">
+        <div
+          className="flex gap-6"
+          style={{ width: trackWidth }}
+        >
+          {visibleIndices.map((itemIdx, pos) => {
+            const item = shuffled[itemIdx];
+            const isActive = pos === half; // centre item
+            return (
+              <Link
+                key={`${active}-${pos}`}
+                href={item.href}
+                className="group flex-shrink-0"
+                style={{ width: CARD_WIDTH }}
               >
-                <Image
-                  src={item.src}
-                  alt={item.title}
-                  fill
-                  className="object-cover"
-                  sizes="400px"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <p className={`text-sm font-medium transition-colors duration-1000 ease-in-out ${
-                    isActive ? "text-white" : "text-white/70"
-                  }`}>{item.title}</p>
+                <div
+                  className={`relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-1000 ease-in-out origin-center ${
+                    isActive
+                      ? "ring-1 ring-white/20 brightness-100 scale-[1.05]"
+                      : "opacity-60 brightness-[0.82] scale-100"
+                  }`}
+                >
+                  <Image
+                    src={item.src}
+                    alt={item.title}
+                    fill
+                    className="object-cover"
+                    sizes="400px"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <p className={`text-sm font-medium transition-colors duration-1000 ease-in-out ${
+                      isActive ? "text-white" : "text-white/70"
+                    }`}>{item.title}</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          );
-        })}
+              </Link>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
 }
 
 export default function GalleryTicker() {
-  const shuffled = useMemo(() => shuffle(items), []);
+  const [shuffled, setShuffled] = useState<TickerItem[] | null>(null);
+
+  useEffect(() => {
+    setShuffled(shuffle(items));
+  }, []);
+
+  // SSR placeholder — matches the height of the rendered ticker
+  if (!shuffled) {
+    return (
+      <>
+        <div className="sm:hidden px-4 py-12">
+          <div className="relative aspect-[3/2] rounded-lg bg-brand-surface mx-auto max-w-[420px]" />
+        </div>
+        <div className="hidden sm:block py-12" style={{ height: 280 }} />
+      </>
+    );
+  }
 
   return (
     <>

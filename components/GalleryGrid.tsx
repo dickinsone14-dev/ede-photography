@@ -43,9 +43,11 @@ function BlurImage({
   const isPortrait = image.orientation === "portrait";
 
   return (
-    <div
-      className="group cursor-pointer"
+    <button
+      type="button"
+      className="group cursor-pointer text-left w-full"
       onClick={onClick}
+      aria-label={`View ${image.alt} in lightbox`}
     >
       <div className={`relative overflow-hidden transition-all duration-300 hover:-translate-y-1 ${
         isPortrait ? "aspect-[2/3]" : "aspect-[16/10]"
@@ -88,7 +90,7 @@ function BlurImage({
           </a>
         )}
       </div>
-    </div>
+    </button>
   );
 }
 

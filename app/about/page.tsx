@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 
@@ -36,20 +37,20 @@ export default function AboutPage() {
 
               <p>
                 Prints of my work are available through the{" "}
-                <a
+                <Link
                   href="/store"
                   className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
                 >
                   store
-                </a>
+                </Link>
                 , and I&apos;m available for commissions, licensing, and
                 collaborations. Get in touch via the{" "}
-                <a
+                <Link
                   href="/contact"
                   className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
                 >
                   contact page
-                </a>
+                </Link>
                 .
               </p>
             </div>

@@ -58,7 +58,7 @@ export default function HeroImage({
               alt={mobileAlt || alt}
               fill
               priority
-              quality={100}
+              quality={85}
               className="object-cover md:hidden"
               sizes="100vw"
             />
@@ -67,7 +67,7 @@ export default function HeroImage({
               alt={alt}
               fill
               priority
-              quality={100}
+              quality={85}
               className="object-cover hidden md:block"
               sizes="100vw"
             />
@@ -78,7 +78,7 @@ export default function HeroImage({
             alt={alt}
             fill
             priority
-            quality={100}
+            quality={85}
             className="object-cover"
             sizes="100vw"
           />

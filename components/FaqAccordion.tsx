@@ -2,17 +2,19 @@
 
 import { useState, useRef, useEffect } from "react";
 
-interface FaqItem {
+interface FaqItemData {
   question: string;
   answer: string;
 }
 
 interface FaqAccordionProps {
-  items: FaqItem[];
+  items: FaqItemData[];
 }
 
-function FaqItem({ item, isOpen, onToggle }: { item: FaqItem; isOpen: boolean; onToggle: () => void }) {
+function FaqItem({ item, index, isOpen, onToggle }: { item: FaqItemData; index: number; isOpen: boolean; onToggle: () => void }) {
   const contentRef = useRef<HTMLDivElement>(null);
+  const buttonId = `faq-button-${index}`;
+  const panelId = `faq-panel-${index}`;
 
   useEffect(() => {
     const el = contentRef.current;
@@ -27,7 +29,10 @@ function FaqItem({ item, isOpen, onToggle }: { item: FaqItem; isOpen: boolean; o
   return (
     <div>
       <button
+        id={buttonId}
         onClick={onToggle}
+        aria-expanded={isOpen}
+        aria-controls={panelId}
         className="w-full flex items-center justify-between py-5 text-left group"
       >
         <span className="text-sm md:text-base font-medium text-brand-text pr-8 group-hover:text-brand-teal transition-colors">
@@ -40,6 +45,7 @@ function FaqItem({ item, isOpen, onToggle }: { item: FaqItem; isOpen: boolean; o
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
+          aria-hidden="true"
         >
           <path
             strokeLinecap="round"
@@ -50,7 +56,10 @@ function FaqItem({ item, isOpen, onToggle }: { item: FaqItem; isOpen: boolean; o
         </svg>
       </button>
       <div
+        id={panelId}
         ref={contentRef}
+        role="region"
+        aria-labelledby={buttonId}
         className="overflow-hidden transition-all duration-200"
         style={{ maxHeight: 0 }}
       >
@@ -71,6 +80,7 @@ export default function FaqAccordion({ items }: FaqAccordionProps) {
         <FaqItem
           key={index}
           item={item}
+          index={index}
           isOpen={openIndex === index}
           onToggle={() => setOpenIndex(openIndex === index ? null : index)}
         />

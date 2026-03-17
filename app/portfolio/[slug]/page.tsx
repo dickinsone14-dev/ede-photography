@@ -4,7 +4,7 @@ import Link from "next/link";
 import GalleryGrid from "@/components/GalleryGrid";
 import ScrollReveal from "@/components/ScrollReveal";
 
-import { getAllGalleries, getGalleryBySlug, getImageCount } from "@/lib/galleries";
+import { getAllGalleries, getGalleryBySlug, getImageCount, getAllImages } from "@/lib/galleries";
 
 interface Props {
   params: { slug: string };
@@ -32,9 +32,31 @@ export default function GalleryPage({ params }: Props) {
   if (!gallery || gallery.category !== "portfolio") notFound();
 
   const imageCount = getImageCount(gallery);
+  const images = getAllImages(gallery);
+  const baseUrl = "https://ede-photography.com";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    name: gallery.title,
+    description: gallery.description,
+    url: `${baseUrl}/portfolio/${gallery.slug}`,
+    image: images.map((img) => ({
+      "@type": "ImageObject",
+      contentUrl: `${baseUrl}${img.src}`,
+      name: img.alt,
+      ...(img.location && { contentLocation: img.location }),
+      ...(img.date && { dateCreated: img.date }),
+    })),
+  };
 
   return (
     <div className="container-wide py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Breadcrumb */}
       <div className="mb-8">
         <Link

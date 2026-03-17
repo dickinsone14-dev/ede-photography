@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllGalleries } from "@/lib/galleries";
+import { getAllGalleries, getAllImages } from "@/lib/galleries";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://ede-photography.com";
@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.7,
+    images: getAllImages(g).map((img) => `${baseUrl}${img.src}`),
   }));
 
   return [
@@ -62,5 +63,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     ...galleryUrls,
-  ];
+  ] as MetadataRoute.Sitemap;
 }

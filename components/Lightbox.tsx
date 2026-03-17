@@ -22,17 +22,51 @@ export default function Lightbox({
   const hasNext = currentIndex < images.length - 1;
   const [showBuy, setShowBuy] = useState(false);
 
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const previousFocusRef = useRef<HTMLElement | null>(null);
+
   useEffect(() => {
     setShowBuy(false);
     const timer = setTimeout(() => setShowBuy(true), 1500);
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
+  // Save previous focus and focus close button on mount
+  useEffect(() => {
+    previousFocusRef.current = document.activeElement as HTMLElement;
+    closeRef.current?.focus();
+    return () => {
+      previousFocusRef.current?.focus();
+    };
+  }, []);
+
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
       if (e.key === "ArrowLeft" && hasPrev) onNavigate(currentIndex - 1);
       if (e.key === "ArrowRight" && hasNext) onNavigate(currentIndex + 1);
+
+      // Focus trap
+      if (e.key === "Tab" && dialogRef.current) {
+        const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      }
     },
     [onClose, onNavigate, currentIndex, hasPrev, hasNext]
   );
@@ -70,8 +104,14 @@ export default function Lightbox({
     [hasNext, hasPrev, onNavigate, currentIndex]
   );
 
+  if (!image) return null;
+
   return (
     <div
+      ref={dialogRef}
+      role="dialog"
+      aria-modal="true"
+      aria-label={`Image lightbox: ${image.alt}`}
       className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center animate-fade-in"
       onClick={onClose}
       onTouchStart={handleTouchStart}
@@ -79,6 +119,7 @@ export default function Lightbox({
     >
       {/* Close button */}
       <button
+        ref={closeRef}
         onClick={onClose}
         className="absolute top-4 right-4 z-10 p-3 text-gray-400 hover:text-white transition-colors"
         aria-label="Close lightbox"
@@ -129,6 +170,7 @@ export default function Lightbox({
           src={image.src}
           alt={image.alt}
           fill
+          key={image.src}
           className="object-contain animate-fade-in"
           sizes="90vw"
           priority
@@ -170,15 +212,15 @@ export default function Lightbox({
           <div>
             <div className="flex flex-wrap gap-x-4 gap-y-1">
               {image.location && (
-                <span className="text-xs text-gray-500">{image.location}</span>
+                <span className="text-xs text-gray-400">{image.location}</span>
               )}
               {image.date && (
-                <span className="text-xs text-gray-500">{image.date}</span>
+                <span className="text-xs text-gray-400">{image.date}</span>
               )}
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <span className="text-xs text-gray-600">
+            <span className="text-xs text-gray-400">
               {currentIndex + 1} / {images.length}
             </span>
           </div>
