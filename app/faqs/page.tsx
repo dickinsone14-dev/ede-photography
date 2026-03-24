@@ -12,8 +12,25 @@ export const metadata: Metadata = {
 };
 
 export default function FaqsPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqData.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1"),
+      },
+    })),
+  };
+
   return (
     <div className="container-narrow py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ScrollReveal>
         <div className="mb-12">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-brand-text">
