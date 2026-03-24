@@ -67,6 +67,19 @@ img {
   transform: translateY(0);
 }
 
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .scroll-reveal.visible {
+    transform: none;
+  }
+}
+
 /* Focus-visible outline for keyboard navigation */
 *:focus-visible {
   outline: 2px solid #6b9e9a;

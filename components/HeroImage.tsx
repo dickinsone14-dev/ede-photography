@@ -28,6 +28,7 @@ export default function HeroImage({
   useEffect(() => {
     const el = imgRef.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     function handleScroll() {
       const rate = window.scrollY * 0.3;
