@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllGalleries } from "@/lib/galleries";
+import { BASE_URL } from "@/lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://ede-photography.com";
+  const baseUrl = BASE_URL;
   const galleries = getAllGalleries();
 
   const galleryUrls = galleries.map((g) => ({

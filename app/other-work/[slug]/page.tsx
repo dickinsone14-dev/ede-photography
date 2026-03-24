@@ -5,6 +5,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 import ScrollReveal from "@/components/ScrollReveal";
 
 import { getAllGalleries, getGalleryBySlug, getImageCount, getAllImages } from "@/lib/galleries";
+import { BASE_URL } from "@/lib/constants";
 
 interface Props {
   params: { slug: string };
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: gallery.title,
     description: gallery.description,
     openGraph: {
-      images: [{ url: `https://ede-photography.com${gallery.coverImage}` }],
+      images: [{ url: `${BASE_URL}${gallery.coverImage}` }],
     },
   };
 }
@@ -35,7 +36,7 @@ export default function OtherWorkGalleryPage({ params }: Props) {
 
   const imageCount = getImageCount(gallery);
   const images = getAllImages(gallery);
-  const baseUrl = "https://ede-photography.com";
+  const baseUrl = BASE_URL;
 
   const jsonLd = {
     "@context": "https://schema.org",

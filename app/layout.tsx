@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollIndicator from "@/components/ScrollIndicator";
 import SmoothScroll from "@/components/SmoothScroll";
+import { BASE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const inter = Inter({
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "Photography by Ed. Prints available. Specialising in mountains, hiking, and coastal photography across Wales, the Alps, and Jersey.",
-  metadataBase: new URL("https://ede-photography.com"),
+  metadataBase: new URL(BASE_URL),
   openGraph: {
     type: "website",
     locale: "en_GB",
@@ -50,9 +51,9 @@ export default function RootLayout({
     name: "E.D.E Photography",
     description:
       "Photography. Prints, licensing, and commissions.",
-    url: "https://ede-photography.com",
-    logo: "https://ede-photography.com/icon.png",
-    image: "https://ede-photography.com/images/hiking/cadair-idris/DSCF6982-2.jpg",
+    url: BASE_URL,
+    logo: `${BASE_URL}/icon.png`,
+    image: `${BASE_URL}/images/hiking/cadair-idris/DSCF6982-2.jpg`,
     sameAs: ["https://www.instagram.com/e.d.e.photography/"],
     address: {
       "@type": "PostalAddress",
