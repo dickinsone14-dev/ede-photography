@@ -72,7 +72,7 @@ export default function RootLayout({
         <SmoothScroll />
         <AnnouncementBar />
         <Navbar />
-        <main className="flex-1" style={{ paddingTop: "calc(4rem + var(--announcement-height, 0px))" }}>{children}</main>
+        <main className="flex-1" style={{ paddingTop: "calc(4rem + var(--announcement-height, 32px))" }}>{children}</main>
         <ScrollIndicator />
         <Footer />
         <Analytics />

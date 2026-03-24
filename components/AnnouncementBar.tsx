@@ -6,13 +6,13 @@ import { useState, useEffect } from "react";
 const STORAGE_KEY = "ede-announcement-dismissed";
 
 export default function AnnouncementBar() {
-  const [visible, setVisible] = useState(false);
+  // Start visible to avoid CLS — hide only after confirming dismissed
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    // Check sessionStorage (persists for the tab session, clears on close)
     const dismissed = sessionStorage.getItem(STORAGE_KEY);
-    if (!dismissed) {
-      setVisible(true);
+    if (dismissed) {
+      setVisible(false);
     }
   }, []);
 
