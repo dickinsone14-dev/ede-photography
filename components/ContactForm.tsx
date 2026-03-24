@@ -37,7 +37,7 @@ export default function ContactForm() {
 
   if (status === "sent") {
     return (
-      <div className="bg-brand-surface rounded-lg p-8 text-center">
+      <div role="alert" className="bg-brand-surface rounded-lg p-8 text-center">
         <p className="text-lg font-medium text-brand-text">Message sent</p>
         <p className="text-brand-text-light mt-2">
           Thanks for getting in touch. I&apos;ll get back to you soon.
@@ -124,7 +124,7 @@ export default function ContactForm() {
       </button>
 
       {status === "error" && (
-        <p className="text-red-500 text-sm text-center">
+        <p role="alert" className="text-red-500 text-sm text-center">
           Something went wrong. Please try again or email directly.
         </p>
       )}
