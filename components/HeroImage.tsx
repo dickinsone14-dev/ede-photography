@@ -57,7 +57,7 @@ export default function HeroImage({
               priority
               quality={85}
               className="object-cover md:hidden"
-              sizes="100vw"
+              sizes="(min-width: 768px) 0px, 100vw"
             />
             <Image
               src={src}
@@ -66,7 +66,7 @@ export default function HeroImage({
               priority
               quality={85}
               className="object-cover hidden md:block"
-              sizes="100vw"
+              sizes="(max-width: 767px) 0px, 100vw"
             />
           </>
         ) : (

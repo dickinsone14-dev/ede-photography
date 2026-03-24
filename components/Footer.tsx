@@ -12,7 +12,7 @@ export default function Footer() {
           fill
           className="object-cover md:hidden"
           quality={75}
-          sizes="100vw"
+          sizes="(min-width: 768px) 0px, 100vw"
         />
         <Image
           src="/images/winter-alps/megeve-film/IMG_7877.jpg"
@@ -20,7 +20,7 @@ export default function Footer() {
           fill
           className="object-cover object-[center_42%] hidden md:block"
           quality={75}
-          sizes="100vw"
+          sizes="(max-width: 767px) 0px, 100vw"
         />
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/45" />
