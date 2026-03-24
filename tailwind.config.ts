@@ -22,7 +22,7 @@ const config: Config = {
           "accent-hover": "#daa088",
           teal: "#6b9e9a",
           "teal-hover": "#88b5b2",
-          cream: "#0d0d0d",
+          dark: "#0d0d0d",
           surface: "#3a2010",
           border: "#2a2420",
           "border-light": "#1a1614",

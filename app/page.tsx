@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* About snippet */}
       <ScrollReveal>
-        <section className="border-t border-brand-border-light bg-brand-cream">
+        <section className="border-t border-brand-border-light bg-brand-dark">
           <div className="container-wide py-20">
             <div className="max-w-2xl">
               <h2 className="text-lg font-medium text-brand-text-faint mb-4">About</h2>
