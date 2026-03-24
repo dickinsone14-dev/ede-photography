@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     siteName: "E.D.E Photography",
+    images: [{ url: "/images/hiking/cadair-idris/DSCF6982-2.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
