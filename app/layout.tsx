@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import AnnouncementBar from "@/components/AnnouncementBar";
@@ -35,9 +35,12 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  other: {
-    "theme-color": "#000000",
-  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#000000",
 };
 
 export default function RootLayout({
