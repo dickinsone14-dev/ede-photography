@@ -48,6 +48,8 @@ function BlurImage({
           src={image.src}
           alt={image.alt}
           fill
+          placeholder={image.blurDataURL ? "blur" : "empty"}
+          blurDataURL={image.blurDataURL}
           className="img-blur-placeholder object-cover transition-transform duration-500 group-hover:scale-[1.02]"
           sizes={isPortrait
             ? "(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"

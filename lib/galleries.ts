@@ -8,6 +8,7 @@ export interface GalleryImage {
   date?: string;
   picfairUrl?: string;
   orientation?: "landscape" | "portrait";
+  blurDataURL?: string;
 }
 
 export interface GallerySection {
@@ -23,6 +24,7 @@ export interface Gallery {
   order?: number;
   description: string;
   coverImage: string;
+  coverBlurDataURL?: string;
   coverPosition?: string;
   sections?: GallerySection[];
   images?: GalleryImage[];

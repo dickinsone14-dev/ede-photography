@@ -16,7 +16,8 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023631194-fading-light"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023631194-fading-light",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAHBAAAgEFAQAAAAAAAAAAAAAAAAEDERQVIVKh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDLyUtNJIm9m68ABIFv/9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0513.jpg",
@@ -24,7 +25,8 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023997870-tranquility"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023997870-tranquility",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAHhAAAgIABwAAAAAAAAAAAAAAAAIBAwURFSExUZL/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AML4u+bstSRLc7EdUv6TzAAUR//Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0382.jpg",
@@ -32,7 +34,8 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023997877-no-entry"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023997877-no-entry",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAHhAAAgICAgMAAAAAAAAAAAAAAQIAAwQFERIhIkH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQADAAAAAAAAAAAAAAAAAAABAiH/2gAMAwEAAhEDEQA/AMtc2NQHdyPUjz05k27HWta5OPYSWJ+REnXSl//Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF9744.jpg",
@@ -40,28 +43,32 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023997889-lone-cabin-on-the-beaten-track"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023997889-lone-cabin-on-the-beaten-track",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAHBAAAgMAAwEAAAAAAAAAAAAAAQIAAxEEBSFi/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEAAwEAAAAAAAAAAAAAAAABAAIRMf/aAAwDAQACEQMRAD8AzF1yrqX2YPANkHtnBw8lgR8CIk11OxcJ/9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0815-2.jpg",
           "alt": "A lone hiker with a backpack checking a map on an open alpine meadow with a panoramic view of rugged mountain peaks beyond",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAcEAABAwUAAAAAAAAAAAAAAAAAAQOSBRUhImL/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAAMBAAAAAAAAAAAAAAAAAAACE1H/2gAMAwEAAhEDEQA/ACVJzOjcSdwe4igBGr6M1w//2Q=="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0407.jpg",
           "alt": "A hiker with a large backpack and sleeping mat looking out over a sweeping valley and layered hazy mountains on the Mont Joly trail",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAHhAAAQQBBQAAAAAAAAAAAAAAAQACAxEEBRIhM6H/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAAhL/2gAMAwEAAhEDEQA/AMp9SIjBbCwu3Ac2pOcL6meoik2s5L//2Q=="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0906.jpg",
           "alt": "A small chapel with a bell tower surrounded by sheep on a green hillside with misty autumn trees and a village below in Megève",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAAxEEIf/EABUBAQEAAAAAAAAAAAAAAAAAAAAD/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAES/9oADAMBAAIRAxEAPwCT9/VZWyWXs4YYfAJiCWAYLWyIkdUf/9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF9941.jpg",
@@ -69,56 +76,64 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023755232-human-intervention"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023755232-human-intervention",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAHhAAAgIABwAAAAAAAAAAAAAAAAECEQMEBRVSYZH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AypapjVSjBd0RuOY5LxACH//Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0911.jpg",
           "alt": "Two large deciduous trees standing together on top of a rounded green hillock framed by mountains and blue sky near Megève",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAHRAAAgIBBQAAAAAAAAAAAAAAAQIAITIFEhMUUf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQACEf/aAAwDAQACEQMRAD8AxDUDyBlUhAMfTKd0te1bvGIg6aeF/9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0707.jpg",
           "alt": "Three silhouetted figures standing on a metal platform overlooking a thick cloud inversion filling the valley between sunlit Alpine peaks at dawn",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAHhABAAIABwEAAAAAAAAAAAAAAQACBAUTFUFSkdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Az3zvHFgdJOQpK3u/V8PkRGD/2Q=="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0576.jpg",
           "alt": "Three young men standing on an alpine ridge at dusk with the Mont Blanc massif glowing pink with alpenglow behind them",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABAwQDAAAAAAAAAAAAAAAAAQIEBRIVUSExkf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AJbarITu1eNDKSNN8ADCuv/Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0590.jpg",
           "alt": "Three friends bundled in warm jackets sitting on a stationary chairlift seat at dusk with a vivid orange sunset behind the mountains",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAGxAAAwACAwAAAAAAAAAAAAAAAAIRARMhMWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aw1ZJNa546pE8AA//2Q=="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0442.jpg",
           "alt": "Sweeping panoramic view from a high alpine ridge showing barren mountain slopes, winding paths, and distant snow-dusted peaks under a clear blue sky",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAED/8QAHhAAAgEDBQAAAAAAAAAAAAAAAQIAAxMhBREVMZH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIRAxEAPwCpqlQkC2ig9Y3m/IuMWE9iIO2DJf/Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0266.jpg",
           "alt": "A rustic wooden barn on a sloping alpine meadow with dense pine forests and rugged limestone peaks rising in the background",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAeEAACAgAHAAAAAAAAAAAAAAAAAQMEBRIVIUFTkf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhEDEQA/AI7GJ2InlU26XKJdWudz8QAGlIQv/9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02620006.jpg",
           "alt": "Two hikers in warm jackets on an alpine plateau at golden hour, one wearing a fur-lined hat, shot on film with warm tones and hazy mountains behind",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECAwQRBRVTcZH/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDF6tfTeHVx0kiNxvueXoAd0kf/2Q=="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02640027.jpg",
@@ -126,14 +141,16 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023755241-awakening-peaks"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023755241-awakening-peaks",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBBEhBRVBcrH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQADAAAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/AJya1GWFsdOc8l1vFHeqwYBjt0RFPUnT/9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02640028.jpg",
           "alt": "Trail signpost for Mont Joly and Blanchot with the snow-covered Mont Blanc massif looming behind in soft twilight, shot on film",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAED/8QAHxAAAQMDBQAAAAAAAAAAAAAAAgABAxESFRYhVJGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AmejAyshIxd9r3pTpa6hg45ekRCo//9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02640002.jpg",
@@ -141,14 +158,16 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023755231-above-the-clouds"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023755231-above-the-clouds",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAH/xAAbEAACAwADAAAAAAAAAAAAAAABAgAFEQRikv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AIbzisuKuN2U5ILMEA4nkxEsH//Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02640006.jpg",
           "alt": "Two silhouetted figures photographing a cloud inversion and distant peaks from a metal viewing platform at dawn, shot on film",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAHxAAAQQABwAAAAAAAAAAAAAAAQACAxEFEhUxUoPB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AzkxqS3gQsG2X21WrM5gdaIiqj//Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02620031.jpg",
@@ -156,14 +175,16 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/023755243-bliss"
+          "picfairUrl": "https://ede-photography.picfair.com/images/023755243-bliss",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAMCBRESFSJTYf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AxjXW48lQv4RvXdawA0o//9k="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/02640030.jpg",
           "alt": "Hiking trail signpost above a cloud inversion at sunset with signs for Megève, Mont Joly, Grande Epaule, and Blanchot, mountain peaks in the pink twilight beyond, shot on film",
           "location": "Megève, France",
           "date": "2025-10",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIE/8QAHxAAAAUEAwAAAAAAAAAAAAAAAAECAxEEEhQhVJPh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDQ7WlahxpBqTO9xIrKd4pdngAKP//Z"
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0518.jpg",
@@ -171,7 +192,8 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "landscape",
-          "picfairUrl": "https://ede-photography.picfair.com/images/024096623-untitled"
+          "picfairUrl": "https://ede-photography.picfair.com/images/024096623-untitled",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAcEAACAgIDAAAAAAAAAAAAAAAAAgEDBZEVIVT/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwCdOUsTpqq23Bfmp8ybkAmLKBf/2Q=="
         },
         {
           "src": "/images/hiking/mont-joly-megeve/DSCF0508.jpg",
@@ -179,9 +201,11 @@
           "location": "Megève, France",
           "date": "2025-10",
           "orientation": "portrait",
-          "picfairUrl": "https://ede-photography.picfair.com/images/024096625-untitled"
+          "picfairUrl": "https://ede-photography.picfair.com/images/024096625-untitled",
+          "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAMAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMG/8QAHxAAAgECBwAAAAAAAAAAAAAAAAEDAhEFExUhVGGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AUWMRt2yE30yutwcer0zie47BWER//9k="
         }
       ]
     }
-  ]
+  ],
+  "coverBlurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAHBAAAgEFAQAAAAAAAAAAAAAAAAEDERQVIVKh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIRAxEAPwDLyUtNJIm9m68ABIFv/9k="
 }
