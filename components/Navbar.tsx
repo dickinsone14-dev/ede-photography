@@ -48,11 +48,30 @@ export default function Navbar() {
     return () => document.removeEventListener("click", handleClick);
   }, [mobileOpen]);
 
-  // Close on Escape and return focus to hamburger
+  // Close on Escape and trap focus within mobile menu
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
     if (e.key === "Escape") {
       setMobileOpen(false);
       hamburgerRef.current?.focus();
+      return;
+    }
+
+    // Focus trap: keep Tab cycling within hamburger button + menu links
+    if (e.key === "Tab" && mobileRef.current) {
+      const focusable = [
+        hamburgerRef.current,
+        ...Array.from(mobileRef.current.querySelectorAll<HTMLElement>("a")),
+      ].filter(Boolean) as HTMLElement[];
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
     }
   }, []);
 
