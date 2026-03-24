@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 
 interface FaqItemData {
   question: string;
@@ -64,7 +65,21 @@ function FaqItem({ item, index, isOpen, onToggle }: { item: FaqItemData; index: 
         style={{ maxHeight: 0 }}
       >
         <p className="text-sm text-brand-text-light leading-relaxed pb-5">
-          {item.answer}
+          {item.answer.split(/(\[[^\]]+\]\([^)]+\))/).map((part, i) => {
+            const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+            if (match) {
+              return (
+                <Link
+                  key={i}
+                  href={match[2]}
+                  className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
+                >
+                  {match[1]}
+                </Link>
+              );
+            }
+            return part;
+          })}
         </p>
       </div>
     </div>
