@@ -78,6 +78,7 @@ export default function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
+                aria-current={pathname.startsWith(link.href) ? "page" : undefined}
                 className={`text-sm tracking-wide transition-colors hover:text-brand-teal ${
                   pathname.startsWith(link.href)
                     ? "text-brand-text font-medium"
@@ -141,6 +142,7 @@ export default function Navbar() {
                 ref={i === 0 ? firstLinkRef : undefined}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
+                aria-current={pathname.startsWith(link.href) ? "page" : undefined}
                 className={`block px-6 py-3 text-sm tracking-wide transition-colors hover:text-brand-teal ${
                   pathname.startsWith(link.href)
                     ? "text-brand-text font-medium"
