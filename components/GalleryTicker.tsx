@@ -141,7 +141,7 @@ function mod(n: number, m: number): number {
   return ((n % m) + m) % m;
 }
 
-/** Desktop: virtual window of 9 items using translateX */
+/** Desktop: virtual window of items using translateX for smooth sliding */
 function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
   const count = shuffled.length;
   const [active, setActive] = useState(0);
@@ -163,14 +163,16 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
     setActive((prev) => mod(prev + direction, count));
   }, [count]);
 
-  // Build the visible window: indices from active-half to active+half
-  const visibleIndices: number[] = [];
-  for (let offset = -half; offset <= half; offset++) {
-    visibleIndices.push(mod(active + offset, count));
+  // Render visible window + 1 extra each side for smooth enter/exit
+  const visibleItems: { idx: number; offset: number }[] = [];
+  for (let offset = -half - 1; offset <= half + 1; offset++) {
+    visibleItems.push({ idx: mod(active + offset, count), offset });
   }
 
-  // The track width for VISIBLE_COUNT items
+  // Track dimensions
   const trackWidth = VISIBLE_COUNT * CARD_WIDTH + (VISIBLE_COUNT - 1) * GAP;
+  const cardHeight = Math.round(CARD_WIDTH * (2 / 3)); // aspect-[3/2]
+  const centerX = (trackWidth - CARD_WIDTH) / 2;
 
   return (
     <div className="relative overflow-hidden py-12">
@@ -198,24 +200,31 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
 
       <div className="flex justify-center">
         <div
-          className="flex gap-6"
-          style={{ width: trackWidth }}
+          className="relative"
+          style={{ width: trackWidth, height: cardHeight }}
         >
-          {visibleIndices.map((itemIdx, pos) => {
-            const item = shuffled[itemIdx];
-            const isActive = pos === half; // centre item
+          {visibleItems.map(({ idx, offset }) => {
+            const item = shuffled[idx];
+            const isActive = offset === 0;
+            const isOutside = Math.abs(offset) > half;
+            const x = centerX + offset * (CARD_WIDTH + GAP);
+
             return (
               <Link
-                key={`${active}-${pos}`}
+                key={idx}
                 href={item.href}
-                className="group flex-shrink-0"
-                style={{ width: CARD_WIDTH }}
+                className="absolute top-0 transition-all duration-700 ease-in-out"
+                style={{
+                  width: CARD_WIDTH,
+                  transform: `translateX(${x}px)`,
+                  opacity: isOutside ? 0 : 1,
+                }}
               >
                 <div
-                  className={`relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-1000 ease-in-out origin-center ${
+                  className={`relative aspect-[3/2] overflow-hidden rounded-lg bg-brand-surface transition-all duration-700 ease-in-out origin-center ${
                     isActive
                       ? "ring-1 ring-white/20 brightness-100 scale-[1.05]"
-                      : "opacity-60 brightness-[0.82] scale-100"
+                      : "brightness-[0.82] scale-100"
                   }`}
                 >
                   <Image
@@ -227,7 +236,7 @@ function DesktopTicker({ shuffled }: { shuffled: TickerItem[] }) {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <p className={`text-sm font-medium transition-colors duration-1000 ease-in-out ${
+                    <p className={`text-sm font-medium transition-colors duration-700 ease-in-out ${
                       isActive ? "text-white" : "text-white/70"
                     }`}>{item.title}</p>
                   </div>
