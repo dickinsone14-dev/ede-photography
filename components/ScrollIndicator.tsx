@@ -7,22 +7,32 @@ export default function ScrollIndicator() {
   const [atFooter, setAtFooter] = useState(false);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const scrollTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const lastScrollY = useRef(0);
+  const showTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const footerRef = useRef<HTMLElement | null>(null);
 
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   useEffect(() => {
+    // Cache footer element once
+    footerRef.current = document.querySelector("footer");
+
     // Show on page load after a brief delay, then auto-hide
-    const showTimer = setTimeout(() => {
+    showTimerRef.current = setTimeout(() => {
+      showTimerRef.current = null;
       setVisible(true);
       hideTimer.current = setTimeout(() => setVisible(false), 2500);
     }, 400);
 
     function handleScroll() {
-      const scrollY = window.scrollY;
-      const footer = document.querySelector("footer");
+      // Cancel initial show timer if user scrolls before it fires
+      if (showTimerRef.current) {
+        clearTimeout(showTimerRef.current);
+        showTimerRef.current = null;
+      }
+
+      const footer = footerRef.current;
 
       // Check if footer is fully in view (user has scrolled to the very bottom)
       if (footer) {
@@ -61,13 +71,11 @@ export default function ScrollIndicator() {
         setVisible(true);
         hideTimer.current = setTimeout(() => setVisible(false), 2000);
       }, 600);
-
-      lastScrollY.current = scrollY;
     }
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
-      clearTimeout(showTimer);
+      if (showTimerRef.current) clearTimeout(showTimerRef.current);
       if (hideTimer.current) clearTimeout(hideTimer.current);
       if (scrollTimer.current) clearTimeout(scrollTimer.current);
       window.removeEventListener("scroll", handleScroll);

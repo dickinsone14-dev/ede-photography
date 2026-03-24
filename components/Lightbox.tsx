@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useCallback, useState, useRef } from "react";
-import type { GalleryImage } from "./GalleryGrid";
+import type { GalleryImage } from "@/lib/galleries";
 
 interface LightboxProps {
   images: GalleryImage[];
@@ -120,7 +120,10 @@ export default function Lightbox({
       {/* Close button */}
       <button
         ref={closeRef}
-        onClick={onClose}
+        onClick={(e) => {
+          e.stopPropagation();
+          onClose();
+        }}
         className="absolute top-4 right-4 z-10 p-3 text-gray-400 hover:text-white transition-colors"
         aria-label="Close lightbox"
       >

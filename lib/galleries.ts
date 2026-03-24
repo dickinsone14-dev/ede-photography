@@ -32,10 +32,16 @@ const galleriesDir = path.join(process.cwd(), "content/galleries");
 
 export function getAllGalleries(): Gallery[] {
   const files = fs.readdirSync(galleriesDir).filter((f) => f.endsWith(".json"));
-  return files.map((file) => {
-    const raw = fs.readFileSync(path.join(galleriesDir, file), "utf-8");
-    return JSON.parse(raw) as Gallery;
-  });
+  const galleries: Gallery[] = [];
+  for (const file of files) {
+    try {
+      const raw = fs.readFileSync(path.join(galleriesDir, file), "utf-8");
+      galleries.push(JSON.parse(raw) as Gallery);
+    } catch (e) {
+      console.error(`Failed to parse gallery file ${file}:`, e);
+    }
+  }
+  return galleries;
 }
 
 export function getGalleriesByCategory(

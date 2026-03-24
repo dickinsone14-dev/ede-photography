@@ -19,12 +19,12 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const gallery = getGalleryBySlug(params.slug);
-  if (!gallery) return {};
+  if (!gallery) return { title: "Gallery Not Found" };
   return {
     title: gallery.title,
     description: gallery.description,
     openGraph: {
-      images: [{ url: gallery.coverImage }],
+      images: [{ url: `https://ede-photography.com${gallery.coverImage}` }],
     },
   };
 }

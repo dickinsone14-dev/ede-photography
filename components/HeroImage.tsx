@@ -30,12 +30,8 @@ export default function HeroImage({
     if (!el) return;
 
     function handleScroll() {
-      const scrollY = window.scrollY;
-      // Parallax
-      const rate = scrollY * 0.3;
-      if (el) {
-        el.style.transform = `translateY(${rate}px)`;
-      }
+      const rate = window.scrollY * 0.3;
+      el!.style.transform = `translateY(${rate}px)`;
     }
 
     window.addEventListener("scroll", handleScroll, { passive: true });

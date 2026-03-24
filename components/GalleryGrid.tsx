@@ -1,24 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import Lightbox from "./Lightbox";
-
-
-export interface GalleryImage {
-  src: string;
-  alt: string;
-  location?: string;
-  date?: string;
-  picfairUrl?: string;
-  orientation?: "landscape" | "portrait";
-}
-
-export interface GallerySection {
-  title: string;
-  date: string;
-  images: GalleryImage[];
-}
+import type { GalleryImage, GallerySection } from "@/lib/galleries";
 
 interface GalleryGridProps {
   sections?: GallerySection[];
@@ -43,10 +28,17 @@ function BlurImage({
   const isPortrait = image.orientation === "portrait";
 
   return (
-    <button
-      type="button"
+    <div
+      role="button"
+      tabIndex={0}
       className="group cursor-pointer text-left w-full"
       onClick={onClick}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onClick();
+        }
+      }}
       aria-label={`View ${image.alt} in lightbox`}
     >
       <div className={`relative overflow-hidden transition-all duration-300 hover:-translate-y-1 ${
@@ -90,7 +82,7 @@ function BlurImage({
           </a>
         )}
       </div>
-    </button>
+    </div>
   );
 }
 
@@ -168,16 +160,24 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
     ? sections.flatMap((s) => s.images)
     : images || [];
 
-  // Track running index offset for sectioned galleries
-  let runningIndex = 0;
+  // Precompute section start offsets (safe in Strict Mode — no mutation during render)
+  const sectionOffsets = useMemo(() => {
+    if (!sections) return [];
+    const offsets: number[] = [];
+    let running = 0;
+    for (const section of sections) {
+      offsets.push(running);
+      running += section.images.length;
+    }
+    return offsets;
+  }, [sections]);
 
   if (sections) {
     return (
       <>
         <div className="space-y-16">
           {sections.map((section, sectionIdx) => {
-            const sectionStartIndex = runningIndex;
-            runningIndex += section.images.length;
+            const sectionStartIndex = sectionOffsets[sectionIdx];
 
             const sectionId = section.title
               .toLowerCase()

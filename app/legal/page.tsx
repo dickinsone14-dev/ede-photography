@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
@@ -118,12 +119,12 @@ export default function LegalPage() {
               No images may be reproduced, distributed, or used commercially
               without prior written permission. Licensing enquiries are welcome
               — please{" "}
-              <a
+              <Link
                 href="/contact"
                 className="text-brand-teal underline underline-offset-4 hover:text-brand-teal-hover transition-colors"
               >
                 get in touch
-              </a>{" "}
+              </Link>{" "}
               to discuss terms.
             </p>
           </div>
