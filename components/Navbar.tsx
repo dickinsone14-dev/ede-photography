@@ -3,14 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef, useCallback } from "react";
-
-const navLinks = [
-  { href: "/portfolio", label: "Portfolio" },
-  { href: "/other-work", label: "Other Work" },
-  { href: "/store", label: "Store" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-];
+import { mainNavLinks as navLinks } from "@/lib/nav";
 
 export default function Navbar() {
   const pathname = usePathname();

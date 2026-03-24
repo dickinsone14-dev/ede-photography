@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { navLinks } from "@/lib/nav";
 
 export default function Footer() {
   return (
@@ -41,15 +42,7 @@ export default function Footer() {
               Navigate
             </h3>
             <ul className="space-y-2">
-              {[
-                { href: "/portfolio", label: "Portfolio" },
-                { href: "/other-work", label: "Other Work" },
-                { href: "/store", label: "Store" },
-                { href: "/about", label: "About" },
-                { href: "/contact", label: "Contact" },
-                { href: "/faqs", label: "FAQs" },
-                { href: "/legal", label: "Legal" },
-              ].map((link) => (
+              {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
