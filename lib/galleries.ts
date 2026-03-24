@@ -15,6 +15,7 @@ export interface GallerySection {
   title: string;
   date: string;
   images: GalleryImage[];
+  portraitFirst?: boolean;
 }
 
 export interface Gallery {

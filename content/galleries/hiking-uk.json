@@ -575,6 +575,7 @@
     {
       "title": "Back Tor, Peak District",
       "date": "May 2025",
+      "portraitFirst": true,
       "images": [
         {
           "src": "/images/hiking/back-tor/DSCF7441.jpg",
@@ -752,6 +753,7 @@
     {
       "title": "Helvellyn, Lake District",
       "date": "June 2024",
+      "portraitFirst": true,
       "images": [
         {
           "src": "/images/hiking/helvellyn/IMG_0804.jpg",

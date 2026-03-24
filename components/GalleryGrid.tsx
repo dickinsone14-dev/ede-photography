@@ -186,11 +186,6 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
               .replace(/[^a-z0-9]+/g, "-")
               .replace(/(^-|-$)/g, "");
 
-            const portraitFirstSections = [
-              "back-tor-peak-district",
-              "helvellyn-lake-district",
-            ];
-
             return (
               <div key={sectionIdx} id={sectionId} className="scroll-mt-24">
                   {/* Section header */}
@@ -204,7 +199,7 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
                   {/* Section images — grouped by orientation */}
                   <ImageGrid
                     images={section.images}
-                    portraitFirst={portraitFirstSections.includes(sectionId)}
+                    portraitFirst={section.portraitFirst}
                     onClickImage={(imgIdx) =>
                       setLightboxIndex(sectionStartIndex + imgIdx)
                     }
