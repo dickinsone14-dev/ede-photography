@@ -60,7 +60,7 @@ function ImageGrid({ images, sizes }: { images: StoreImage[]; sizes: string }) {
         </div>
       )}
       {portraits.length > 0 && (
-        <div className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3${landscapes.length > 0 ? " mt-2 sm:mt-3" : ""}`}>
+        <div className={`grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3${landscapes.length > 0 ? " mt-2 sm:mt-3" : ""}`}>
           {portraits.map((img) => (
             <a
               key={img.imageId}

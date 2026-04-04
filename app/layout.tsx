@@ -72,12 +72,15 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <noscript>
+          <style dangerouslySetInnerHTML={{ __html: '.scroll-reveal { opacity: 1 !important; transform: none !important; }' }} />
+        </noscript>
       </head>
       <body className="min-h-screen flex flex-col">
         <SmoothScroll />
         <AnnouncementBar />
         <Navbar />
-        <main className="flex-1" style={{ paddingTop: "calc(4rem + var(--announcement-height, 32px))" }}>{children}</main>
+        <main className="flex-1" style={{ paddingTop: "calc(4rem + var(--announcement-height, 0px))" }}>{children}</main>
         <ScrollIndicator />
         <Footer />
         <Analytics />

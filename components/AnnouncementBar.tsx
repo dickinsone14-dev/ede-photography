@@ -6,14 +6,12 @@ import { useState, useEffect } from "react";
 const STORAGE_KEY = "ede-announcement-dismissed";
 
 export default function AnnouncementBar() {
-  // Start visible to avoid CLS — hide only after confirming dismissed
-  const [visible, setVisible] = useState(true);
+  // Start null (unknown) to avoid CLS — determine visibility after hydration
+  const [visible, setVisible] = useState<boolean | null>(null);
 
   useEffect(() => {
     const dismissed = sessionStorage.getItem(STORAGE_KEY);
-    if (dismissed) {
-      setVisible(false);
-    }
+    setVisible(!dismissed);
   }, []);
 
   // Update CSS custom property for navbar/main offset
@@ -36,7 +34,7 @@ export default function AnnouncementBar() {
     sessionStorage.setItem(STORAGE_KEY, "1");
   }
 
-  if (!visible) return null;
+  if (!visible) return null;  // handles both null (pre-hydration) and false (dismissed)
 
   return (
     <div className="fixed top-0 left-0 right-0 z-[60] bg-charcoal-900 border-b border-brand-border">
