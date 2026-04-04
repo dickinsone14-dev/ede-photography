@@ -1,10 +1,28 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useEffect } from "react";
 import Lightbox from "./Lightbox";
 import type { GalleryImage, GallerySection } from "@/lib/galleries";
 import { useFavourites } from "@/lib/favourites";
+
+function SkeletonGrid({ count, portrait = false }: { count: number; portrait?: boolean }) {
+  return (
+    <div className={portrait
+      ? "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4"
+      : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4"
+    }>
+      {Array.from({ length: count }, (_, i) => (
+        <div
+          key={i}
+          className={`bg-brand-surface rounded-sm animate-pulse ${
+            portrait ? "aspect-[2/3]" : "aspect-[16/10]"
+          }`}
+        />
+      ))}
+    </div>
+  );
+}
 
 interface GalleryGridProps {
   sections?: GallerySection[];
@@ -189,6 +207,11 @@ function ImageGrid({
 
 export default function GalleryGrid({ sections, images }: GalleryGridProps) {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Flatten all images for lightbox navigation (original order)
   const allImages = sections
@@ -208,6 +231,29 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
   }, [sections]);
 
   if (sections) {
+    if (!mounted) {
+      return (
+        <div className="space-y-16">
+          {sections.map((section, sectionIdx) => {
+            const landscapes = section.images.filter((img) => img.orientation !== "portrait").length;
+            const portraits = section.images.filter((img) => img.orientation === "portrait").length;
+            return (
+              <div key={sectionIdx} className="scroll-mt-24">
+                <div className="mb-6">
+                  <div className="h-7 w-48 bg-brand-surface rounded animate-pulse" />
+                  <div className="h-4 w-32 bg-brand-surface rounded animate-pulse mt-2" />
+                </div>
+                <div className="space-y-4">
+                  {landscapes > 0 && <SkeletonGrid count={landscapes} />}
+                  {portraits > 0 && <SkeletonGrid count={portraits} portrait />}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      );
+    }
+
     return (
       <>
         <div className="space-y-16">
@@ -255,6 +301,17 @@ export default function GalleryGrid({ sections, images }: GalleryGridProps) {
   }
 
   // Flat gallery (no sections)
+  if (!mounted) {
+    const landscapes = allImages.filter((img) => img.orientation !== "portrait").length;
+    const portraits = allImages.filter((img) => img.orientation === "portrait").length;
+    return (
+      <div className="space-y-4">
+        {landscapes > 0 && <SkeletonGrid count={landscapes} />}
+        {portraits > 0 && <SkeletonGrid count={portraits} portrait />}
+      </div>
+    );
+  }
+
   return (
     <>
       <ImageGrid
